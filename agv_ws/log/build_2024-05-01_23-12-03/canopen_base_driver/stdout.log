@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target lely_driver_bridge[0m
+[ 12%] Built target gtest
+[ 25%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target test_base_driver_component[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/lely_driver_bridge.dir/src/lely_driver_bridge.cpp.o[0m
+[ 37%] [32mBuilding CXX object test/CMakeFiles/test_base_driver_component.dir/test_base_driver_component.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library liblely_driver_bridge.so[0m
+[ 43%] Built target lely_driver_bridge
+[35m[1mConsolidate compiler generated dependencies of target node_canopen_base_driver[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/node_canopen_base_driver.dir/src/node_interfaces/node_canopen_base_driver.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable test_base_driver_component[0m
+[ 56%] Built target test_base_driver_component

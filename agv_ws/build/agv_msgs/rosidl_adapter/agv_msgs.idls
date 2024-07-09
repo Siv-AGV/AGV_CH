@@ -1,0 +1,3 @@
+/home/vboxuser/agv_ws/build/agv_msgs/rosidl_adapter/agv_msgs:srv/SetWheelSpeed.idl
+/home/vboxuser/agv_ws/build/agv_msgs/rosidl_adapter/agv_msgs:srv/Move.idl
+/home/vboxuser/agv_ws/build/agv_msgs/rosidl_adapter/agv_msgs:srv/SetPGVValues.idl

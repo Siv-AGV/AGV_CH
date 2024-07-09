@@ -1,0 +1,106 @@
+master:
+  baud_rate: 250
+  driver: ros2_canopen::MasterDriver
+  heartbeat_consumer: false
+  heartbeat_producer: 1000
+  node_id: 5
+  package: canopen_master_driver
+  start_nodes: false
+  sync_period: 4000
+motorL:
+  dcf: cia402_slave.eds
+  driver: ros2_canopen::Cia402Driver
+  node_id: 1
+  package: canopen_402_driver
+  period: 10
+  position_mode: 1
+  revision_number: 0
+  rpdo:
+    1:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24640
+        sub_index: 0
+      - index: 24672
+        sub_index: 0
+    2:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24831
+        sub_index: 0
+  sdo: &id001
+  - index: 24705
+    sub_index: 0
+    value: 1000
+  - index: 24707
+    sub_index: 0
+    value: 2000
+  - index: 24672
+    sub_index: 0
+    value: 7
+  tpdo:
+    1:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24641
+        sub_index: 0
+      - index: 24673
+        sub_index: 0
+      transmission: 1
+    2:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24676
+        sub_index: 0
+      - index: 24684
+        sub_index: 0
+      transmission: 1
+motorR:
+  dcf: cia402_slave.eds
+  driver: ros2_canopen::Cia402Driver
+  node_id: 2
+  package: canopen_402_driver
+  period: 10
+  position_mode: 1
+  revision_number: 0
+  rpdo:
+    1:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24640
+        sub_index: 0
+      - index: 24672
+        sub_index: 0
+    2:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24831
+        sub_index: 0
+  sdo: *id001
+  tpdo:
+    1:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24641
+        sub_index: 0
+      - index: 24673
+        sub_index: 0
+      transmission: 1
+    2:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24676
+        sub_index: 0
+      - index: 24684
+        sub_index: 0
+      transmission: 1
+options:
+  dcf_path: '/home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0'

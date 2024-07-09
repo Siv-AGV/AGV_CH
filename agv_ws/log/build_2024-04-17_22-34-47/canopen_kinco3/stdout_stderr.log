@@ -1,0 +1,87 @@
+Built target can0_prepare
+motorL: writing 4 bytes to 0x1400/1: 01 02 00 80
+motorL: writing 1 bytes to 0x1600/0: 00
+motorL: writing 4 bytes to 0x1600/1: 10 00 40 60
+motorL: writing 4 bytes to 0x1600/2: 08 00 60 60
+motorL: writing 1 bytes to 0x1600/0: 02
+motorL: writing 4 bytes to 0x1400/1: 01 02 00 00
+motorL: writing 4 bytes to 0x1401/1: 01 03 00 80
+motorL: writing 1 bytes to 0x1601/0: 00
+motorL: writing 4 bytes to 0x1601/1: 20 00 FF 60
+motorL: writing 1 bytes to 0x1601/0: 01
+motorL: writing 4 bytes to 0x1401/1: 01 03 00 00
+motorL: writing 4 bytes to 0x1800/1: 81 01 00 80
+motorL: writing 1 bytes to 0x1800/2: 01
+motorL: writing 1 bytes to 0x1A00/0: 00
+motorL: writing 4 bytes to 0x1A00/1: 10 00 41 60
+motorL: writing 4 bytes to 0x1A00/2: 08 00 61 60
+motorL: writing 1 bytes to 0x1A00/0: 02
+motorL: writing 4 bytes to 0x1800/1: 81 01 00 00
+motorL: writing 4 bytes to 0x1801/1: 81 02 00 80
+motorL: writing 1 bytes to 0x1801/2: 01
+motorL: writing 1 bytes to 0x1A01/0: 00
+motorL: writing 4 bytes to 0x1A01/1: 20 00 64 60
+motorL: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+motorL: writing 1 bytes to 0x1A01/0: 02
+motorL: writing 4 bytes to 0x1801/1: 81 02 00 00
+motorL: writing 4 bytes to 0x6081/0: E8 03 00 00
+motorL: writing 4 bytes to 0x6083/0: D0 07 00 00
+motorL: writing 1 bytes to 0x6060/0: 07
+motorR: writing 4 bytes to 0x1400/1: 02 02 00 80
+motorR: writing 1 bytes to 0x1600/0: 00
+motorR: writing 4 bytes to 0x1600/1: 10 00 40 60
+motorR: writing 4 bytes to 0x1600/2: 08 00 60 60
+motorR: writing 1 bytes to 0x1600/0: 02
+motorR: writing 4 bytes to 0x1400/1: 02 02 00 00
+motorR: writing 4 bytes to 0x1401/1: 02 03 00 80
+motorR: writing 1 bytes to 0x1601/0: 00
+motorR: writing 4 bytes to 0x1601/1: 20 00 FF 60
+motorR: writing 1 bytes to 0x1601/0: 01
+motorR: writing 4 bytes to 0x1401/1: 02 03 00 00
+motorR: writing 4 bytes to 0x1800/1: 82 01 00 80
+motorR: writing 1 bytes to 0x1800/2: 01
+motorR: writing 1 bytes to 0x1A00/0: 00
+motorR: writing 4 bytes to 0x1A00/1: 10 00 41 60
+motorR: writing 4 bytes to 0x1A00/2: 08 00 61 60
+motorR: writing 1 bytes to 0x1A00/0: 02
+motorR: writing 4 bytes to 0x1800/1: 82 01 00 00
+motorR: writing 4 bytes to 0x1801/1: 82 02 00 80
+motorR: writing 1 bytes to 0x1801/2: 01
+motorR: writing 1 bytes to 0x1A01/0: 00
+motorR: writing 4 bytes to 0x1A01/1: 20 00 64 60
+motorR: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+motorR: writing 1 bytes to 0x1A01/0: 02
+motorR: writing 4 bytes to 0x1801/1: 82 02 00 00
+motorR: writing 4 bytes to 0x6081/0: E8 03 00 00
+motorR: writing 4 bytes to 0x6083/0: D0 07 00 00
+motorR: writing 1 bytes to 0x6060/0: 07
+Built target can0
+-- Install configuration: ""
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0/
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//cia402_slave.eds
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml.proxy
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml.cia
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//KincoCMDriver.eds
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0/
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//preprocessed_bus.yml
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//master.dcf
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//motorR.bin
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//motorL.bin
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/launch/
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/launch//can0.launch.py
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/package_run_dependencies/canopen_kinco3
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/parent_prefix_path/canopen_kinco3
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/path.sh
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/path.dsv
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.bash
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.sh
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.zsh
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.dsv
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/package.dsv
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/packages/canopen_kinco3
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/cmake/canopen_kinco3Config.cmake
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/cmake/canopen_kinco3Config-version.cmake
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/package.xml

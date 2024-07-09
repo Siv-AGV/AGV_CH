@@ -1,0 +1,30 @@
+[1.606s] Invoking command in '/home/vboxuser/agv_ws/src/movement': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/agv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data
+[2.089s] running egg_info
+[2.090s] writing ../../build/movement/movement.egg-info/PKG-INFO
+[2.096s] writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt
+[2.097s] writing entry points to ../../build/movement/movement.egg-info/entry_points.txt
+[2.097s] writing requirements to ../../build/movement/movement.egg-info/requires.txt
+[2.097s] writing top-level names to ../../build/movement/movement.egg-info/top_level.txt
+[2.101s] reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.104s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.104s] running build
+[2.104s] running build_py
+[2.105s] copying movement/wheel_controller_server_pid.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[2.106s] copying movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[2.106s] running install
+[2.106s] running install_lib
+[2.108s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/wheel_controller_server_pid.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[2.108s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[2.109s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server_pid.py to wheel_controller_server_pid.cpython-310.pyc
+[2.112s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server.py to wheel_controller_server.cpython-310.pyc
+[2.114s] running install_data
+[2.115s] running install_egg_info
+[2.118s] removing '/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info' (and everything under it)
+[2.118s] Copying ../../build/movement/movement.egg-info to /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info
+[2.120s] running install_scripts
+[2.153s] Installing command_publisher_client script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[2.153s] Installing speed_plotter script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[2.154s] Installing wheel_controller_server script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[2.155s] Installing wheel_controller_server_pid script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[2.155s] writing list of installed files to '/home/vboxuser/agv_ws/build/movement/install.log'
+[2.197s] Invoked command in '/home/vboxuser/agv_ws/src/movement' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/agv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/node_canopen_base_driver.dir/build.make:76: CMakeFiles/node_canopen_base_driver.dir/src/node_interfaces/node_canopen_base_driver.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:206: CMakeFiles/node_canopen_base_driver.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

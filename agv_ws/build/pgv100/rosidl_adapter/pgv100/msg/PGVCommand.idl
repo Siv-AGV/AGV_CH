@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pgv100/msg/PGVCommand.msg
+// generated code does not contain a copyright notice
+
+
+module pgv100 {
+  module msg {
+    struct PGVCommand {
+      uint8 command;
+    };
+  };
+};

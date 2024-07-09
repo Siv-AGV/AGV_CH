@@ -1,0 +1,11 @@
+source;share/agv/hook/cmake_prefix_path.ps1
+source;share/agv/hook/cmake_prefix_path.dsv
+source;share/agv/hook/cmake_prefix_path.sh
+source;share/agv/hook/pythonpath.ps1
+source;share/agv/hook/pythonpath.dsv
+source;share/agv/hook/pythonpath.sh
+source;share/agv/local_setup.bash
+source;share/agv/local_setup.dsv
+source;share/agv/local_setup.ps1
+source;share/agv/local_setup.sh
+source;share/agv/local_setup.zsh

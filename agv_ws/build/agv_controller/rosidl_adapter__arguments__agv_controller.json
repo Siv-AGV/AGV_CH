@@ -1,0 +1,6 @@
+{
+  "package_name": "agv_controller",
+  "non_idl_tuples": [
+    "/home/vboxuser/agv_ws/src/agv_controller:action/Move.action"
+  ]
+}

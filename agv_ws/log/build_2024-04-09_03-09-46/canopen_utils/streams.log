@@ -1,0 +1,23 @@
+[2.597s] Invoking command in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_utils': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/canopen_utils/prefix_override:/home/vboxuser/agv_ws/install/canopen_utils/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/canopen_utils build --build-base /home/vboxuser/agv_ws/build/canopen_utils/build install --record /home/vboxuser/agv_ws/build/canopen_utils/install.log --single-version-externally-managed
+[3.407s] running egg_info
+[3.408s] writing ../../../build/canopen_utils/canopen_utils.egg-info/PKG-INFO
+[3.408s] writing dependency_links to ../../../build/canopen_utils/canopen_utils.egg-info/dependency_links.txt
+[3.408s] writing entry points to ../../../build/canopen_utils/canopen_utils.egg-info/entry_points.txt
+[3.409s] writing requirements to ../../../build/canopen_utils/canopen_utils.egg-info/requires.txt
+[3.410s] writing top-level names to ../../../build/canopen_utils/canopen_utils.egg-info/top_level.txt
+[3.415s] reading manifest file '../../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[3.417s] adding license file 'LICENSE'
+[3.419s] writing manifest file '../../../build/canopen_utils/canopen_utils.egg-info/SOURCES.txt'
+[3.420s] running build
+[3.420s] running build_py
+[3.426s] running install
+[3.426s] running install_lib
+[3.426s] running install_data
+[3.426s] running install_egg_info
+[3.430s] removing '/home/vboxuser/agv_ws/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.2.7-py3.10.egg-info' (and everything under it)
+[3.434s] Copying ../../../build/canopen_utils/canopen_utils.egg-info to /home/vboxuser/agv_ws/install/canopen_utils/lib/python3.10/site-packages/canopen_utils-0.2.7-py3.10.egg-info
+[3.440s] running install_scripts
+[3.493s] Installing cyclic_tester script to /home/vboxuser/agv_ws/install/canopen_utils/lib/canopen_utils
+[3.494s] Installing simple_tester script to /home/vboxuser/agv_ws/install/canopen_utils/lib/canopen_utils
+[3.494s] writing list of installed files to '/home/vboxuser/agv_ws/build/canopen_utils/install.log'
+[3.585s] Invoked command in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/canopen_utils/prefix_override:/home/vboxuser/agv_ws/install/canopen_utils/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/canopen_utils build --build-base /home/vboxuser/agv_ws/build/canopen_utils/build install --record /home/vboxuser/agv_ws/build/canopen_utils/install.log --single-version-externally-managed

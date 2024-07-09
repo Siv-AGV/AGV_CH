@@ -1,0 +1,21 @@
+[2.207s] Invoking command in '/home/vboxuser/agv_ws/src/communication': PYTHONPATH=/home/vboxuser/agv_ws/build/communication/prefix_override:/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/communication build --build-base /home/vboxuser/agv_ws/build/communication/build install --record /home/vboxuser/agv_ws/build/communication/install.log --single-version-externally-managed install_data
+[2.771s] running egg_info
+[2.772s] writing ../../build/communication/communication.egg-info/PKG-INFO
+[2.772s] writing dependency_links to ../../build/communication/communication.egg-info/dependency_links.txt
+[2.772s] writing entry points to ../../build/communication/communication.egg-info/entry_points.txt
+[2.773s] writing requirements to ../../build/communication/communication.egg-info/requires.txt
+[2.773s] writing top-level names to ../../build/communication/communication.egg-info/top_level.txt
+[2.777s] reading manifest file '../../build/communication/communication.egg-info/SOURCES.txt'
+[2.779s] writing manifest file '../../build/communication/communication.egg-info/SOURCES.txt'
+[2.779s] running build
+[2.779s] running build_py
+[2.780s] running install
+[2.781s] running install_lib
+[2.783s] running install_data
+[2.784s] running install_egg_info
+[2.786s] removing '/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages/communication-0.0.0-py3.10.egg-info' (and everything under it)
+[2.787s] Copying ../../build/communication/communication.egg-info to /home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages/communication-0.0.0-py3.10.egg-info
+[2.788s] running install_scripts
+[2.833s] Installing navigation_listener_node script to /home/vboxuser/agv_ws/install/communication/lib/communication
+[2.833s] writing list of installed files to '/home/vboxuser/agv_ws/build/communication/install.log'
+[2.892s] Invoked command in '/home/vboxuser/agv_ws/src/communication' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/communication/prefix_override:/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/communication build --build-base /home/vboxuser/agv_ws/build/communication/build install --record /home/vboxuser/agv_ws/build/communication/install.log --single-version-externally-managed install_data

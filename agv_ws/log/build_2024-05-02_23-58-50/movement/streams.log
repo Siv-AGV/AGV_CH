@@ -1,0 +1,33 @@
+[2.043s] Invoking command in '/home/vboxuser/agv_ws/src/movement': PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data
+[2.713s] running egg_info
+[2.714s] creating ../../build/movement/movement.egg-info
+[2.714s] writing ../../build/movement/movement.egg-info/PKG-INFO
+[2.715s] writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt
+[2.715s] writing entry points to ../../build/movement/movement.egg-info/entry_points.txt
+[2.715s] writing requirements to ../../build/movement/movement.egg-info/requires.txt
+[2.715s] writing top-level names to ../../build/movement/movement.egg-info/top_level.txt
+[2.715s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.718s] reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.719s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.720s] running build
+[2.720s] running build_py
+[2.720s] creating /home/vboxuser/agv_ws/build/movement/build
+[2.720s] creating /home/vboxuser/agv_ws/build/movement/build/lib
+[2.720s] creating /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[2.721s] copying movement/__init__.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[2.721s] running install
+[2.721s] running install_lib
+[2.722s] creating /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[2.722s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/__init__.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[2.723s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/__init__.py to __init__.cpython-310.pyc
+[2.723s] running install_data
+[2.723s] creating /home/vboxuser/agv_ws/install/movement/share/ament_index
+[2.723s] creating /home/vboxuser/agv_ws/install/movement/share/ament_index/resource_index
+[2.724s] creating /home/vboxuser/agv_ws/install/movement/share/ament_index/resource_index/packages
+[2.724s] copying resource/movement -> /home/vboxuser/agv_ws/install/movement/share/ament_index/resource_index/packages
+[2.724s] copying package.xml -> /home/vboxuser/agv_ws/install/movement/share/movement
+[2.724s] running install_egg_info
+[2.726s] Copying ../../build/movement/movement.egg-info to /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info
+[2.727s] running install_scripts
+[2.769s] writing list of installed files to '/home/vboxuser/agv_ws/build/movement/install.log'
+[2.811s] Invoked command in '/home/vboxuser/agv_ws/src/movement' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data

@@ -1,0 +1,277 @@
+[0.276s] Invoking command in '/home/vboxuser/agv_ws/build/pgv100': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake /home/vboxuser/agv_ws/src/pgv100-ros2 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/pgv100
+[0.573s] -- The C compiler identification is GNU 11.4.0
+[0.943s] -- The CXX compiler identification is GNU 11.4.0
+[0.974s] -- Detecting C compiler ABI info
+[1.147s] -- Detecting C compiler ABI info - done
+[1.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.165s] -- Detecting C compile features
+[1.165s] -- Detecting C compile features - done
+[1.173s] -- Detecting CXX compiler ABI info
+[1.355s] -- Detecting CXX compiler ABI info - done
+[1.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.375s] -- Detecting CXX compile features
+[1.377s] -- Detecting CXX compile features - done
+[1.384s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.871s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.126s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.280s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.301s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.323s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.780s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.847s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.305s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.366s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.466s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.501s] -- Looking for pthread.h
+[3.662s] -- Looking for pthread.h - found
+[3.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.805s] -- Found Threads: TRUE  
+[4.367s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[5.009s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.289s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.335s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.340s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.419s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.420s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.420s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.420s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.475s] -- Found PythonExtra: .so  
+[6.647s] -- Configuring done
+[6.718s] -- Generating done
+[6.724s] -- Build files have been written to: /home/vboxuser/agv_ws/build/pgv100
+[6.744s] Invoked command in '/home/vboxuser/agv_ws/build/pgv100' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake /home/vboxuser/agv_ws/src/pgv100-ros2 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/pgv100
+[6.745s] Invoking command in '/home/vboxuser/agv_ws/build/pgv100': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/pgv100 -- -j4 -l4
+[6.816s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.833s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.847s] [  4%] Built target ament_cmake_python_copy_pgv100
+[7.756s] running egg_info
+[7.758s] creating pgv100.egg-info
+[7.759s] writing pgv100.egg-info/PKG-INFO
+[7.761s] writing dependency_links to pgv100.egg-info/dependency_links.txt
+[7.761s] writing top-level names to pgv100.egg-info/top_level.txt
+[7.764s] writing manifest file 'pgv100.egg-info/SOURCES.txt'
+[7.779s] reading manifest file 'pgv100.egg-info/SOURCES.txt'
+[7.779s] writing manifest file 'pgv100.egg-info/SOURCES.txt'
+[7.841s] [  4%] Built target ament_cmake_python_build_pgv100_egg
+[8.042s] [  4%] Built target pgv100__cpp
+[8.059s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.092s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.113s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.155s] [ 14%] [32mBuilding C object CMakeFiles/pgv100__rosidl_generator_c.dir/rosidl_generator_c/pgv100/msg/detail/pgv_command__functions.c.o[0m
+[8.302s] [ 17%] [32mBuilding C object CMakeFiles/pgv100__rosidl_generator_c.dir/rosidl_generator_c/pgv100/msg/detail/pgv_scan__functions.c.o[0m
+[8.458s] [ 19%] [32m[1mLinking C shared library libpgv100__rosidl_generator_c.so[0m
+[8.559s] [ 19%] Built target pgv100__rosidl_generator_c
+[8.584s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.801s] [ 24%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pgv100/msg/pgv_command__type_support.cpp.o[0m
+[8.979s] [ 26%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pgv100/msg/detail/dds_fastrtps/pgv_command__type_support.cpp.o[0m
+[8.983s] [ 29%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pgv100/msg/detail/pgv_command__type_support.cpp.o[0m
+[9.721s] [ 31%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pgv100/msg/detail/pgv_command__type_support_c.cpp.o[0m
+[9.764s] [ 34%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pgv100/msg/pgv_scan__type_support.cpp.o[0m
+[10.051s] [ 36%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pgv100/msg/detail/dds_fastrtps/pgv_scan__type_support.cpp.o[0m
+[10.100s] [ 39%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pgv100/msg/detail/pgv_scan__type_support.cpp.o[0m
+[10.445s] [ 41%] [32m[1mLinking CXX shared library libpgv100__rosidl_typesupport_cpp.so[0m
+[10.548s] [ 43%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pgv100/msg/detail/pgv_scan__type_support_c.cpp.o[0m
+[10.581s] [ 43%] Built target pgv100__rosidl_typesupport_cpp
+[10.612s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.944s] [ 48%] [32m[1mLinking CXX shared library libpgv100__rosidl_typesupport_introspection_cpp.so[0m
+[10.950s] [ 51%] [32m[1mLinking CXX shared library libpgv100__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.243s] [ 51%] Built target pgv100__rosidl_typesupport_fastrtps_cpp
+[11.281s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.292s] [ 53%] Built target pgv100__rosidl_typesupport_introspection_cpp
+[11.393s] [ 56%] [32mBuilding CXX object CMakeFiles/pgv-100.dir/src/pgv-100.cpp.o[0m
+[11.565s] [ 58%] [32m[1mLinking CXX shared library libpgv100__rosidl_typesupport_fastrtps_c.so[0m
+[11.948s] [ 58%] Built target pgv100__rosidl_typesupport_fastrtps_c
+[12.024s] [ 60%] [32mBuilding C object CMakeFiles/pgv100__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pgv100/msg/detail/pgv_scan__type_support.c.o[0m
+[12.057s] [ 63%] [32mBuilding C object CMakeFiles/pgv100__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pgv100/msg/detail/pgv_command__type_support.c.o[0m
+[12.237s] [ 65%] [32m[1mLinking C shared library libpgv100__rosidl_typesupport_introspection_c.so[0m
+[12.351s] [ 65%] Built target pgv100__rosidl_typesupport_introspection_c
+[12.523s] [ 68%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_c.dir/rosidl_typesupport_c/pgv100/msg/pgv_command__type_support.cpp.o[0m
+[12.554s] [ 70%] [32mBuilding CXX object CMakeFiles/pgv100__rosidl_typesupport_c.dir/rosidl_typesupport_c/pgv100/msg/pgv_scan__type_support.cpp.o[0m
+[12.656s] [ 73%] [32m[1mLinking CXX shared library libpgv100__rosidl_typesupport_c.so[0m
+[12.825s] [ 73%] Built target pgv100__rosidl_typesupport_c
+[13.007s] [ 73%] Built target pgv100
+[13.182s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.896s] [ 75%] Built target pgv100__py
+[14.937s] [ 78%] [32mBuilding C object CMakeFiles/pgv100__rosidl_generator_py.dir/rosidl_generator_py/pgv100/msg/_pgv_command_s.c.o[0m
+[14.978s] [ 80%] [32mBuilding C object CMakeFiles/pgv100__rosidl_generator_py.dir/rosidl_generator_py/pgv100/msg/_pgv_scan_s.c.o[0m
+[15.452s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/pgv100/libpgv100__rosidl_generator_py.so[0m
+[15.532s] [ 82%] Built target pgv100__rosidl_generator_py
+[15.586s] [ 85%] [32mBuilding C object CMakeFiles/pgv100__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pgv100/_pgv100_s.ep.rosidl_typesupport_c.c.o[0m
+[15.594s] [ 87%] [32mBuilding C object CMakeFiles/pgv100__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pgv100/_pgv100_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.632s] [ 90%] [32mBuilding C object CMakeFiles/pgv100__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pgv100/_pgv100_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.125s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/pgv100/pgv100_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.143s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/pgv100/pgv100_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.197s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/pgv100/pgv100_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.386s] [ 97%] Built target pgv100__rosidl_typesupport_introspection_c__pyext
+[16.399s] [ 97%] Built target pgv100__rosidl_typesupport_fastrtps_c__pyext
+[16.439s] [ 97%] Built target pgv100__rosidl_typesupport_c__pyext
+[24.311s] [01m[K/home/vboxuser/agv_ws/src/pgv100-ros2/src/pgv-100.cpp:[m[K In member function ‘[01m[Kvoid PGV100::pgvCalibrationCallback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[24.311s] [01m[K/home/vboxuser/agv_ws/src/pgv100-ros2/src/pgv-100.cpp:89:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[24.311s]    89 | void PGV100::pgvCalibrationCallback([01;35m[Kconst std_msgs::msg::String::SharedPtr message[m[K)
+[24.312s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[54.173s] [100%] [32m[1mLinking CXX executable pgv-100[0m
+[56.735s] [100%] Built target pgv-100
+[56.783s] Invoked command in '/home/vboxuser/agv_ws/build/pgv100' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/pgv100 -- -j4 -l4
+[57.353s] Invoking command in '/home/vboxuser/agv_ws/build/pgv100': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --install /home/vboxuser/agv_ws/build/pgv100
+[57.408s] -- Install configuration: ""
+[57.408s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/ament_index/resource_index/rosidl_interfaces/pgv100
+[57.408s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100
+[57.408s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg
+[57.408s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/pgv_scan.h
+[57.408s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/rosidl_generator_c__visibility_control.h
+[57.408s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/pgv_command.h
+[57.408s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail
+[57.409s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__functions.h
+[57.409s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__functions.h
+[57.409s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__type_support.h
+[57.409s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__functions.c
+[57.409s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__type_support.h
+[57.409s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__functions.c
+[57.410s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__struct.h
+[57.410s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__struct.h
+[57.410s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/environment/library_path.sh
+[57.410s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/environment/library_path.dsv
+[57.410s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_generator_c.so
+[57.410s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_generator_c.so" to ""
+[57.410s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100
+[57.410s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg
+[57.410s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[57.411s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail
+[57.411s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__rosidl_typesupport_fastrtps_c.h
+[57.413s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__rosidl_typesupport_fastrtps_c.h
+[57.413s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_fastrtps_c.so
+[57.421s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_fastrtps_c.so" to ""
+[57.421s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100
+[57.421s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg
+[57.421s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/pgv_command.hpp
+[57.422s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/pgv_scan.hpp
+[57.422s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail
+[57.422s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__builder.hpp
+[57.422s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__traits.hpp
+[57.422s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__builder.hpp
+[57.422s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__struct.hpp
+[57.422s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__struct.hpp
+[57.423s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__traits.hpp
+[57.423s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100
+[57.423s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg
+[57.423s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[57.423s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail
+[57.423s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[57.424s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[57.424s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/dds_fastrtps
+[57.424s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_fastrtps_cpp.so
+[57.424s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_fastrtps_cpp.so" to ""
+[57.424s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100
+[57.424s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg
+[57.425s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[57.425s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail
+[57.425s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__rosidl_typesupport_introspection_c.h
+[57.425s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__rosidl_typesupport_introspection_c.h
+[57.425s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__type_support.c
+[57.425s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__type_support.c
+[57.425s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_introspection_c.so
+[57.426s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_introspection_c.so" to ""
+[57.426s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_c.so
+[57.426s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_c.so" to ""
+[57.426s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100
+[57.426s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg
+[57.426s] -- Up-to-date: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail
+[57.426s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__type_support.cpp
+[57.434s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__rosidl_typesupport_introspection_cpp.hpp
+[57.435s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_command__type_support.cpp
+[57.436s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/include/pgv100/pgv100/msg/detail/pgv_scan__rosidl_typesupport_introspection_cpp.hpp
+[57.436s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_introspection_cpp.so
+[57.436s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_introspection_cpp.so" to ""
+[57.436s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_cpp.so
+[57.436s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_typesupport_cpp.so" to ""
+[57.436s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/environment/pythonpath.sh
+[57.436s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/environment/pythonpath.dsv
+[57.436s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100-0.0.0-py3.10.egg-info
+[57.437s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100-0.0.0-py3.10.egg-info/SOURCES.txt
+[57.437s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100-0.0.0-py3.10.egg-info/dependency_links.txt
+[57.458s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100-0.0.0-py3.10.egg-info/PKG-INFO
+[57.459s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100-0.0.0-py3.10.egg-info/top_level.txt
+[57.459s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100
+[57.460s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[57.461s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/_pgv100_s.ep.rosidl_typesupport_fastrtps_c.c
+[57.461s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[57.461s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/libpgv100__rosidl_generator_py.so
+[57.461s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/_pgv100_s.ep.rosidl_typesupport_c.c
+[57.461s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/_pgv100_s.ep.rosidl_typesupport_introspection_c.c
+[57.461s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[57.461s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/__init__.py
+[57.462s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg
+[57.462s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg/_pgv_command_s.c
+[57.462s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg/_pgv_command.py
+[57.462s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg/_pgv_scan_s.c
+[57.462s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg/_pgv_scan.py
+[57.462s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg/__init__.py
+[57.675s] Listing '/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100'...
+[57.675s] Compiling '/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/__init__.py'...
+[57.675s] Listing '/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg'...
+[57.675s] Compiling '/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg/__init__.py'...
+[57.676s] Compiling '/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg/_pgv_command.py'...
+[57.676s] Compiling '/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/msg/_pgv_scan.py'...
+[57.690s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[57.691s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[57.691s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[57.692s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[57.692s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[57.692s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/local/lib/python3.10/dist-packages/pgv100/pgv100_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[57.692s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_generator_py.so
+[57.693s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/libpgv100__rosidl_generator_py.so" to ""
+[57.693s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/msg/PGVCommand.idl
+[57.693s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/msg/PGVScan.idl
+[57.694s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/msg/PGVCommand.msg
+[57.694s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/msg/PGVScan.msg
+[57.694s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/lib/pgv100/pgv-100
+[57.703s] -- Set runtime path of "/home/vboxuser/agv_ws/install/pgv100/lib/pgv100/pgv-100" to ""
+[57.703s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100//launch
+[57.703s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100//launch/pgv-100.launch.py
+[57.703s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100//config
+[57.704s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100//config/config.yaml.ori
+[57.704s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100//config/config.yaml
+[57.705s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/ament_index/resource_index/package_run_dependencies/pgv100
+[57.705s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/ament_index/resource_index/parent_prefix_path/pgv100
+[57.705s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/environment/ament_prefix_path.sh
+[57.705s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/environment/ament_prefix_path.dsv
+[57.706s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/environment/path.sh
+[57.706s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/environment/path.dsv
+[57.706s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/local_setup.bash
+[57.707s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/local_setup.sh
+[57.707s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/local_setup.zsh
+[57.707s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/local_setup.dsv
+[57.708s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/package.dsv
+[57.710s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/ament_index/resource_index/packages/pgv100
+[57.710s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_generator_cExport.cmake
+[57.711s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_generator_cExport-noconfig.cmake
+[57.711s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_typesupport_fastrtps_cExport.cmake
+[57.711s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[57.711s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_generator_cppExport.cmake
+[57.711s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_typesupport_fastrtps_cppExport.cmake
+[57.712s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[57.712s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100__rosidl_typesupport_introspection_cExport.cmake
+[57.712s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[57.717s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100__rosidl_typesupport_cExport.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100__rosidl_typesupport_cExport-noconfig.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100__rosidl_typesupport_introspection_cppExport.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100__rosidl_typesupport_cppExport.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100__rosidl_typesupport_cppExport-noconfig.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_generator_pyExport.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/export_pgv100__rosidl_generator_pyExport-noconfig.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/rosidl_cmake-extras.cmake
+[57.718s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.720s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.720s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/ament_cmake_export_libraries-extras.cmake
+[57.720s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/ament_cmake_export_targets-extras.cmake
+[57.721s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[57.721s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[57.721s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100Config.cmake
+[57.722s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/cmake/pgv100Config-version.cmake
+[57.722s] -- Installing: /home/vboxuser/agv_ws/install/pgv100/share/pgv100/package.xml
+[57.736s] Invoked command in '/home/vboxuser/agv_ws/build/pgv100' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --install /home/vboxuser/agv_ws/build/pgv100

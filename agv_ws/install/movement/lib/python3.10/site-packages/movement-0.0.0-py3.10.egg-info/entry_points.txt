@@ -1,0 +1,14 @@
+[console_scripts]
+PGV_Scan_node = movement.PGV_Scan_node:main
+calibration = movement.calibration:main
+command_publisher_client = movement.command_publisher_client:main
+path_visualizer = movement.path_visualizer:main
+pgv_input = movement.pgv_input:main
+speed_plotter = movement.speed_plotter:main
+speed_plotter_time = movement.speed_plotter_time:main
+spin_motor = movement.spin_motor:main
+wheel_controller_server = movement.wheel_controller_server:main
+wheel_controller_server_pid = movement.wheel_controller_server_pid:main
+wheel_correction_server = movement.wheel_correction_server:main
+wheel_speed_compare = movement.wheel_speed_compare:main
+

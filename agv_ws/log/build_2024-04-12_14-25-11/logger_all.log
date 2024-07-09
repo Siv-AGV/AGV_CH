@@ -1,0 +1,388 @@
+[1.892s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.892s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7575a3432b60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7575a3433e20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7575a3433e20>>)
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.985s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/agv_ws'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extensions ['ignore', 'ignore_ament_install']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'ignore'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'ignore_ament_install'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extensions ['colcon_pkg']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'colcon_pkg'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extensions ['colcon_meta']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'colcon_meta'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extensions ['ros']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'ros'
+[2.015s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv' with type 'ros.ament_cmake' and name 'agv'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'ignore'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'ignore_ament_install'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['colcon_pkg']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'colcon_pkg'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['colcon_meta']
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'colcon_meta'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['ros']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'ros'
+[2.019s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_controller' with type 'ros.ament_cmake' and name 'agv_controller'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extensions ['ignore', 'ignore_ament_install']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'ignore'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'ignore_ament_install'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extensions ['colcon_pkg']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'colcon_pkg'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extensions ['colcon_meta']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'colcon_meta'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extensions ['ros']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'ros'
+[2.021s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_py_functions' with type 'ros.ament_python' and name 'agv_py_functions'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['ignore', 'ignore_ament_install']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ignore'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ignore_ament_install'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['colcon_pkg']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'colcon_pkg'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['colcon_meta']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'colcon_meta'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extensions ['ros']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication) by extension 'ros'
+[2.024s] DEBUG:colcon.colcon_core.package_identification:Package 'src/communication' with type 'ros.ament_python' and name 'communication'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extensions ['ignore', 'ignore_ament_install']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'ignore'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'ignore_ament_install'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extensions ['colcon_pkg']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'colcon_pkg'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extensions ['colcon_meta']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'colcon_meta'
+[2.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extensions ['ros']
+[2.026s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'ros'
+[2.026s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_simulation' with type 'ros.ament_cmake' and name 'my_simulation'
+[2.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.027s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.225s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 21 installed packages in /home/vboxuser/agv_ws/install
+[2.309s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/vboxuser/bumperbot_ws/install
+[2.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vboxuser/ros2_ws/install
+[2.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/vboxuser/install
+[2.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/vboxuser/agv_ws/src/install
+[2.431s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[2.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.719s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_args' from command line to 'None'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_target' from command line to 'None'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_clean_cache' from command line to 'False'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_clean_first' from command line to 'False'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_force_configure' from command line to 'False'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'ament_cmake_args' from command line to 'None'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'catkin_cmake_args' from command line to 'None'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.720s] DEBUG:colcon.colcon_core.verb:Building package 'agv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/agv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/agv', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/agv', 'symlink_install': False, 'test_result_base': None}
+[2.746s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'cmake_args' from command line to 'None'
+[2.746s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'cmake_target' from command line to 'None'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'agv_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.747s] DEBUG:colcon.colcon_core.verb:Building package 'agv_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/agv_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/agv_controller', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/agv_controller', 'symlink_install': False, 'test_result_base': None}
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_args' from command line to 'None'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_target' from command line to 'None'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_clean_cache' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_clean_first' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_force_configure' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'ament_cmake_args' from command line to 'None'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'catkin_cmake_args' from command line to 'None'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.773s] DEBUG:colcon.colcon_core.verb:Building package 'agv_py_functions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/agv_py_functions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/agv_py_functions', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/agv_py_functions', 'symlink_install': False, 'test_result_base': None}
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_args' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_target' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_clean_cache' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_clean_first' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'cmake_force_configure' from command line to 'False'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'ament_cmake_args' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'catkin_cmake_args' from command line to 'None'
+[2.803s] Level 5:colcon.colcon_core.verb:set package 'communication' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.803s] DEBUG:colcon.colcon_core.verb:Building package 'communication' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/communication', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/communication', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/communication', 'symlink_install': False, 'test_result_base': None}
+[2.841s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_args' from command line to 'None'
+[2.842s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_target' from command line to 'None'
+[2.842s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.842s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.842s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[2.842s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[2.842s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[2.842s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.842s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.842s] DEBUG:colcon.colcon_core.verb:Building package 'my_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/my_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/my_simulation', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/my_simulation', 'symlink_install': False, 'test_result_base': None}
+[2.874s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.910s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.910s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/agv' with build type 'ament_cmake'
+[2.910s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/agv'
+[2.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.944s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.944s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/agv_controller' with build type 'ament_cmake'
+[3.169s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/agv_controller'
+[3.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vboxuser/agv_ws/src/agv_py_functions' with build type 'ament_python'
+[3.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_py_functions', 'ament_prefix_path')
+[3.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/ament_prefix_path.ps1'
+[3.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/ament_prefix_path.dsv'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/ament_prefix_path.sh'
+[3.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.703s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vboxuser/agv_ws/src/communication' with build type 'ament_python'
+[3.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication', 'ament_prefix_path')
+[3.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/communication/share/communication/hook/ament_prefix_path.ps1'
+[3.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/communication/share/communication/hook/ament_prefix_path.dsv'
+[3.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/communication/share/communication/hook/ament_prefix_path.sh'
+[3.768s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.768s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/agv': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv -- -j4 -l4
+[3.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/agv_controller': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv_controller -- -j4 -l4
+[4.545s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vboxuser/agv_ws/src/agv_py_functions'
+[4.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/agv_controller' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv_controller -- -j4 -l4
+[4.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/agv' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv -- -j4 -l4
+[5.387s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vboxuser/agv_ws/src/communication'
+[5.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/agv_controller': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv_controller
+[5.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/agv': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv
+[5.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_controller)
+[5.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/agv_controller' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv_controller
+[5.736s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller' for CMake module files
+[5.737s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller' for CMake config files
+[5.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_controller', 'cmake_prefix_path')
+[5.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/hook/cmake_prefix_path.ps1'
+[5.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/hook/cmake_prefix_path.dsv'
+[5.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/hook/cmake_prefix_path.sh'
+[5.767s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/lib'
+[5.767s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/bin'
+[5.767s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/lib/pkgconfig/agv_controller.pc'
+[5.768s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/lib/python3.10/site-packages'
+[5.768s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/bin'
+[5.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.ps1'
+[5.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.dsv'
+[5.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.sh'
+[5.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.bash'
+[5.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.zsh'
+[5.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/agv_controller/share/colcon-core/packages/agv_controller)
+[5.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv)
+[5.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/agv' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv' for CMake module files
+[5.859s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv' for CMake config files
+[5.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv', 'cmake_prefix_path')
+[5.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.ps1'
+[5.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.dsv'
+[5.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.sh'
+[5.891s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib'
+[5.891s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/bin'
+[5.891s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib/pkgconfig/agv.pc'
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib/python3.10/site-packages'
+[5.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv', 'pythonpath')
+[5.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.ps1'
+[5.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.dsv'
+[5.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.sh'
+[5.922s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/bin'
+[5.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.ps1'
+[5.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/package.dsv'
+[5.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.sh'
+[5.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.bash'
+[5.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.zsh'
+[5.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/agv/share/colcon-core/packages/agv)
+[5.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_controller)
+[6.025s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller' for CMake module files
+[6.026s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller' for CMake config files
+[6.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_controller', 'cmake_prefix_path')
+[6.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/hook/cmake_prefix_path.ps1'
+[6.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/hook/cmake_prefix_path.dsv'
+[6.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/hook/cmake_prefix_path.sh'
+[6.073s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/lib'
+[6.073s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/bin'
+[6.073s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/lib/pkgconfig/agv_controller.pc'
+[6.074s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/lib/python3.10/site-packages'
+[6.074s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_controller/bin'
+[6.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.ps1'
+[6.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.dsv'
+[6.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.sh'
+[6.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.bash'
+[6.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_controller/share/agv_controller/package.zsh'
+[6.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/agv_controller/share/colcon-core/packages/agv_controller)
+[6.105s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/my_simulation' with build type 'ament_cmake'
+[6.105s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/my_simulation'
+[6.136s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.136s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv)
+[6.476s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv' for CMake module files
+[6.477s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv' for CMake config files
+[6.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv', 'cmake_prefix_path')
+[6.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.ps1'
+[6.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.dsv'
+[6.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.sh'
+[6.514s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib'
+[6.515s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/bin'
+[6.515s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib/pkgconfig/agv.pc'
+[6.516s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib/python3.10/site-packages'
+[6.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv', 'pythonpath')
+[6.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.ps1'
+[6.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.dsv'
+[6.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.sh'
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/bin'
+[6.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.ps1'
+[6.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/package.dsv'
+[6.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.sh'
+[6.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.bash'
+[6.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.zsh'
+[6.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/agv/share/colcon-core/packages/agv)
+[6.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/my_simulation': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/my_simulation -- -j4 -l4
+[6.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/src/agv_py_functions': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py_functions/prefix_override:/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/agv_py_functions build --build-base /home/vboxuser/agv_ws/build/agv_py_functions/build install --record /home/vboxuser/agv_ws/build/agv_py_functions/install.log --single-version-externally-managed
+[6.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/src/communication': PYTHONPATH=/home/vboxuser/agv_ws/build/communication/prefix_override:/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication build --build-base /home/vboxuser/agv_ws/build/communication/build install --record /home/vboxuser/agv_ws/build/communication/install.log --single-version-externally-managed
+[6.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/my_simulation' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/my_simulation -- -j4 -l4
+[6.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/my_simulation': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --install /home/vboxuser/agv_ws/build/my_simulation
+[6.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_simulation)
+[6.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/my_simulation' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/agv_ws/src/install/communication:/home/vboxuser/agv_ws/src/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/install/agv:/home/vboxuser/agv_ws/src/install/my_simulation:/home/vboxuser/agv_ws/src/install/agv_controller:/home/vboxuser/agv_ws/src/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --install /home/vboxuser/agv_ws/build/my_simulation
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation' for CMake module files
+[6.911s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation' for CMake config files
+[6.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulation', 'cmake_prefix_path')
+[6.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.ps1'
+[6.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.dsv'
+[6.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.sh'
+[6.963s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/bin'
+[6.963s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/lib/pkgconfig/my_simulation.pc'
+[6.963s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/lib/python3.10/site-packages'
+[6.964s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/bin'
+[7.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.ps1'
+[7.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.dsv'
+[7.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.sh'
+[7.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.bash'
+[7.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.zsh'
+[7.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/my_simulation/share/colcon-core/packages/my_simulation)
+[7.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_simulation)
+[7.143s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation' for CMake module files
+[7.146s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation' for CMake config files
+[7.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulation', 'cmake_prefix_path')
+[7.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.ps1'
+[7.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.dsv'
+[7.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.sh'
+[7.184s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/bin'
+[7.184s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/lib/pkgconfig/my_simulation.pc'
+[7.185s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/lib/python3.10/site-packages'
+[7.185s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/bin'
+[7.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.ps1'
+[7.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.dsv'
+[7.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.sh'
+[7.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.bash'
+[7.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.zsh'
+[7.217s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/my_simulation/share/colcon-core/packages/my_simulation)
+[7.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/src/agv_py_functions' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py_functions/prefix_override:/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/agv_py_functions build --build-base /home/vboxuser/agv_ws/build/agv_py_functions/build install --record /home/vboxuser/agv_ws/build/agv_py_functions/install.log --single-version-externally-managed
+[7.616s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions' for CMake module files
+[7.617s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions' for CMake config files
+[7.618s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/lib'
+[7.618s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/bin'
+[7.618s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/lib/pkgconfig/agv_py_functions.pc'
+[7.618s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages'
+[7.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_py_functions', 'pythonpath')
+[7.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/pythonpath.ps1'
+[7.664s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/pythonpath.dsv'
+[7.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/pythonpath.sh'
+[7.665s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/bin'
+[7.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_py_functions)
+[7.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.ps1'
+[7.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.dsv'
+[7.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.sh'
+[7.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.bash'
+[7.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.zsh'
+[7.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/agv_py_functions/share/colcon-core/packages/agv_py_functions)
+[7.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/src/communication' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/communication/prefix_override:/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication build --build-base /home/vboxuser/agv_ws/build/communication/build install --record /home/vboxuser/agv_ws/build/communication/install.log --single-version-externally-managed
+[7.752s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/communication' for CMake module files
+[7.753s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/communication' for CMake config files
+[7.754s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/communication/lib'
+[7.754s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/communication/bin'
+[7.754s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/communication/lib/pkgconfig/communication.pc'
+[7.755s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages'
+[7.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication', 'pythonpath')
+[7.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/communication/share/communication/hook/pythonpath.ps1'
+[7.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/communication/share/communication/hook/pythonpath.dsv'
+[7.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/communication/share/communication/hook/pythonpath.sh'
+[7.788s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/communication/bin'
+[7.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(communication)
+[7.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/communication/share/communication/package.ps1'
+[7.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/communication/share/communication/package.dsv'
+[7.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/communication/share/communication/package.sh'
+[7.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/communication/share/communication/package.bash'
+[7.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/communication/share/communication/package.zsh'
+[7.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/communication/share/colcon-core/packages/communication)
+[7.850s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.851s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.921s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.921s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.956s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/agv_ws/install/local_setup.ps1'
+[8.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/agv_ws/install/_local_setup_util_ps1.py'
+[8.004s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/agv_ws/install/setup.ps1'
+[8.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/agv_ws/install/local_setup.sh'
+[8.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/agv_ws/install/_local_setup_util_sh.py'
+[8.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/agv_ws/install/setup.sh'
+[8.084s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/agv_ws/install/local_setup.bash'
+[8.085s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/agv_ws/install/setup.bash'
+[8.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/agv_ws/install/local_setup.zsh'
+[8.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/agv_ws/install/setup.zsh'

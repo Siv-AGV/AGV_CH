@@ -1,0 +1,91 @@
+[0.077s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_kinco3': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_402_driver/lib:/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib:/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_kinco3 -- -j4 -l4
+[0.405s] Built target can0_prepare
+[4.077s] motorL: writing 4 bytes to 0x1400/1: 01 02 00 80
+[4.077s] motorL: writing 1 bytes to 0x1600/0: 00
+[4.077s] motorL: writing 4 bytes to 0x1600/1: 10 00 40 60
+[4.078s] motorL: writing 4 bytes to 0x1600/2: 08 00 60 60
+[4.078s] motorL: writing 1 bytes to 0x1600/0: 02
+[4.078s] motorL: writing 4 bytes to 0x1400/1: 01 02 00 00
+[4.078s] motorL: writing 4 bytes to 0x1401/1: 01 03 00 80
+[4.078s] motorL: writing 1 bytes to 0x1601/0: 00
+[4.078s] motorL: writing 4 bytes to 0x1601/1: 20 00 FF 60
+[4.079s] motorL: writing 1 bytes to 0x1601/0: 01
+[4.079s] motorL: writing 4 bytes to 0x1401/1: 01 03 00 00
+[4.079s] motorL: writing 4 bytes to 0x1800/1: 81 01 00 80
+[4.079s] motorL: writing 1 bytes to 0x1800/2: 01
+[4.079s] motorL: writing 1 bytes to 0x1A00/0: 00
+[4.079s] motorL: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[4.079s] motorL: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[4.080s] motorL: writing 1 bytes to 0x1A00/0: 02
+[4.080s] motorL: writing 4 bytes to 0x1800/1: 81 01 00 00
+[4.081s] motorL: writing 4 bytes to 0x1801/1: 81 02 00 80
+[4.081s] motorL: writing 1 bytes to 0x1801/2: 01
+[4.081s] motorL: writing 1 bytes to 0x1A01/0: 00
+[4.081s] motorL: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[4.081s] motorL: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[4.082s] motorL: writing 1 bytes to 0x1A01/0: 02
+[4.082s] motorL: writing 4 bytes to 0x1801/1: 81 02 00 00
+[4.082s] motorL: writing 4 bytes to 0x6081/0: E8 03 00 00
+[4.082s] motorL: writing 4 bytes to 0x6083/0: D0 07 00 00
+[4.083s] motorL: writing 1 bytes to 0x6060/0: 07
+[4.083s] motorR: writing 4 bytes to 0x1400/1: 02 02 00 80
+[4.083s] motorR: writing 1 bytes to 0x1600/0: 00
+[4.083s] motorR: writing 4 bytes to 0x1600/1: 10 00 40 60
+[4.083s] motorR: writing 4 bytes to 0x1600/2: 08 00 60 60
+[4.083s] motorR: writing 1 bytes to 0x1600/0: 02
+[4.084s] motorR: writing 4 bytes to 0x1400/1: 02 02 00 00
+[4.084s] motorR: writing 4 bytes to 0x1401/1: 02 03 00 80
+[4.084s] motorR: writing 1 bytes to 0x1601/0: 00
+[4.084s] motorR: writing 4 bytes to 0x1601/1: 20 00 FF 60
+[4.084s] motorR: writing 1 bytes to 0x1601/0: 01
+[4.084s] motorR: writing 4 bytes to 0x1401/1: 02 03 00 00
+[4.084s] motorR: writing 4 bytes to 0x1800/1: 82 01 00 80
+[4.085s] motorR: writing 1 bytes to 0x1800/2: 01
+[4.085s] motorR: writing 1 bytes to 0x1A00/0: 00
+[4.085s] motorR: writing 4 bytes to 0x1A00/1: 10 00 41 60
+[4.085s] motorR: writing 4 bytes to 0x1A00/2: 08 00 61 60
+[4.085s] motorR: writing 1 bytes to 0x1A00/0: 02
+[4.085s] motorR: writing 4 bytes to 0x1800/1: 82 01 00 00
+[4.086s] motorR: writing 4 bytes to 0x1801/1: 82 02 00 80
+[4.086s] motorR: writing 1 bytes to 0x1801/2: 01
+[4.086s] motorR: writing 1 bytes to 0x1A01/0: 00
+[4.086s] motorR: writing 4 bytes to 0x1A01/1: 20 00 64 60
+[4.086s] motorR: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+[4.086s] motorR: writing 1 bytes to 0x1A01/0: 02
+[4.086s] motorR: writing 4 bytes to 0x1801/1: 82 02 00 00
+[4.087s] motorR: writing 4 bytes to 0x6081/0: E8 03 00 00
+[4.087s] motorR: writing 4 bytes to 0x6083/0: D0 07 00 00
+[4.087s] motorR: writing 1 bytes to 0x6060/0: 07
+[5.245s] Built target can0
+[5.267s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_kinco3' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_402_driver/lib:/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib:/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_kinco3 -- -j4 -l4
+[5.509s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_kinco3': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_402_driver/lib:/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib:/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_kinco3
+[5.538s] -- Install configuration: ""
+[5.538s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0/
+[5.539s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//cia402_slave.eds
+[5.539s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml.proxy
+[5.540s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml.cia
+[5.541s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//KincoCMDriver.eds
+[5.543s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0/
+[5.543s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml
+[5.544s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//preprocessed_bus.yml
+[5.544s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//master.dcf
+[5.544s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//motorR.bin
+[5.545s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//motorL.bin
+[5.545s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/launch/
+[5.546s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/launch//can0.launch.py
+[5.547s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/package_run_dependencies/canopen_kinco3
+[5.548s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/parent_prefix_path/canopen_kinco3
+[5.548s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/ament_prefix_path.sh
+[5.549s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/ament_prefix_path.dsv
+[5.549s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/path.sh
+[5.549s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/path.dsv
+[5.549s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.bash
+[5.549s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.sh
+[5.549s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.zsh
+[5.549s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.dsv
+[5.550s] -- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/package.dsv
+[5.550s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/packages/canopen_kinco3
+[5.551s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/cmake/canopen_kinco3Config.cmake
+[5.551s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/cmake/canopen_kinco3Config-version.cmake
+[5.551s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/package.xml
+[5.561s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_kinco3' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_402_driver/lib:/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib:/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_kinco3

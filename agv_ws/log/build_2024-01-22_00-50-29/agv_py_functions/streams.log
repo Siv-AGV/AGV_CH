@@ -1,0 +1,22 @@
+[1.631s] Invoking command in '/home/vboxuser/agv_ws/src/agv_py_functions': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py_functions/prefix_override:/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/agv_py_functions build --build-base /home/vboxuser/agv_ws/build/agv_py_functions/build install --record /home/vboxuser/agv_ws/build/agv_py_functions/install.log --single-version-externally-managed
+[2.085s] running egg_info
+[2.086s] writing ../../build/agv_py_functions/agv_py_functions.egg-info/PKG-INFO
+[2.086s] writing dependency_links to ../../build/agv_py_functions/agv_py_functions.egg-info/dependency_links.txt
+[2.087s] writing entry points to ../../build/agv_py_functions/agv_py_functions.egg-info/entry_points.txt
+[2.087s] writing requirements to ../../build/agv_py_functions/agv_py_functions.egg-info/requires.txt
+[2.087s] writing top-level names to ../../build/agv_py_functions/agv_py_functions.egg-info/top_level.txt
+[2.090s] reading manifest file '../../build/agv_py_functions/agv_py_functions.egg-info/SOURCES.txt'
+[2.091s] writing manifest file '../../build/agv_py_functions/agv_py_functions.egg-info/SOURCES.txt'
+[2.092s] running build
+[2.092s] running build_py
+[2.092s] running install
+[2.092s] running install_lib
+[2.094s] running install_data
+[2.095s] copying package.xml -> /home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions
+[2.095s] running install_egg_info
+[2.097s] removing '/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages/agv_py_functions-0.0.0-py3.10.egg-info' (and everything under it)
+[2.098s] Copying ../../build/agv_py_functions/agv_py_functions.egg-info to /home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages/agv_py_functions-0.0.0-py3.10.egg-info
+[2.099s] running install_scripts
+[2.135s] Installing simple_publisher = agv_py_functions.simple_publisher:mainsimple_subscriber = agv_py_functions.simple_subscriber:mainsimple_parameters script to /home/vboxuser/agv_ws/install/agv_py_functions/lib/agv_py_functions
+[2.135s] writing list of installed files to '/home/vboxuser/agv_ws/build/agv_py_functions/install.log'
+[2.171s] Invoked command in '/home/vboxuser/agv_ws/src/agv_py_functions' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py_functions/prefix_override:/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/agv_py_functions build --build-base /home/vboxuser/agv_ws/build/agv_py_functions/build install --record /home/vboxuser/agv_ws/build/agv_py_functions/install.log --single-version-externally-managed

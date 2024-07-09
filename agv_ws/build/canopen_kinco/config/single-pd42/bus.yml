@@ -1,0 +1,70 @@
+joint_1:
+  dcf: KincoCMDriver.eds
+  driver: ros2_canopen::Cia402Driver
+  node_id: 2
+  package: canopen_402_driver
+  period: 10
+  position_mode: 1
+  revision_number: 0
+  rpdo: &id001
+    1:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24640
+        sub_index: 0
+      - index: 24672
+        sub_index: 0
+    2:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24698
+        sub_index: 0
+  sdo: &id002
+  - index: 24705
+    sub_index: 0
+    value: 1000
+  - index: 24707
+    sub_index: 0
+    value: 2000
+  - index: 24672
+    sub_index: 0
+    value: 7
+  tpdo: &id003
+    1:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24641
+        sub_index: 0
+      - index: 24673
+        sub_index: 0
+      transmission: 1
+    2:
+      cob_id: auto
+      enabled: true
+      mapping:
+      - index: 24675
+        sub_index: 0
+      - index: 24684
+        sub_index: 0
+      transmission: 1
+joint_2:
+  dcf: KincoCMDriver.eds
+  driver: ros2_canopen::Cia402Driver
+  node_id: 3
+  package: canopen_402_driver
+  period: 10
+  position_mode: 1
+  revision_number: 0
+  rpdo: *id001
+  sdo: *id002
+  tpdo: *id003
+master:
+  driver: ros2_canopen::MasterDriver
+  node_id: 1
+  package: canopen_master_driver
+  sync_period: 10000
+options:
+  dcf_path: '/home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42'

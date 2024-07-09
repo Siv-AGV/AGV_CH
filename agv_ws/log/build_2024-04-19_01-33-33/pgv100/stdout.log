@@ -1,0 +1,23 @@
+[  9%] Built target pgv100__rosidl_generator_c
+[ 12%] Built target pgv100__cpp
+[ 21%] Built target pgv100__rosidl_typesupport_introspection_c
+[ 21%] Built target ament_cmake_python_copy_pgv100
+[ 31%] Built target pgv100__rosidl_typesupport_c
+[ 41%] Built target pgv100__rosidl_typesupport_fastrtps_c
+[ 51%] Built target pgv100__rosidl_typesupport_cpp
+[ 60%] Built target pgv100__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target pgv100__rosidl_typesupport_introspection_cpp
+[ 70%] Built target pgv100
+[ 75%] Built target pgv-100
+[ 78%] Built target pgv100__py
+[ 85%] Built target pgv100__rosidl_generator_py
+[ 90%] Built target pgv100__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target pgv100__rosidl_typesupport_c__pyext
+[100%] Built target pgv100__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing pgv100.egg-info/PKG-INFO
+writing dependency_links to pgv100.egg-info/dependency_links.txt
+writing top-level names to pgv100.egg-info/top_level.txt
+reading manifest file 'pgv100.egg-info/SOURCES.txt'
+writing manifest file 'pgv100.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_pgv100_egg

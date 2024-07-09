@@ -1,0 +1,65 @@
+[0.032s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_proxy_driver': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_proxy_driver -- -j4 -l4
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target node_canopen_proxy_driver[0m
+[0.193s] [  7%] [32mBuilding CXX object CMakeFiles/node_canopen_proxy_driver.dir/src/node_interfaces/node_canopen_proxy_driver.cpp.o[0m
+[25.118s] [ 14%] [32m[1mLinking CXX shared library libnode_canopen_proxy_driver.so[0m
+[26.523s] [ 14%] Built target node_canopen_proxy_driver
+[26.563s] [ 28%] Built target gtest_main
+[26.564s] [ 42%] Built target gtest
+[26.604s] [35m[1mConsolidate compiler generated dependencies of target proxy_driver[0m
+[26.605s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_proxy_driver[0m
+[26.659s] [ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_proxy_driver.dir/src/lifecycle_proxy_driver.cpp.o[0m
+[26.662s] [ 57%] [32mBuilding CXX object CMakeFiles/proxy_driver.dir/src/proxy_driver.cpp.o[0m
+[38.764s] [ 64%] [32m[1mLinking CXX shared library libproxy_driver.so[0m
+[39.079s] [ 71%] [32m[1mLinking CXX shared library liblifecycle_proxy_driver.so[0m
+[39.537s] [ 71%] Built target proxy_driver
+[39.583s] [35m[1mConsolidate compiler generated dependencies of target test_node_interface[0m
+[39.663s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_node_interface.dir/test_node_interface.cpp.o[0m
+[39.985s] [ 78%] Built target lifecycle_proxy_driver
+[40.022s] [35m[1mConsolidate compiler generated dependencies of target test_driver_component[0m
+[40.088s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_driver_component.dir/test_driver_component.cpp.o[0m
+[51.646s] [ 92%] [32m[1mLinking CXX executable test_node_interface[0m
+[52.409s] [100%] [32m[1mLinking CXX executable test_driver_component[0m
+[52.472s] [100%] Built target test_node_interface
+[52.819s] [100%] Built target test_driver_component
+[52.833s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_proxy_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_proxy_driver -- -j4 -l4
+[52.881s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_proxy_driver': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_proxy_driver
+[52.895s] -- Install configuration: ""
+[52.895s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/include
+[52.896s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/include/canopen_proxy_driver
+[52.896s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/include/canopen_proxy_driver/visibility_control.h
+[52.896s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/include/canopen_proxy_driver/lifecycle_proxy_driver.hpp
+[52.897s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/include/canopen_proxy_driver/node_interfaces
+[52.897s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/include/canopen_proxy_driver/node_interfaces/node_canopen_proxy_driver.hpp
+[52.897s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/include/canopen_proxy_driver/node_interfaces/node_canopen_proxy_driver_impl.hpp
+[52.897s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/include/canopen_proxy_driver/proxy_driver.hpp
+[52.899s] -- Installing: /home/vboxuser/agv_ws/install/canopen_proxy_driver/lib/liblifecycle_proxy_driver.so
+[52.900s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib/liblifecycle_proxy_driver.so" to ""
+[52.902s] -- Installing: /home/vboxuser/agv_ws/install/canopen_proxy_driver/lib/libproxy_driver.so
+[52.904s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib/libproxy_driver.so" to ""
+[52.907s] -- Installing: /home/vboxuser/agv_ws/install/canopen_proxy_driver/lib/libnode_canopen_proxy_driver.so
+[52.919s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib/libnode_canopen_proxy_driver.so" to ""
+[52.919s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/library_path.sh
+[52.919s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/library_path.dsv
+[52.920s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/ament_index/resource_index/package_run_dependencies/canopen_proxy_driver
+[52.921s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/ament_index/resource_index/parent_prefix_path/canopen_proxy_driver
+[52.921s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/ament_prefix_path.sh
+[52.921s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/ament_prefix_path.dsv
+[52.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/path.sh
+[52.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/environment/path.dsv
+[52.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/local_setup.bash
+[52.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/local_setup.sh
+[52.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/local_setup.zsh
+[52.923s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/local_setup.dsv
+[52.923s] -- Installing: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/package.dsv
+[52.923s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/ament_index/resource_index/packages/canopen_proxy_driver
+[52.924s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/ament_index/resource_index/rclcpp_components/canopen_proxy_driver
+[52.927s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/export_canopen_proxy_driverExport.cmake
+[52.927s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/export_canopen_proxy_driverExport-noconfig.cmake
+[52.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[52.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[52.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/ament_cmake_export_targets-extras.cmake
+[52.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/canopen_proxy_driverConfig.cmake
+[52.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/cmake/canopen_proxy_driverConfig-version.cmake
+[52.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_proxy_driver/share/canopen_proxy_driver/package.xml
+[52.934s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_proxy_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_proxy_driver

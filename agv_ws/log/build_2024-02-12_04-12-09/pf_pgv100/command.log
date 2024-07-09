@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/agv_ws/build/pf_pgv100': /usr/bin/cmake /home/vboxuser/agv_ws/src/AGV_ROS/pf_pgv100-master/pf_pgv100-master -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/pf_pgv100
+Invoked command in '/home/vboxuser/agv_ws/build/pf_pgv100' returned '1': /usr/bin/cmake /home/vboxuser/agv_ws/src/AGV_ROS/pf_pgv100-master/pf_pgv100-master -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/pf_pgv100

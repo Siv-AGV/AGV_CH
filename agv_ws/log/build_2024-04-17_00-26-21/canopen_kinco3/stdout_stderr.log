@@ -1,0 +1,58 @@
+Built target can0_prepare
+motorL: writing 4 bytes to 0x1400/1: 01 02 00 80
+motorL: writing 1 bytes to 0x1600/0: 00
+motorL: writing 4 bytes to 0x1600/1: 10 00 40 60
+motorL: writing 4 bytes to 0x1600/2: 08 00 60 60
+motorL: writing 1 bytes to 0x1600/0: 02
+motorL: writing 4 bytes to 0x1400/1: 01 02 00 00
+motorL: writing 4 bytes to 0x1401/1: 01 03 00 80
+motorL: writing 1 bytes to 0x1601/0: 00
+motorL: writing 4 bytes to 0x1601/1: 20 00 FF 60
+motorL: writing 1 bytes to 0x1601/0: 01
+motorL: writing 4 bytes to 0x1401/1: 01 03 00 00
+motorL: writing 4 bytes to 0x1800/1: 81 01 00 80
+motorL: writing 1 bytes to 0x1800/2: 01
+motorL: writing 1 bytes to 0x1A00/0: 00
+motorL: writing 4 bytes to 0x1A00/1: 10 00 41 60
+motorL: writing 4 bytes to 0x1A00/2: 08 00 61 60
+motorL: writing 1 bytes to 0x1A00/0: 02
+motorL: writing 4 bytes to 0x1800/1: 81 01 00 00
+motorL: writing 4 bytes to 0x1801/1: 81 02 00 80
+motorL: writing 1 bytes to 0x1801/2: 01
+motorL: writing 1 bytes to 0x1A01/0: 00
+motorL: writing 4 bytes to 0x1A01/1: 20 00 64 60
+motorL: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+motorL: writing 1 bytes to 0x1A01/0: 02
+motorL: writing 4 bytes to 0x1801/1: 81 02 00 00
+motorL: writing 4 bytes to 0x6081/0: E8 03 00 00
+motorL: writing 4 bytes to 0x6083/0: D0 07 00 00
+motorL: writing 1 bytes to 0x6060/0: 07
+motorR: writing 4 bytes to 0x1400/1: 02 02 00 80
+motorR: writing 1 bytes to 0x1600/0: 00
+motorR: writing 4 bytes to 0x1600/1: 10 00 40 60
+motorR: writing 4 bytes to 0x1600/2: 08 00 60 60
+motorR: writing 1 bytes to 0x1600/0: 02
+motorR: writing 4 bytes to 0x1400/1: 02 02 00 00
+motorR: writing 4 bytes to 0x1401/1: 02 03 00 80
+motorR: writing 1 bytes to 0x1601/0: 00
+motorR: writing 4 bytes to 0x1601/1: 20 00 FF 60
+motorR: writing 1 bytes to 0x1601/0: 01
+motorR: writing 4 bytes to 0x1401/1: 02 03 00 00
+motorR: writing 4 bytes to 0x1800/1: 82 01 00 80
+motorR: writing 1 bytes to 0x1800/2: 01
+motorR: writing 1 bytes to 0x1A00/0: 00
+motorR: writing 4 bytes to 0x1A00/1: 10 00 41 60
+motorR: writing 4 bytes to 0x1A00/2: 08 00 61 60
+motorR: writing 1 bytes to 0x1A00/0: 02
+motorR: writing 4 bytes to 0x1800/1: 82 01 00 00
+motorR: writing 4 bytes to 0x1801/1: 82 02 00 80
+motorR: writing 1 bytes to 0x1801/2: 01
+motorR: writing 1 bytes to 0x1A01/0: 00
+motorR: writing 4 bytes to 0x1A01/1: 20 00 64 60
+motorR: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+motorR: writing 1 bytes to 0x1A01/0: 02
+motorR: writing 4 bytes to 0x1801/1: 82 02 00 00
+motorR: writing 4 bytes to 0x6081/0: E8 03 00 00
+motorR: writing 4 bytes to 0x6083/0: D0 07 00 00
+motorR: writing 1 bytes to 0x6060/0: 07
+Built target can0

@@ -1,0 +1,22 @@
+[1.387s] Invoking command in '/home/vboxuser/agv_ws/src/movement': PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data
+[1.936s] running egg_info
+[1.937s] writing ../../build/movement/movement.egg-info/PKG-INFO
+[1.937s] writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt
+[1.938s] writing entry points to ../../build/movement/movement.egg-info/entry_points.txt
+[1.938s] writing requirements to ../../build/movement/movement.egg-info/requires.txt
+[1.939s] writing top-level names to ../../build/movement/movement.egg-info/top_level.txt
+[1.942s] reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[1.944s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[1.944s] running build
+[1.944s] running build_py
+[1.945s] running install
+[1.946s] running install_lib
+[1.948s] running install_data
+[1.949s] running install_egg_info
+[1.953s] removing '/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.1-py3.10.egg-info' (and everything under it)
+[1.953s] Copying ../../build/movement/movement.egg-info to /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.1-py3.10.egg-info
+[1.958s] running install_scripts
+[1.996s] Installing command_publisher script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[1.997s] Installing wheel_controller script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[1.997s] writing list of installed files to '/home/vboxuser/agv_ws/build/movement/install.log'
+[2.041s] Invoked command in '/home/vboxuser/agv_ws/src/movement' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data

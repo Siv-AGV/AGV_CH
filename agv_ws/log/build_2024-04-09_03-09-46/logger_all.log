@@ -1,0 +1,755 @@
+[2.105s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.105s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcc92f93d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcc92f93760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcc92f93760>>)
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.210s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/agv_ws'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extensions ['ignore', 'ignore_ament_install']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'ignore'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'ignore_ament_install'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extensions ['colcon_pkg']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'colcon_pkg'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extensions ['colcon_meta']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'colcon_meta'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extensions ['ros']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv) by extension 'ros'
+[2.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv' with type 'ros.ament_cmake' and name 'agv'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'ignore'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'ignore_ament_install'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['colcon_pkg']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'colcon_pkg'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['colcon_meta']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'colcon_meta'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['ros']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'ros'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['cmake', 'python']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'cmake'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'python'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extensions ['python_setup_py']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller) by extension 'python_setup_py'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extension 'ignore'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extension 'ignore_ament_install'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extensions ['colcon_pkg']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extension 'colcon_pkg'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extensions ['colcon_meta']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extension 'colcon_meta'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extensions ['ros']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extension 'ros'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extensions ['cmake', 'python']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extension 'cmake'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extension 'python'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extensions ['python_setup_py']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_controller/agv_controller) by extension 'python_setup_py'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extensions ['ignore', 'ignore_ament_install']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'ignore'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'ignore_ament_install'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extensions ['colcon_pkg']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'colcon_pkg'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extensions ['colcon_meta']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'colcon_meta'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extensions ['ros']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/agv_py_functions) by extension 'ros'
+[2.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/agv_py_functions' with type 'ros.ament_python' and name 'agv_py_functions'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extensions ['ignore', 'ignore_ament_install']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'ignore'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'ignore_ament_install'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extensions ['colcon_pkg']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'colcon_pkg'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extensions ['colcon_meta']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'colcon_meta'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extensions ['ros']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_simulation) by extension 'ros'
+[2.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_simulation' with type 'ros.ament_cmake' and name 'my_simulation'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extensions ['ignore', 'ignore_ament_install']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extension 'ignore'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extension 'ignore_ament_install'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extensions ['colcon_pkg']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extension 'colcon_pkg'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extensions ['colcon_meta']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extension 'colcon_meta'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extensions ['ros']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extension 'ros'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extensions ['cmake', 'python']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extension 'cmake'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extension 'python'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extensions ['python_setup_py']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen) by extension 'python_setup_py'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extensions ['ignore', 'ignore_ament_install']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extension 'ignore'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extension 'ignore_ament_install'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extensions ['colcon_pkg']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extension 'colcon_pkg'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extensions ['colcon_meta']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extension 'colcon_meta'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extensions ['ros']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen) by extension 'ros'
+[2.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen' with type 'ros.ament_cmake' and name 'canopen'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extension 'ignore_ament_install'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extensions ['colcon_pkg']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extension 'colcon_pkg'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extensions ['colcon_meta']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extension 'colcon_meta'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extensions ['ros']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_402_driver) by extension 'ros'
+[2.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_402_driver' with type 'ros.ament_cmake' and name 'canopen_402_driver'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extension 'ignore'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extension 'ignore_ament_install'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extensions ['colcon_pkg']
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extension 'colcon_pkg'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extensions ['colcon_meta']
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extension 'colcon_meta'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extensions ['ros']
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_base_driver) by extension 'ros'
+[2.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_base_driver' with type 'ros.ament_cmake' and name 'canopen_base_driver'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extensions ['ignore', 'ignore_ament_install']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extension 'ignore'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extension 'ignore_ament_install'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extensions ['colcon_pkg']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extension 'colcon_pkg'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extensions ['colcon_meta']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extension 'colcon_meta'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extensions ['ros']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_core) by extension 'ros'
+[2.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_core' with type 'ros.ament_cmake' and name 'canopen_core'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extensions ['ignore', 'ignore_ament_install']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extension 'ignore'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extension 'ignore_ament_install'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extensions ['colcon_pkg']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extension 'colcon_pkg'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extensions ['colcon_meta']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extension 'colcon_meta'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extensions ['ros']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_fake_slaves) by extension 'ros'
+[2.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_fake_slaves' with type 'ros.ament_cmake' and name 'canopen_fake_slaves'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extension 'ignore'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extension 'ignore_ament_install'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extensions ['colcon_pkg']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extension 'colcon_pkg'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extensions ['colcon_meta']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extension 'colcon_meta'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extensions ['ros']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_interfaces) by extension 'ros'
+[2.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_interfaces' with type 'ros.ament_cmake' and name 'canopen_interfaces'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extension 'ignore'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extension 'ignore_ament_install'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extensions ['colcon_pkg']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extension 'colcon_pkg'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extensions ['colcon_meta']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extension 'colcon_meta'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extensions ['ros']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_master_driver) by extension 'ros'
+[2.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_master_driver' with type 'ros.ament_cmake' and name 'canopen_master_driver'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extension 'ignore'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extension 'ignore_ament_install'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extensions ['colcon_pkg']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extension 'colcon_pkg'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extensions ['colcon_meta']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extension 'colcon_meta'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extensions ['ros']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_proxy_driver) by extension 'ros'
+[2.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_proxy_driver' with type 'ros.ament_cmake' and name 'canopen_proxy_driver'
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extension 'ignore'
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extension 'ignore_ament_install'
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extensions ['colcon_pkg']
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extension 'colcon_pkg'
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extensions ['colcon_meta']
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extension 'colcon_meta'
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extensions ['ros']
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_control) by extension 'ros'
+[2.287s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_ros2_control' with type 'ros.ament_cmake' and name 'canopen_ros2_control'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extensions ['ignore', 'ignore_ament_install']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extension 'ignore'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extension 'ignore_ament_install'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extensions ['colcon_pkg']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extension 'colcon_pkg'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extensions ['colcon_meta']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extension 'colcon_meta'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extensions ['ros']
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_ros2_controllers) by extension 'ros'
+[2.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_ros2_controllers' with type 'ros.ament_cmake' and name 'canopen_ros2_controllers'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extensions ['ignore', 'ignore_ament_install']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extension 'ignore'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extension 'ignore_ament_install'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extensions ['colcon_pkg']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extension 'colcon_pkg'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extensions ['colcon_meta']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extension 'colcon_meta'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extensions ['ros']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_tests) by extension 'ros'
+[2.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_tests' with type 'ros.ament_cmake' and name 'canopen_tests'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extensions ['ignore', 'ignore_ament_install']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extension 'ignore'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extension 'ignore_ament_install'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extensions ['colcon_pkg']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extension 'colcon_pkg'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extensions ['colcon_meta']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extension 'colcon_meta'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extensions ['ros']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/canopen_utils) by extension 'ros'
+[2.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/canopen_utils' with type 'ros.ament_python' and name 'canopen_utils'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extensions ['ignore', 'ignore_ament_install']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extension 'ignore'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extension 'ignore_ament_install'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extensions ['colcon_pkg']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extension 'colcon_pkg'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extensions ['colcon_meta']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extension 'colcon_meta'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extensions ['ros']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_canopen/lely_core_libraries) by extension 'ros'
+[2.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_canopen/lely_core_libraries' with type 'ros.ament_cmake' and name 'lely_core_libraries'
+[2.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.547s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/vboxuser/install
+[2.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vboxuser/ros2_ws/install
+[2.599s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/vboxuser/bumperbot_ws/install
+[2.642s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[2.646s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_args' from command line to 'None'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_target' from command line to 'None'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_clean_cache' from command line to 'False'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_clean_first' from command line to 'False'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'cmake_force_configure' from command line to 'False'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'ament_cmake_args' from command line to 'None'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'catkin_cmake_args' from command line to 'None'
+[2.856s] Level 5:colcon.colcon_core.verb:set package 'agv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.856s] DEBUG:colcon.colcon_core.verb:Building package 'agv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/agv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/agv', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/agv', 'symlink_install': False, 'test_result_base': None}
+[2.885s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_args' from command line to 'None'
+[2.885s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_target' from command line to 'None'
+[2.885s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.885s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_clean_cache' from command line to 'False'
+[2.885s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_clean_first' from command line to 'False'
+[2.885s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'cmake_force_configure' from command line to 'False'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'ament_cmake_args' from command line to 'None'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'catkin_cmake_args' from command line to 'None'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'agv_py_functions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.886s] DEBUG:colcon.colcon_core.verb:Building package 'agv_py_functions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/agv_py_functions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/agv_py_functions', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/agv_py_functions', 'symlink_install': False, 'test_result_base': None}
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.914s] Level 5:colcon.colcon_core.verb:set package 'canopen_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.914s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_interfaces', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_args' from command line to 'None'
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_target' from command line to 'None'
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_clean_cache' from command line to 'False'
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_clean_first' from command line to 'False'
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'cmake_force_configure' from command line to 'False'
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'ament_cmake_args' from command line to 'None'
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'catkin_cmake_args' from command line to 'None'
+[2.942s] Level 5:colcon.colcon_core.verb:set package 'lely_core_libraries' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.942s] DEBUG:colcon.colcon_core.verb:Building package 'lely_core_libraries' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/lely_core_libraries', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/lely_core_libraries', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/lely_core_libraries', 'symlink_install': False, 'test_result_base': None}
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_args' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_target' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'my_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.969s] DEBUG:colcon.colcon_core.verb:Building package 'my_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/my_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/my_simulation', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/my_simulation', 'symlink_install': False, 'test_result_base': None}
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_args' from command line to 'None'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_target' from command line to 'None'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_clean_cache' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_clean_first' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'cmake_force_configure' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'ament_cmake_args' from command line to 'None'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'catkin_cmake_args' from command line to 'None'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'canopen_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.996s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_core', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core', 'symlink_install': False, 'test_result_base': None}
+[3.022s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'cmake_args' from command line to 'None'
+[3.022s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'cmake_target' from command line to 'None'
+[3.022s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.022s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'cmake_clean_cache' from command line to 'False'
+[3.022s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'cmake_clean_first' from command line to 'False'
+[3.022s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'cmake_force_configure' from command line to 'False'
+[3.023s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'ament_cmake_args' from command line to 'None'
+[3.023s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'catkin_cmake_args' from command line to 'None'
+[3.023s] Level 5:colcon.colcon_core.verb:set package 'canopen_fake_slaves' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.023s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_fake_slaves' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_fake_slaves', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_fake_slaves', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_fake_slaves', 'symlink_install': False, 'test_result_base': None}
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_args' from command line to 'None'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_target' from command line to 'None'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_clean_first' from command line to 'False'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'cmake_force_configure' from command line to 'False'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'ament_cmake_args' from command line to 'None'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[3.050s] Level 5:colcon.colcon_core.verb:set package 'canopen_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.050s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_utils', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_utils', 'symlink_install': False, 'test_result_base': None}
+[3.075s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_args' from command line to 'None'
+[3.075s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_target' from command line to 'None'
+[3.075s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'canopen_base_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.076s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_base_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_base_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_base_driver', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_base_driver', 'symlink_install': False, 'test_result_base': None}
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'cmake_args' from command line to 'None'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'cmake_target' from command line to 'None'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'canopen_master_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.102s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_master_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_master_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_master_driver', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_master_driver', 'symlink_install': False, 'test_result_base': None}
+[3.128s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_args' from command line to 'None'
+[3.128s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_target' from command line to 'None'
+[3.128s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.128s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.128s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.128s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'canopen_proxy_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.129s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_proxy_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_proxy_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_proxy_driver', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_proxy_driver', 'symlink_install': False, 'test_result_base': None}
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_args' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_target' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.155s] Level 5:colcon.colcon_core.verb:set package 'canopen_402_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.155s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_402_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_402_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_402_driver', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_402_driver', 'symlink_install': False, 'test_result_base': None}
+[3.180s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_args' from command line to 'None'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_target' from command line to 'None'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_clean_cache' from command line to 'False'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_clean_first' from command line to 'False'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'cmake_force_configure' from command line to 'False'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'ament_cmake_args' from command line to 'None'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'catkin_cmake_args' from command line to 'None'
+[3.181s] Level 5:colcon.colcon_core.verb:set package 'canopen' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.181s] DEBUG:colcon.colcon_core.verb:Building package 'canopen' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen', 'symlink_install': False, 'test_result_base': None}
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'cmake_args' from command line to 'None'
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'cmake_target' from command line to 'None'
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.207s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.207s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_ros2_control', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'cmake_args' from command line to 'None'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'cmake_target' from command line to 'None'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[3.233s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[3.234s] Level 5:colcon.colcon_core.verb:set package 'canopen_ros2_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.234s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_ros2_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_ros2_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_ros2_controllers', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_ros2_controllers', 'symlink_install': False, 'test_result_base': None}
+[3.260s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_args' from command line to 'None'
+[3.260s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_target' from command line to 'None'
+[3.260s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.260s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[3.260s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_clean_first' from command line to 'False'
+[3.260s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'cmake_force_configure' from command line to 'False'
+[3.261s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'ament_cmake_args' from command line to 'None'
+[3.261s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[3.261s] Level 5:colcon.colcon_core.verb:set package 'canopen_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.261s] DEBUG:colcon.colcon_core.verb:Building package 'canopen_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/agv_ws/build/canopen_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/agv_ws/install/canopen_tests', 'merge_install': False, 'path': '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_tests', 'symlink_install': False, 'test_result_base': None}
+[3.287s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_interfaces' with build type 'ament_cmake'
+[3.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_interfaces'
+[3.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.527s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/ros2_canopen/lely_core_libraries' with build type 'ament_cmake'
+[3.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/ros2_canopen/lely_core_libraries'
+[3.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.558s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.706s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/agv' with build type 'ament_cmake'
+[3.707s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/agv'
+[3.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.883s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vboxuser/agv_ws/src/agv_py_functions' with build type 'ament_python'
+[3.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_py_functions', 'ament_prefix_path')
+[3.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/ament_prefix_path.ps1'
+[3.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/ament_prefix_path.dsv'
+[3.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/ament_prefix_path.sh'
+[3.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/canopen_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_interfaces -- -j4 -l4
+[4.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/lely_core_libraries -- -j4 -l4
+[4.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv -- -j4 -l4
+[5.525s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vboxuser/agv_ws/src/agv_py_functions'
+[5.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv -- -j4 -l4
+[5.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv
+[5.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv)
+[5.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv
+[6.005s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv' for CMake module files
+[6.007s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv' for CMake config files
+[6.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv', 'cmake_prefix_path')
+[6.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.ps1'
+[6.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.dsv'
+[6.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.sh'
+[6.045s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib'
+[6.045s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/bin'
+[6.045s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib/pkgconfig/agv.pc'
+[6.046s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib/python3.10/site-packages'
+[6.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv', 'pythonpath')
+[6.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.ps1'
+[6.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.dsv'
+[6.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.sh'
+[6.104s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/bin'
+[6.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.ps1'
+[6.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/package.dsv'
+[6.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.sh'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.bash'
+[6.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.zsh'
+[6.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/agv/share/colcon-core/packages/agv)
+[6.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/canopen_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_interfaces -- -j4 -l4
+[6.328s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv)
+[6.369s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv' for CMake module files
+[6.370s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv' for CMake config files
+[6.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv', 'cmake_prefix_path')
+[6.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.ps1'
+[6.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.dsv'
+[6.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/cmake_prefix_path.sh'
+[6.422s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib'
+[6.422s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/bin'
+[6.422s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib/pkgconfig/agv.pc'
+[6.425s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/lib/python3.10/site-packages'
+[6.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv', 'pythonpath')
+[6.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.ps1'
+[6.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.dsv'
+[6.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv/share/agv/hook/pythonpath.sh'
+[6.475s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv/bin'
+[6.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.ps1'
+[6.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/agv/share/agv/package.dsv'
+[6.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.sh'
+[6.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.bash'
+[6.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv/share/agv/package.zsh'
+[6.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/agv/share/colcon-core/packages/agv)
+[6.535s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/my_simulation' with build type 'ament_cmake'
+[6.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/my_simulation'
+[6.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/my_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/my_simulation -- -j4 -l4
+[6.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/my_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/my_simulation -- -j4 -l4
+[7.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/my_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/my_simulation
+[7.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_simulation)
+[7.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/my_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/my_simulation
+[7.232s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation' for CMake module files
+[7.233s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation' for CMake config files
+[7.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulation', 'cmake_prefix_path')
+[7.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.ps1'
+[7.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.dsv'
+[7.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.sh'
+[7.329s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/bin'
+[7.329s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/lib/pkgconfig/my_simulation.pc'
+[7.332s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/lib/python3.10/site-packages'
+[7.333s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/bin'
+[7.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.ps1'
+[7.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.dsv'
+[7.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.sh'
+[7.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.bash'
+[7.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.zsh'
+[7.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/my_simulation/share/colcon-core/packages/my_simulation)
+[7.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/canopen_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_interfaces
+[7.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/src/agv_py_functions': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py_functions/prefix_override:/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/agv_py_functions build --build-base /home/vboxuser/agv_ws/build/agv_py_functions/build install --record /home/vboxuser/agv_ws/build/agv_py_functions/install.log --single-version-externally-managed
+[7.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_simulation)
+[7.728s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation' for CMake module files
+[7.729s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation' for CMake config files
+[7.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_simulation', 'cmake_prefix_path')
+[7.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.ps1'
+[7.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.dsv'
+[7.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/hook/cmake_prefix_path.sh'
+[7.780s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/bin'
+[7.780s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/lib/pkgconfig/my_simulation.pc'
+[7.781s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/lib/python3.10/site-packages'
+[7.781s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/my_simulation/bin'
+[7.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.ps1'
+[7.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.dsv'
+[7.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.sh'
+[7.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.bash'
+[7.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.zsh'
+[7.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/my_simulation/share/colcon-core/packages/my_simulation)
+[7.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_interfaces)
+[7.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/canopen_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_interfaces
+[7.872s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces' for CMake module files
+[7.873s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces' for CMake config files
+[7.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_interfaces', 'cmake_prefix_path')
+[7.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.ps1'
+[7.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.dsv'
+[7.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.sh'
+[7.918s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/lib'
+[7.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_interfaces', 'ld_library_path_lib')
+[8.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.ps1'
+[8.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.dsv'
+[8.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.sh'
+[8.011s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/bin'
+[8.011s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/lib/pkgconfig/canopen_interfaces.pc'
+[8.018s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/lib/python3.10/site-packages'
+[8.019s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/bin'
+[8.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.ps1'
+[8.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.dsv'
+[8.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.sh'
+[8.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.bash'
+[8.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.zsh'
+[8.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/canopen_interfaces/share/colcon-core/packages/canopen_interfaces)
+[8.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/src/agv_py_functions' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py_functions/prefix_override:/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/agv_py_functions build --build-base /home/vboxuser/agv_ws/build/agv_py_functions/build install --record /home/vboxuser/agv_ws/build/agv_py_functions/install.log --single-version-externally-managed
+[8.735s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions' for CMake module files
+[8.736s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions' for CMake config files
+[8.737s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/lib'
+[8.737s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/bin'
+[8.737s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/lib/pkgconfig/agv_py_functions.pc'
+[8.737s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages'
+[8.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('agv_py_functions', 'pythonpath')
+[8.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/pythonpath.ps1'
+[8.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/pythonpath.dsv'
+[8.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/hook/pythonpath.sh'
+[8.819s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/agv_py_functions/bin'
+[8.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(agv_py_functions)
+[8.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.ps1'
+[8.883s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.dsv'
+[8.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.sh'
+[8.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.bash'
+[8.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/agv_py_functions/share/agv_py_functions/package.zsh'
+[8.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/agv_py_functions/share/colcon-core/packages/agv_py_functions)
+[9.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_interfaces)
+[9.309s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces' for CMake module files
+[9.311s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces' for CMake config files
+[9.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_interfaces', 'cmake_prefix_path')
+[9.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.ps1'
+[9.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.dsv'
+[9.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/cmake_prefix_path.sh'
+[9.387s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/lib'
+[9.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_interfaces', 'ld_library_path_lib')
+[9.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.ps1'
+[9.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.dsv'
+[9.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/hook/ld_library_path_lib.sh'
+[9.447s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/bin'
+[9.447s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/lib/pkgconfig/canopen_interfaces.pc'
+[9.448s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/lib/python3.10/site-packages'
+[9.449s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_interfaces/bin'
+[9.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.ps1'
+[9.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.dsv'
+[9.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.sh'
+[9.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.bash'
+[9.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_interfaces/share/canopen_interfaces/package.zsh'
+[9.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/canopen_interfaces/share/colcon-core/packages/canopen_interfaces)
+[9.522s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_utils' with build type 'ament_python'
+[9.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_utils', 'ament_prefix_path')
+[9.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/hook/ament_prefix_path.ps1'
+[9.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/hook/ament_prefix_path.dsv'
+[9.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/hook/ament_prefix_path.sh'
+[9.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_utils'
+[10.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_utils': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/canopen_utils/prefix_override:/home/vboxuser/agv_ws/install/canopen_utils/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/canopen_utils build --build-base /home/vboxuser/agv_ws/build/canopen_utils/build install --record /home/vboxuser/agv_ws/build/canopen_utils/install.log --single-version-externally-managed
+[13.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_utils' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/canopen_utils/prefix_override:/home/vboxuser/agv_ws/install/canopen_utils/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/canopen_utils build --build-base /home/vboxuser/agv_ws/build/canopen_utils/build install --record /home/vboxuser/agv_ws/build/canopen_utils/install.log --single-version-externally-managed
+[13.195s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_utils' for CMake module files
+[13.196s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_utils' for CMake config files
+[13.197s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_utils/lib'
+[13.197s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_utils/bin'
+[13.197s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_utils/lib/pkgconfig/canopen_utils.pc'
+[13.197s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_utils/lib/python3.10/site-packages'
+[13.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_utils', 'pythonpath')
+[13.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/hook/pythonpath.ps1'
+[13.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/hook/pythonpath.dsv'
+[13.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/hook/pythonpath.sh'
+[13.238s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_utils/bin'
+[13.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_utils)
+[13.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/package.ps1'
+[13.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/package.dsv'
+[13.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/package.sh'
+[13.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/package.bash'
+[13.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_utils/share/canopen_utils/package.zsh'
+[13.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/canopen_utils/share/colcon-core/packages/canopen_utils)
+[28.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/lely_core_libraries -- -j4 -l4
+[28.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/lely_core_libraries
+[34.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lely_core_libraries)
+[34.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/lely_core_libraries
+[34.416s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries' for CMake module files
+[34.417s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries' for CMake config files
+[34.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'cmake_prefix_path')
+[34.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.ps1'
+[34.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.dsv'
+[34.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.sh'
+[34.448s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[34.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'ld_library_path_lib')
+[34.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.ps1'
+[34.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.dsv'
+[34.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.sh'
+[34.478s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/bin'
+[34.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'path')
+[34.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/path.ps1'
+[34.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/path.dsv'
+[34.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/path.sh'
+[34.511s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/lib/pkgconfig/lely_core_libraries.pc'
+[34.512s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages'
+[34.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'pythonpath')
+[34.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.ps1'
+[34.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.dsv'
+[34.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.sh'
+[34.542s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/bin'
+[34.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'pythonscriptspath')
+[34.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.ps1'
+[34.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.dsv'
+[34.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.sh'
+[34.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.ps1'
+[34.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.dsv'
+[34.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.sh'
+[34.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.bash'
+[34.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.zsh'
+[34.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/lely_core_libraries/share/colcon-core/packages/lely_core_libraries)
+[34.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lely_core_libraries)
+[34.725s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries' for CMake module files
+[34.726s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries' for CMake config files
+[34.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'cmake_prefix_path')
+[34.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.ps1'
+[34.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.dsv'
+[34.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/cmake_prefix_path.sh'
+[34.768s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[34.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'ld_library_path_lib')
+[34.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.ps1'
+[34.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.dsv'
+[34.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/ld_library_path_lib.sh'
+[34.802s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/bin'
+[34.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'path')
+[34.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/path.ps1'
+[34.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/path.dsv'
+[34.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/path.sh'
+[34.833s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/lib/pkgconfig/lely_core_libraries.pc'
+[34.833s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages'
+[34.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'pythonpath')
+[34.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.ps1'
+[34.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.dsv'
+[34.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonpath.sh'
+[34.864s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/lely_core_libraries/bin'
+[34.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('lely_core_libraries', 'pythonscriptspath')
+[34.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.ps1'
+[34.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.dsv'
+[34.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/hook/pythonscriptspath.sh'
+[34.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.ps1'
+[34.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.dsv'
+[34.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.sh'
+[34.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.bash'
+[34.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.zsh'
+[34.949s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/lely_core_libraries/share/colcon-core/packages/lely_core_libraries)
+[34.950s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core' with build type 'ament_cmake'
+[34.950s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core'
+[34.987s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.145s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_fake_slaves' with build type 'ament_cmake'
+[35.145s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vboxuser/agv_ws/src/ros2_canopen/canopen_fake_slaves'
+[35.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/canopen_core': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_core -- -j4 -l4
+[35.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/agv_ws/build/canopen_fake_slaves': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_fake_slaves -- -j4 -l4
+[39.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[39.728s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[39.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/canopen_core' returned '-2': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_core -- -j4 -l4
+[39.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/agv_ws/build/canopen_fake_slaves' returned '-2': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_fake_slaves -- -j4 -l4
+[40.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(canopen_fake_slaves)
+[40.034s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_fake_slaves' for CMake module files
+[40.036s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_fake_slaves' for CMake config files
+[40.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('canopen_fake_slaves', 'cmake_prefix_path')
+[40.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/canopen_fake_slaves/hook/cmake_prefix_path.ps1'
+[40.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/canopen_fake_slaves/hook/cmake_prefix_path.dsv'
+[40.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/canopen_fake_slaves/hook/cmake_prefix_path.sh'
+[40.084s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_fake_slaves/lib'
+[40.084s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_fake_slaves/bin'
+[40.084s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_fake_slaves/lib/pkgconfig/canopen_fake_slaves.pc'
+[40.085s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_fake_slaves/lib/python3.10/site-packages'
+[40.085s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/agv_ws/install/canopen_fake_slaves/bin'
+[40.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/canopen_fake_slaves/package.ps1'
+[40.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/canopen_fake_slaves/package.dsv'
+[40.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/canopen_fake_slaves/package.sh'
+[40.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/canopen_fake_slaves/package.bash'
+[40.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/canopen_fake_slaves/package.zsh'
+[40.122s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/agv_ws/install/canopen_fake_slaves/share/colcon-core/packages/canopen_fake_slaves)
+[40.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[40.134s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.135s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.135s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.197s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.197s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.260s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.341s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/agv_ws/install/local_setup.ps1'
+[40.344s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/agv_ws/install/_local_setup_util_ps1.py'
+[40.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/agv_ws/install/setup.ps1'
+[40.425s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/agv_ws/install/local_setup.sh'
+[40.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/agv_ws/install/_local_setup_util_sh.py'
+[40.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/agv_ws/install/setup.sh'
+[40.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/agv_ws/install/local_setup.bash'
+[40.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/agv_ws/install/setup.bash'
+[40.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/agv_ws/install/local_setup.zsh'
+[40.573s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/agv_ws/install/setup.zsh'

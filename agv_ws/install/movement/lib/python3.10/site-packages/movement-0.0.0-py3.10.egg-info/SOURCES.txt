@@ -1,0 +1,46 @@
+package.xml
+setup.cfg
+setup.py
+../../build/movement/movement.egg-info/PKG-INFO
+../../build/movement/movement.egg-info/SOURCES.txt
+../../build/movement/movement.egg-info/dependency_links.txt
+../../build/movement/movement.egg-info/entry_points.txt
+../../build/movement/movement.egg-info/requires.txt
+../../build/movement/movement.egg-info/top_level.txt
+../../build/movement/movement.egg-info/zip-safe
+movement/Orientations Global vs QR.py
+movement/PGV_Scan_node.py
+movement/TravelMethod.py
+movement/TravelMethod_Smooth.py
+movement/__init__.py
+movement/agv_tracker.py
+movement/calibration.py
+movement/command_publisher_client.py
+movement/conversion test.py
+movement/correction_viz.py
+movement/hexcheck.py
+movement/path_visualizer.py
+movement/path_visualizer6.7.24.py
+movement/pgv_input.py
+movement/plottry.py
+movement/publish_canbus.py
+movement/qr_input.py
+movement/sample profile.py
+movement/speed_plotter.py
+movement/speed_plotter_time.py
+movement/spin_motor.py
+movement/wheel_controller_server.py
+movement/wheel_controller_server_180524.py
+movement/wheel_controller_server_18524.py
+movement/wheel_controller_server_old.py
+movement/wheel_controller_server_pid.py
+movement/wheel_controller_server_works_noconversion.py
+movement/wheel_correction_server.py
+movement/wheel_correction_server_20062024.py
+movement/wheel_correction_server_230624.py
+movement/wheel_correction_server_6.7.24.py
+movement/wheel_speed_compare.py
+resource/movement
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

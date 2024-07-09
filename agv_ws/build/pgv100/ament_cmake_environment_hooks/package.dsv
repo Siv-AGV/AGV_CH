@@ -1,0 +1,4 @@
+source;share/pgv100/local_setup.bash
+source;share/pgv100/local_setup.dsv
+source;share/pgv100/local_setup.sh
+source;share/pgv100/local_setup.zsh

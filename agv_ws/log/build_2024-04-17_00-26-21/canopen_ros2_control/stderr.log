@@ -1,0 +1,7 @@
+gmake[2]: *** [CMakeFiles/canopen_ros2_control.dir/build.make:90: CMakeFiles/canopen_ros2_control.dir/src/cia402_system.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/canopen_ros2_control.dir/build.make:76: CMakeFiles/canopen_ros2_control.dir/src/canopen_system.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/canopen_ros2_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

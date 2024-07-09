@@ -1,0 +1,42 @@
+[0.752s] Invoking command in '/home/vboxuser/agv_ws/build/agv_py': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/vboxuser/agv_ws/agv_py -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/agv_py
+[1.087s] -- The C compiler identification is GNU 11.4.0
+[1.316s] -- The CXX compiler identification is GNU 11.4.0
+[1.343s] -- Detecting C compiler ABI info
+[1.503s] -- Detecting C compiler ABI info - done
+[1.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.524s] -- Detecting C compile features
+[1.527s] -- Detecting C compile features - done
+[1.534s] -- Detecting CXX compiler ABI info
+[1.688s] -- Detecting CXX compiler ABI info - done
+[1.712s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.713s] -- Detecting CXX compile features
+[1.714s] -- Detecting CXX compile features - done
+[1.737s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.114s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.312s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.462s] -- Added test 'lint_cmake' to check CMake code style
+[2.466s] -- Added test 'xmllint' to check XML markup files
+[2.480s] -- Configuring done
+[2.480s] -- Generating done
+[2.480s] -- Build files have been written to: /home/vboxuser/agv_ws/build/agv_py
+[2.573s] Invoked command in '/home/vboxuser/agv_ws/build/agv_py' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/vboxuser/agv_ws/agv_py -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/agv_py
+[2.576s] Invoking command in '/home/vboxuser/agv_ws/build/agv_py': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv_py -- -j4 -l4
+[2.632s] Invoked command in '/home/vboxuser/agv_ws/build/agv_py' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv_py -- -j4 -l4
+[2.678s] Invoking command in '/home/vboxuser/agv_ws/build/agv_py': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv_py
+[2.694s] -- Install configuration: ""
+[2.695s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index/package_run_dependencies/agv_py
+[2.695s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index/parent_prefix_path/agv_py
+[2.696s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/environment/ament_prefix_path.sh
+[2.696s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/environment/ament_prefix_path.dsv
+[2.696s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/environment/path.sh
+[2.696s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/environment/path.dsv
+[2.697s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/local_setup.bash
+[2.697s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/local_setup.sh
+[2.697s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/local_setup.zsh
+[2.697s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/local_setup.dsv
+[2.698s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/package.dsv
+[2.698s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index/packages/agv_py
+[2.698s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/cmake/agv_pyConfig.cmake
+[2.699s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/cmake/agv_pyConfig-version.cmake
+[2.699s] -- Installing: /home/vboxuser/agv_ws/install/agv_py/share/agv_py/package.xml
+[2.704s] Invoked command in '/home/vboxuser/agv_ws/build/agv_py' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv_py

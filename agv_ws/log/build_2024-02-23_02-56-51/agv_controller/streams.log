@@ -1,0 +1,21 @@
+[0.501s] Invoking command in '/home/vboxuser/agv_ws/build/agv_controller': /usr/bin/cmake /home/vboxuser/agv_ws/src/agv_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/agv_controller
+[1.144s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.145s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.146s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.147s]   CMake did not find one.
+[1.147s] 
+[1.148s]   Could not find a package configuration file provided by "catkin" with any
+[1.148s]   of the following names:
+[1.148s] 
+[1.148s]     catkinConfig.cmake
+[1.148s]     catkin-config.cmake
+[1.148s] 
+[1.148s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.148s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.148s]   provides a separate development package or SDK, be sure it has been
+[1.149s]   installed.
+[1.149s] 
+[1.149s] [0m
+[1.149s] -- Configuring incomplete, errors occurred!
+[1.149s] See also "/home/vboxuser/agv_ws/build/agv_controller/CMakeFiles/CMakeOutput.log".
+[1.154s] Invoked command in '/home/vboxuser/agv_ws/build/agv_controller' returned '1': /usr/bin/cmake /home/vboxuser/agv_ws/src/agv_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/agv_controller

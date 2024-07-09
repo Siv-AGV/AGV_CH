@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from agv_msgs/srv/SetWheelSpeed.srv
+// generated code does not contain a copyright notice
+
+
+module agv_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "SetWheelSpeed.srv")
+    struct SetWheelSpeed_Request {
+      double data;
+    };
+    struct SetWheelSpeed_Response {
+      string message;
+    };
+  };
+};

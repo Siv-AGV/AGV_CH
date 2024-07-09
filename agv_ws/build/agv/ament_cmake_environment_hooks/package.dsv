@@ -1,0 +1,4 @@
+source;share/agv/local_setup.bash
+source;share/agv/local_setup.dsv
+source;share/agv/local_setup.sh
+source;share/agv/local_setup.zsh

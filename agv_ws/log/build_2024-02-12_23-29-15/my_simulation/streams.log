@@ -1,0 +1,20 @@
+[0.747s] Invoking command in '/home/vboxuser/agv_ws/build/my_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/my_simulation -- -j4 -l4
+[0.810s] Invoked command in '/home/vboxuser/agv_ws/build/my_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/my_simulation -- -j4 -l4
+[0.955s] Invoking command in '/home/vboxuser/agv_ws/build/my_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/my_simulation
+[0.965s] -- Install configuration: ""
+[0.965s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/ament_index/resource_index/package_run_dependencies/my_simulation
+[0.966s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/ament_index/resource_index/parent_prefix_path/my_simulation
+[0.966s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/environment/ament_prefix_path.sh
+[0.966s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/environment/ament_prefix_path.dsv
+[0.966s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/environment/path.sh
+[0.966s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/environment/path.dsv
+[0.966s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/local_setup.bash
+[0.966s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/local_setup.sh
+[0.966s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/local_setup.zsh
+[0.967s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/local_setup.dsv
+[0.967s] -- Installing: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.dsv
+[0.967s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/ament_index/resource_index/packages/my_simulation
+[0.967s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/cmake/my_simulationConfig.cmake
+[0.967s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/cmake/my_simulationConfig-version.cmake
+[0.967s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.xml
+[0.969s] Invoked command in '/home/vboxuser/agv_ws/build/my_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/my_simulation

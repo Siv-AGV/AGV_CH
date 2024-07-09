@@ -1,0 +1,23 @@
+[2.179s] Invoking command in '/home/vboxuser/agv_ws/src/agv_py_functions': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py_functions/prefix_override:/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/agv_py_functions build --build-base /home/vboxuser/agv_ws/build/agv_py_functions/build install --record /home/vboxuser/agv_ws/build/agv_py_functions/install.log --single-version-externally-managed install_data
+[2.738s] running egg_info
+[2.739s] writing ../../build/agv_py_functions/agv_py_functions.egg-info/PKG-INFO
+[2.740s] writing dependency_links to ../../build/agv_py_functions/agv_py_functions.egg-info/dependency_links.txt
+[2.740s] writing entry points to ../../build/agv_py_functions/agv_py_functions.egg-info/entry_points.txt
+[2.740s] writing requirements to ../../build/agv_py_functions/agv_py_functions.egg-info/requires.txt
+[2.740s] writing top-level names to ../../build/agv_py_functions/agv_py_functions.egg-info/top_level.txt
+[2.744s] reading manifest file '../../build/agv_py_functions/agv_py_functions.egg-info/SOURCES.txt'
+[2.746s] writing manifest file '../../build/agv_py_functions/agv_py_functions.egg-info/SOURCES.txt'
+[2.746s] running build
+[2.747s] running build_py
+[2.747s] running install
+[2.748s] running install_lib
+[2.751s] running install_data
+[2.751s] running install_egg_info
+[2.754s] removing '/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages/agv_py_functions-0.0.0-py3.10.egg-info' (and everything under it)
+[2.754s] Copying ../../build/agv_py_functions/agv_py_functions.egg-info to /home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages/agv_py_functions-0.0.0-py3.10.egg-info
+[2.755s] running install_scripts
+[2.799s] Installing simple_parameter = agv_py_functions.simple_parameter:maincanbus_velocity_publisher = agv_py_functions.canbus_velocity_publisher:mainvelocity_input script to /home/vboxuser/agv_ws/install/agv_py_functions/lib/agv_py_functions
+[2.800s] Installing simple_publisher script to /home/vboxuser/agv_ws/install/agv_py_functions/lib/agv_py_functions
+[2.800s] Installing simple_subscriber script to /home/vboxuser/agv_ws/install/agv_py_functions/lib/agv_py_functions
+[2.801s] writing list of installed files to '/home/vboxuser/agv_ws/build/agv_py_functions/install.log'
+[2.862s] Invoked command in '/home/vboxuser/agv_ws/src/agv_py_functions' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py_functions/prefix_override:/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/agv_py_functions build --build-base /home/vboxuser/agv_ws/build/agv_py_functions/build install --record /home/vboxuser/agv_ws/build/agv_py_functions/install.log --single-version-externally-managed install_data

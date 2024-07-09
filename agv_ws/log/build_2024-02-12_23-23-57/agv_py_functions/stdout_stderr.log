@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/agv_py_functions/agv_py_functions.egg-info/PKG-INFO
+writing dependency_links to ../../build/agv_py_functions/agv_py_functions.egg-info/dependency_links.txt
+writing entry points to ../../build/agv_py_functions/agv_py_functions.egg-info/entry_points.txt
+writing requirements to ../../build/agv_py_functions/agv_py_functions.egg-info/requires.txt
+writing top-level names to ../../build/agv_py_functions/agv_py_functions.egg-info/top_level.txt
+reading manifest file '../../build/agv_py_functions/agv_py_functions.egg-info/SOURCES.txt'
+writing manifest file '../../build/agv_py_functions/agv_py_functions.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages/agv_py_functions-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/agv_py_functions/agv_py_functions.egg-info to /home/vboxuser/agv_ws/install/agv_py_functions/lib/python3.10/site-packages/agv_py_functions-0.0.0-py3.10.egg-info
+running install_scripts
+Installing simple_parameter script to /home/vboxuser/agv_ws/install/agv_py_functions/lib/agv_py_functions
+Installing simple_publisher script to /home/vboxuser/agv_ws/install/agv_py_functions/lib/agv_py_functions
+Installing simple_subscriber script to /home/vboxuser/agv_ws/install/agv_py_functions/lib/agv_py_functions
+writing list of installed files to '/home/vboxuser/agv_ws/build/agv_py_functions/install.log'

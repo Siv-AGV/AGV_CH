@@ -1,0 +1,8 @@
+[  2%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o[0m
+[ 11%] Built target gmock
+[ 16%] Built target gmock_main
+[ 19%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/master_node.cpp.o[0m
+[ 27%] [32m[1mLinking CXX shared library libnode_canopen_master.so[0m
+[ 30%] Built target node_canopen_master

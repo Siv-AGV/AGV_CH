@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target lely_master_bridge[0m
+[ 11%] Built target gtest_main
+[ 22%] Built target gtest
+[ 27%] [32mBuilding CXX object CMakeFiles/lely_master_bridge.dir/src/lely_master_bridge.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library liblely_master_bridge.so[0m
+[ 33%] Built target lely_master_bridge
+[35m[1mConsolidate compiler generated dependencies of target node_canopen_basic_master[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/node_canopen_basic_master.dir/src/node_interfaces/node_canopen_basic_master.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libnode_canopen_basic_master.so[0m
+[ 44%] Built target node_canopen_basic_master
+[35m[1mConsolidate compiler generated dependencies of target master_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_master_driver[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/master_driver.dir/src/master_driver.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/lifecycle_master_driver.dir/src/lifecycle_master_driver.cpp.o[0m
+gmake[2]: *** [CMakeFiles/master_driver.dir/build.make:76: CMakeFiles/master_driver.dir/src/master_driver.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:262: CMakeFiles/master_driver.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/lifecycle_master_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

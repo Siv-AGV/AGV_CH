@@ -1,0 +1,5 @@
+  File "/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server.py", line 187
+    f_index = 
+              ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,3 @@
+[console_scripts]
+command_publisher = movement.command_publisher:mainwheel_controller = movement.wheel_controller:main
+

@@ -1,0 +1,4 @@
+/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py:565: UserWarning: joint_1: specified revision number differs from DCF
+  slave = Slave.from_config(name, cfg[name], options, args)
+/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcfgen/cli.py:565: UserWarning: joint_2: specified revision number differs from DCF
+  slave = Slave.from_config(name, cfg[name], options, args)

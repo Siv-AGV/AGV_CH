@@ -1,0 +1,9 @@
+# Request
+geometry_msgs/Twist command
+---
+# Result
+bool completed
+---
+# Feedback
+float32 current_distance
+float32 current_angle

@@ -1,0 +1,4 @@
+Invoking command in '/home/vboxuser/agv_ws/build/agv_controller': /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv_controller -- -j4 -l4
+Invoked command in '/home/vboxuser/agv_ws/build/agv_controller' returned '0': /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv_controller -- -j4 -l4
+Invoking command in '/home/vboxuser/agv_ws/build/agv_controller': /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv_controller
+Invoked command in '/home/vboxuser/agv_ws/build/agv_controller' returned '0': /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv_controller

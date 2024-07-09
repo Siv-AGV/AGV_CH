@@ -1,0 +1,5 @@
+  File "/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server.py", line 101
+    self.current_wheel_speed_conv_[0] = (self.current_wheel_speed[0]/(2*math.pi))*60 * 512 *10000)/1875
+                                                                                                 ^
+SyntaxError: unmatched ')'
+

@@ -1,0 +1,21 @@
+[2.896s] Invoking command in '/home/vboxuser/agv_ws/src/communication': PYTHONPATH=/home/vboxuser/agv_ws/build/communication/prefix_override:/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication build --build-base /home/vboxuser/agv_ws/build/communication/build install --record /home/vboxuser/agv_ws/build/communication/install.log --single-version-externally-managed
+[3.689s] running egg_info
+[3.690s] writing ../../build/communication/communication.egg-info/PKG-INFO
+[3.690s] writing dependency_links to ../../build/communication/communication.egg-info/dependency_links.txt
+[3.690s] writing entry points to ../../build/communication/communication.egg-info/entry_points.txt
+[3.690s] writing requirements to ../../build/communication/communication.egg-info/requires.txt
+[3.690s] writing top-level names to ../../build/communication/communication.egg-info/top_level.txt
+[3.690s] reading manifest file '../../build/communication/communication.egg-info/SOURCES.txt'
+[3.691s] writing manifest file '../../build/communication/communication.egg-info/SOURCES.txt'
+[3.691s] running build
+[3.691s] running build_py
+[3.699s] running install
+[3.699s] running install_lib
+[3.699s] running install_data
+[3.699s] running install_egg_info
+[3.699s] removing '/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages/communication-0.0.0-py3.10.egg-info' (and everything under it)
+[3.699s] Copying ../../build/communication/communication.egg-info to /home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages/communication-0.0.0-py3.10.egg-info
+[3.702s] running install_scripts
+[3.751s] Installing navigation_listener_node script to /home/vboxuser/agv_ws/install/communication/lib/communication
+[3.751s] writing list of installed files to '/home/vboxuser/agv_ws/build/communication/install.log'
+[3.862s] Invoked command in '/home/vboxuser/agv_ws/src/communication' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/communication/prefix_override:/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication build --build-base /home/vboxuser/agv_ws/build/communication/build install --record /home/vboxuser/agv_ws/build/communication/install.log --single-version-externally-managed

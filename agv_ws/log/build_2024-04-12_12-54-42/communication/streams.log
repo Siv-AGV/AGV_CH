@@ -1,0 +1,23 @@
+[3.419s] Invoking command in '/home/vboxuser/agv_ws/src/communication': PYTHONPATH=/home/vboxuser/agv_ws/build/communication/prefix_override:/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication build --build-base /home/vboxuser/agv_ws/build/communication/build install --record /home/vboxuser/agv_ws/build/communication/install.log --single-version-externally-managed
+[4.188s] running egg_info
+[4.192s] writing ../../build/communication/communication.egg-info/PKG-INFO
+[4.192s] writing dependency_links to ../../build/communication/communication.egg-info/dependency_links.txt
+[4.192s] writing entry points to ../../build/communication/communication.egg-info/entry_points.txt
+[4.192s] writing requirements to ../../build/communication/communication.egg-info/requires.txt
+[4.193s] writing top-level names to ../../build/communication/communication.egg-info/top_level.txt
+[4.196s] reading manifest file '../../build/communication/communication.egg-info/SOURCES.txt'
+[4.198s] writing manifest file '../../build/communication/communication.egg-info/SOURCES.txt'
+[4.198s] running build
+[4.198s] running build_py
+[4.199s] copying communication/navigation_listener_node.py -> /home/vboxuser/agv_ws/build/communication/build/lib/communication
+[4.206s] running install
+[4.206s] running install_lib
+[4.206s] copying /home/vboxuser/agv_ws/build/communication/build/lib/communication/navigation_listener_node.py -> /home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages/communication
+[4.210s] byte-compiling /home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages/communication/navigation_listener_node.py to navigation_listener_node.cpython-310.pyc
+[4.210s] running install_data
+[4.210s] running install_egg_info
+[4.215s] removing '/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages/communication-0.0.0-py3.10.egg-info' (and everything under it)
+[4.215s] Copying ../../build/communication/communication.egg-info to /home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages/communication-0.0.0-py3.10.egg-info
+[4.217s] running install_scripts
+[4.253s] writing list of installed files to '/home/vboxuser/agv_ws/build/communication/install.log'
+[4.314s] Invoked command in '/home/vboxuser/agv_ws/src/communication' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/communication/prefix_override:/home/vboxuser/agv_ws/install/communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication build --build-base /home/vboxuser/agv_ws/build/communication/build install --record /home/vboxuser/agv_ws/build/communication/install.log --single-version-externally-managed

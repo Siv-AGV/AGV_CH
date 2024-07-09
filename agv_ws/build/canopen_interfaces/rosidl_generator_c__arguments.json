@@ -1,0 +1,40 @@
+{
+  "package_name": "canopen_interfaces",
+  "output_dir": "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_generator_c/canopen_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COHeartbeatID.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONmtID.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CORead.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COReadID.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWrite.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COWriteID.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/COTargetDouble.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:srv/CONode.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces:msg/COData.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COHeartbeatID.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/CONmtID.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/CORead.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COReadID.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COWrite.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COWriteID.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/COTargetDouble.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/srv/CONode.idl",
+    "/home/vboxuser/agv_ws/build/canopen_interfaces/rosidl_adapter/canopen_interfaces/msg/COData.idl"
+  ]
+}

@@ -1,0 +1,28 @@
+[1.230s] Invoking command in '/home/vboxuser/agv_ws/src/movement': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/agv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data
+[1.715s] running egg_info
+[1.716s] writing ../../build/movement/movement.egg-info/PKG-INFO
+[1.717s] writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt
+[1.717s] writing entry points to ../../build/movement/movement.egg-info/entry_points.txt
+[1.717s] writing requirements to ../../build/movement/movement.egg-info/requires.txt
+[1.718s] writing top-level names to ../../build/movement/movement.egg-info/top_level.txt
+[1.720s] reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[1.722s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[1.722s] running build
+[1.722s] running build_py
+[1.722s] copying movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[1.723s] copying movement/command_publisher_client.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[1.723s] running install
+[1.724s] running install_lib
+[1.725s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[1.725s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/command_publisher_client.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[1.726s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server.py to wheel_controller_server.cpython-310.pyc
+[1.727s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/command_publisher_client.py to command_publisher_client.cpython-310.pyc
+[1.728s] running install_data
+[1.728s] running install_egg_info
+[1.730s] removing '/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info' (and everything under it)
+[1.731s] Copying ../../build/movement/movement.egg-info to /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info
+[1.732s] running install_scripts
+[1.768s] Installing command_publisher_client script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[1.769s] Installing wheel_controller_server script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[1.769s] writing list of installed files to '/home/vboxuser/agv_ws/build/movement/install.log'
+[1.804s] Invoked command in '/home/vboxuser/agv_ws/src/movement' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/agv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data

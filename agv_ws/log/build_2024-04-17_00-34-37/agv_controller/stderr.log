@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:20 (install):
+  install PROGRAMS given unknown argument "agv_controller/velocity_input.py".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

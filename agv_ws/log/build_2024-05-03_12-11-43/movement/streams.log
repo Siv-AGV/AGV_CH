@@ -1,0 +1,29 @@
+[1.565s] Invoking command in '/home/vboxuser/agv_ws/src/movement': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/agv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data
+[2.055s] running egg_info
+[2.056s] writing ../../build/movement/movement.egg-info/PKG-INFO
+[2.063s] writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt
+[2.063s] writing entry points to ../../build/movement/movement.egg-info/entry_points.txt
+[2.064s] writing requirements to ../../build/movement/movement.egg-info/requires.txt
+[2.065s] writing top-level names to ../../build/movement/movement.egg-info/top_level.txt
+[2.069s] reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.072s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.073s] running build
+[2.073s] running build_py
+[2.073s] copying movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[2.074s] copying movement/command_publisher_client.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[2.074s] running install
+[2.074s] running install_lib
+[2.076s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[2.077s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/command_publisher_client.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[2.078s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server.py to wheel_controller_server.cpython-310.pyc
+[2.082s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/command_publisher_client.py to command_publisher_client.cpython-310.pyc
+[2.082s] running install_data
+[2.083s] copying package.xml -> /home/vboxuser/agv_ws/install/movement/share/movement
+[2.083s] running install_egg_info
+[2.087s] removing '/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info' (and everything under it)
+[2.087s] Copying ../../build/movement/movement.egg-info to /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info
+[2.089s] running install_scripts
+[2.124s] Installing command_publisher_client script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[2.124s] Installing wheel_controller_server script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[2.125s] writing list of installed files to '/home/vboxuser/agv_ws/build/movement/install.log'
+[2.183s] Invoked command in '/home/vboxuser/agv_ws/src/movement' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/agv_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/agv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data

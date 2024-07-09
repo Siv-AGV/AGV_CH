@@ -1,0 +1,387 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (-) JobUnselected: {'identifier': 'agv'}
+[0.000256] (-) JobUnselected: {'identifier': 'agv_controller'}
+[0.000295] (-) JobUnselected: {'identifier': 'agv_py_functions'}
+[0.000331] (-) JobUnselected: {'identifier': 'canopen'}
+[0.000347] (-) JobUnselected: {'identifier': 'canopen_402_driver'}
+[0.000381] (-) JobUnselected: {'identifier': 'canopen_base_driver'}
+[0.000402] (-) JobUnselected: {'identifier': 'canopen_core'}
+[0.000422] (-) JobUnselected: {'identifier': 'canopen_fake_slaves'}
+[0.000442] (-) JobUnselected: {'identifier': 'canopen_interfaces'}
+[0.000462] (-) JobUnselected: {'identifier': 'canopen_kinco3'}
+[0.000481] (-) JobUnselected: {'identifier': 'canopen_master_driver'}
+[0.000499] (-) JobUnselected: {'identifier': 'canopen_proxy_driver'}
+[0.000518] (-) JobUnselected: {'identifier': 'canopen_ros2_control'}
+[0.000536] (-) JobUnselected: {'identifier': 'canopen_ros2_controllers'}
+[0.000594] (-) JobUnselected: {'identifier': 'canopen_tests'}
+[0.000667] (-) JobUnselected: {'identifier': 'canopen_utils'}
+[0.000819] (-) JobUnselected: {'identifier': 'communication'}
+[0.000885] (-) JobUnselected: {'identifier': 'lely_core_libraries'}
+[0.000904] (-) JobUnselected: {'identifier': 'movement'}
+[0.001014] (-) JobUnselected: {'identifier': 'my_simulation'}
+[0.001107] (-) JobUnselected: {'identifier': 'odometry'}
+[0.001150] (-) JobUnselected: {'identifier': 'pgv100'}
+[0.001188] (agv_msgs) JobQueued: {'identifier': 'agv_msgs', 'dependencies': OrderedDict()}
+[0.001225] (agv_msgs) JobStarted: {'identifier': 'agv_msgs'}
+[0.014893] (agv_msgs) JobProgress: {'identifier': 'agv_msgs', 'progress': 'cmake'}
+[0.015967] (agv_msgs) JobProgress: {'identifier': 'agv_msgs', 'progress': 'build'}
+[0.017655] (agv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/agv_ws/build/agv_msgs', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/agv_ws/build/agv_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1242'), ('SYSTEMD_EXEC_PID', '1395'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13132'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/bumperbot_ws/install:/home/vboxuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:23477'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2:@/tmp/.ICE-unix/1372,unix/ROS2:/tmp/.ICE-unix/1372'), ('INVOCATION_ID', '05fabf30da9b42de985dd7ab2bc5bb02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PQQ1M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c56750e-9291-438a-b1cd-56eb18c02f61'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/agv_ws/build/agv_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.091529] (agv_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098561] (-) TimerEvent: {}
+[0.199118] (-) TimerEvent: {}
+[0.299556] (-) TimerEvent: {}
+[0.378678] (agv_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.399670] (-) TimerEvent: {}
+[0.459847] (agv_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.470186] (agv_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.489546] (agv_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.499830] (-) TimerEvent: {}
+[0.522215] (agv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.582155] (agv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600192] (-) TimerEvent: {}
+[0.700611] (-) TimerEvent: {}
+[0.726208] (agv_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.801453] (-) TimerEvent: {}
+[0.841553] (agv_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.901572] (-) TimerEvent: {}
+[1.002264] (-) TimerEvent: {}
+[1.102729] (-) TimerEvent: {}
+[1.203317] (-) TimerEvent: {}
+[1.304143] (-) TimerEvent: {}
+[1.403815] (agv_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.404256] (-) TimerEvent: {}
+[1.504680] (-) TimerEvent: {}
+[1.605881] (-) TimerEvent: {}
+[1.706346] (-) TimerEvent: {}
+[1.807112] (-) TimerEvent: {}
+[1.907559] (-) TimerEvent: {}
+[2.008160] (-) TimerEvent: {}
+[2.108658] (-) TimerEvent: {}
+[2.210155] (-) TimerEvent: {}
+[2.217484] (agv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.310512] (-) TimerEvent: {}
+[2.411058] (-) TimerEvent: {}
+[2.511507] (-) TimerEvent: {}
+[2.536084] (agv_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.586265] (agv_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.611689] (-) TimerEvent: {}
+[2.625968] (agv_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.626135] (agv_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.626202] (agv_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.712384] (-) TimerEvent: {}
+[2.722659] (agv_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.758712] (agv_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.812547] (-) TimerEvent: {}
+[2.845229] (agv_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.857638] (agv_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/agv_ws/build/agv_msgs\n'}
+[2.903993] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.912711] (-) TimerEvent: {}
+[2.918463] (agv_msgs) StdoutLine: {'line': b'[  2%] Built target agv_msgs__cpp\n'}
+[2.920900] (agv_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_generator_c.dir/rosidl_generator_c/agv_msgs/srv/detail/move__functions.c.o\x1b[0m\n'}
+[2.921693] (agv_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_generator_c.dir/rosidl_generator_c/agv_msgs/srv/detail/set_wheel_speed__functions.c.o\x1b[0m\n'}
+[2.939960] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.944110] (agv_msgs) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_agv_msgs\n'}
+[2.970737] (agv_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agv_msgs/srv/detail/dds_fastrtps/set_wheel_speed__type_support.cpp.o\x1b[0m\n'}
+[2.986672] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.011897] (agv_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agv_msgs/srv/detail/set_wheel_speed__type_support.cpp.o\x1b[0m\n'}
+[3.012880] (-) TimerEvent: {}
+[3.061483] (agv_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/agv_msgs/srv/detail/move__type_support.cpp.o\x1b[0m\n'}
+[3.067644] (agv_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libagv_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.113309] (-) TimerEvent: {}
+[3.175921] (agv_msgs) StdoutLine: {'line': b'[ 20%] Built target agv_msgs__rosidl_generator_c\n'}
+[3.198904] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.213438] (-) TimerEvent: {}
+[3.224187] (agv_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agv_msgs/srv/set_wheel_speed__type_support.cpp.o\x1b[0m\n'}
+[3.313862] (-) TimerEvent: {}
+[3.414402] (-) TimerEvent: {}
+[3.514809] (-) TimerEvent: {}
+[3.615327] (-) TimerEvent: {}
+[3.715722] (-) TimerEvent: {}
+[3.732227] (agv_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/agv_msgs/srv/move__type_support.cpp.o\x1b[0m\n'}
+[3.738599] (agv_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.747054] (agv_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libagv_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.780161] (agv_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/agv_msgs/srv/detail/dds_fastrtps/move__type_support.cpp.o\x1b[0m\n'}
+[3.815888] (-) TimerEvent: {}
+[3.906783] (agv_msgs) StdoutLine: {'line': b'[ 35%] Built target agv_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.916047] (-) TimerEvent: {}
+[4.016387] (-) TimerEvent: {}
+[4.116817] (-) TimerEvent: {}
+[4.217269] (-) TimerEvent: {}
+[4.229957] (agv_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libagv_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.317425] (-) TimerEvent: {}
+[4.317914] (agv_msgs) StdoutLine: {'line': b'[ 41%] Built target agv_msgs__rosidl_typesupport_cpp\n'}
+[4.333493] (agv_msgs) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.417752] (-) TimerEvent: {}
+[4.518163] (-) TimerEvent: {}
+[4.552764] (agv_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.555728] (agv_msgs) StdoutLine: {'line': b'writing agv_msgs.egg-info/PKG-INFO\n'}
+[4.556128] (agv_msgs) StdoutLine: {'line': b'writing dependency_links to agv_msgs.egg-info/dependency_links.txt\n'}
+[4.556487] (agv_msgs) StdoutLine: {'line': b'writing top-level names to agv_msgs.egg-info/top_level.txt\n'}
+[4.561867] (agv_msgs) StdoutLine: {'line': b"reading manifest file 'agv_msgs.egg-info/SOURCES.txt'\n"}
+[4.563810] (agv_msgs) StdoutLine: {'line': b"writing manifest file 'agv_msgs.egg-info/SOURCES.txt'\n"}
+[4.582307] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.602128] (agv_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libagv_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.606871] (agv_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agv_msgs/srv/detail/set_wheel_speed__type_support_c.cpp.o\x1b[0m\n'}
+[4.618312] (-) TimerEvent: {}
+[4.621670] (agv_msgs) StdoutLine: {'line': b'[ 48%] Built target ament_cmake_python_build_agv_msgs_egg\n'}
+[4.639474] (agv_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.718486] (-) TimerEvent: {}
+[4.751780] (agv_msgs) StdoutLine: {'line': b'[ 53%] Built target agv_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.773224] (agv_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/agv_msgs/srv/detail/move__type_support_c.cpp.o\x1b[0m\n'}
+[4.818664] (-) TimerEvent: {}
+[4.919426] (-) TimerEvent: {}
+[5.019918] (-) TimerEvent: {}
+[5.120387] (-) TimerEvent: {}
+[5.220900] (-) TimerEvent: {}
+[5.235711] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.256525] (agv_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agv_msgs/srv/detail/move__type_support.c.o\x1b[0m\n'}
+[5.262552] (agv_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/agv_msgs/srv/detail/set_wheel_speed__type_support.c.o\x1b[0m\n'}
+[5.321129] (-) TimerEvent: {}
+[5.322598] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[5.325686] (agv_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libagv_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.337753] (agv_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/agv_msgs/srv/set_wheel_speed__type_support.cpp.o\x1b[0m\n'}
+[5.337993] (agv_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/agv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/agv_msgs/srv/move__type_support.cpp.o\x1b[0m\n'}
+[5.388180] (agv_msgs) StdoutLine: {'line': b'[ 69%] Built target agv_msgs__rosidl_typesupport_introspection_c\n'}
+[5.399639] (agv_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libagv_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.410150] (agv_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libagv_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.421975] (-) TimerEvent: {}
+[5.475052] (agv_msgs) StdoutLine: {'line': b'[ 74%] Built target agv_msgs__rosidl_typesupport_c\n'}
+[5.526307] (-) TimerEvent: {}
+[5.542788] (agv_msgs) StdoutLine: {'line': b'[ 74%] Built target agv_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.581867] (agv_msgs) StdoutLine: {'line': b'[ 74%] Built target agv_msgs\n'}
+[5.611830] (agv_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.626451] (-) TimerEvent: {}
+[5.730676] (-) TimerEvent: {}
+[5.832476] (-) TimerEvent: {}
+[5.933189] (-) TimerEvent: {}
+[6.034583] (-) TimerEvent: {}
+[6.135354] (-) TimerEvent: {}
+[6.236684] (-) TimerEvent: {}
+[6.337638] (-) TimerEvent: {}
+[6.438024] (-) TimerEvent: {}
+[6.538371] (-) TimerEvent: {}
+[6.638896] (-) TimerEvent: {}
+[6.739514] (-) TimerEvent: {}
+[6.813302] (agv_msgs) StdoutLine: {'line': b'[ 76%] Built target agv_msgs__py\n'}
+[6.833154] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_generator_py\x1b[0m\n'}
+[6.839933] (-) TimerEvent: {}
+[6.851115] (agv_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_generator_py.dir/rosidl_generator_py/agv_msgs/srv/_move_s.c.o\x1b[0m\n'}
+[6.851821] (agv_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_generator_py.dir/rosidl_generator_py/agv_msgs/srv/_set_wheel_speed_s.c.o\x1b[0m\n'}
+[6.940872] (-) TimerEvent: {}
+[7.042815] (-) TimerEvent: {}
+[7.099540] (agv_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/agv_msgs/libagv_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[7.143767] (-) TimerEvent: {}
+[7.167598] (agv_msgs) StdoutLine: {'line': b'[ 84%] Built target agv_msgs__rosidl_generator_py\n'}
+[7.183140] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.184154] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.184342] (agv_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target agv_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.210849] (agv_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/agv_msgs/_agv_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.211640] (agv_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/agv_msgs/_agv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.212622] (agv_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/agv_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/agv_msgs/_agv_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.243953] (-) TimerEvent: {}
+[7.344273] (-) TimerEvent: {}
+[7.401687] (agv_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/agv_msgs/agv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.407271] (agv_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/agv_msgs/agv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.407490] (agv_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/agv_msgs/agv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.444417] (-) TimerEvent: {}
+[7.466898] (agv_msgs) StdoutLine: {'line': b'[100%] Built target agv_msgs__rosidl_typesupport_c__pyext\n'}
+[7.470413] (agv_msgs) StdoutLine: {'line': b'[100%] Built target agv_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.470716] (agv_msgs) StdoutLine: {'line': b'[100%] Built target agv_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.493129] (agv_msgs) CommandEnded: {'returncode': 0}
+[7.545309] (-) TimerEvent: {}
+[7.623518] (agv_msgs) JobProgress: {'identifier': 'agv_msgs', 'progress': 'install'}
+[7.635680] (agv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/agv_ws/build/agv_msgs'], 'cwd': '/home/vboxuser/agv_ws/build/agv_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'vboxuser'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1242'), ('SYSTEMD_EXEC_PID', '1395'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13132'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/bumperbot_ws/install:/home/vboxuser/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:23477'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2:@/tmp/.ICE-unix/1372,unix/ROS2:/tmp/.ICE-unix/1372'), ('INVOCATION_ID', '05fabf30da9b42de985dd7ab2bc5bb02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_SG.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PQQ1M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7c56750e-9291-438a-b1cd-56eb18c02f61'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/agv_ws/build/agv_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[7.645622] (-) TimerEvent: {}
+[7.646692] (agv_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.647134] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/ament_index/resource_index/rosidl_interfaces/agv_msgs\n'}
+[7.653297] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs\n'}
+[7.653824] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv\n'}
+[7.654069] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/move.h\n'}
+[7.654342] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/set_wheel_speed.h\n'}
+[7.654649] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail\n'}
+[7.654845] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__struct.h\n'}
+[7.655067] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__functions.c\n'}
+[7.655372] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__functions.h\n'}
+[7.655663] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__functions.c\n'}
+[7.655970] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__functions.h\n'}
+[7.656759] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__type_support.h\n'}
+[7.657126] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__type_support.h\n'}
+[7.657408] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__struct.h\n'}
+[7.657604] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/msg\n'}
+[7.658006] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.658284] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action\n'}
+[7.658515] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/move.h\n'}
+[7.658728] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail\n'}
+[7.658887] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__struct.h\n'}
+[7.659177] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__functions.c\n'}
+[7.659274] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__functions.h\n'}
+[7.659339] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__type_support.h\n'}
+[7.659420] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/environment/library_path.sh\n'}
+[7.659505] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/environment/library_path.dsv\n'}
+[7.661372] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_generator_c.so\n'}
+[7.662438] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_generator_c.so" to ""\n'}
+[7.662611] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs\n'}
+[7.663186] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv\n'}
+[7.663336] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail\n'}
+[7.663721] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[7.663868] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__rosidl_typesupport_fastrtps_c.h\n'}
+[7.664059] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/msg\n'}
+[7.664227] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.665453] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.666072] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.666523] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs\n'}
+[7.667180] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv\n'}
+[7.667489] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/move.hpp\n'}
+[7.667720] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/set_wheel_speed.hpp\n'}
+[7.668060] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail\n'}
+[7.668369] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__struct.hpp\n'}
+[7.668638] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__builder.hpp\n'}
+[7.669139] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__struct.hpp\n'}
+[7.669340] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__builder.hpp\n'}
+[7.669660] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__traits.hpp\n'}
+[7.670110] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__traits.hpp\n'}
+[7.670390] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action\n'}
+[7.670855] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/move.hpp\n'}
+[7.670970] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail\n'}
+[7.671224] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__struct.hpp\n'}
+[7.671462] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__builder.hpp\n'}
+[7.673547] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__traits.hpp\n'}
+[7.673725] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs\n'}
+[7.673875] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv\n'}
+[7.674001] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail\n'}
+[7.674106] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.674251] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.674367] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/dds_fastrtps\n'}
+[7.674482] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/msg\n'}
+[7.674584] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.674762] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action\n'}
+[7.674910] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail\n'}
+[7.675046] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.675151] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/dds_fastrtps\n'}
+[7.675357] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.675897] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.676147] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs\n'}
+[7.676661] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv\n'}
+[7.677121] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail\n'}
+[7.677337] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__type_support.c\n'}
+[7.677526] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__rosidl_typesupport_introspection_c.h\n'}
+[7.677786] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__type_support.c\n'}
+[7.678020] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[7.678146] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/msg\n'}
+[7.678243] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.679131] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.679494] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.680658] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_c.so\n'}
+[7.681162] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.681377] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs\n'}
+[7.681854] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv\n'}
+[7.682282] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail\n'}
+[7.685792] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__type_support.cpp\n'}
+[7.686775] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.687165] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/set_wheel_speed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.687676] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/srv/detail/move__type_support.cpp\n'}
+[7.687907] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action\n'}
+[7.688314] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail\n'}
+[7.688742] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.689208] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/include/agv_msgs/agv_msgs/action/detail/move__type_support.cpp\n'}
+[7.691695] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.692354] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.693987] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_cpp.so\n'}
+[7.694694] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.695173] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/environment/pythonpath.sh\n'}
+[7.695546] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/environment/pythonpath.dsv\n'}
+[7.695760] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs-0.0.0-py3.10.egg-info\n'}
+[7.695944] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.696118] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.696365] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.696488] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.696681] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs\n'}
+[7.696819] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/_agv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.697306] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/_agv_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.697504] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv\n'}
+[7.697780] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv/_move.py\n'}
+[7.697934] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv/_move_s.c\n'}
+[7.698091] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv/_set_wheel_speed.py\n'}
+[7.698383] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv/__init__.py\n'}
+[7.698573] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv/_set_wheel_speed_s.c\n'}
+[7.698838] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/_agv_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.699156] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.699258] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.699324] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.699384] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/__init__.py\n'}
+[7.699442] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/libagv_msgs__rosidl_generator_py.so\n'}
+[7.746253] (-) TimerEvent: {}
+[7.759520] (agv_msgs) StdoutLine: {'line': b"Listing '/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs'...\n"}
+[7.759713] (agv_msgs) StdoutLine: {'line': b"Compiling '/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/__init__.py'...\n"}
+[7.759788] (agv_msgs) StdoutLine: {'line': b"Listing '/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv'...\n"}
+[7.759853] (agv_msgs) StdoutLine: {'line': b"Compiling '/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv/__init__.py'...\n"}
+[7.760055] (agv_msgs) StdoutLine: {'line': b"Compiling '/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv/_move.py'...\n"}
+[7.760178] (agv_msgs) StdoutLine: {'line': b"Compiling '/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/srv/_set_wheel_speed.py'...\n"}
+[7.766346] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.766768] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.767133] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.767623] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.768044] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.768609] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages/agv_msgs/agv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.769861] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_generator_py.so\n'}
+[7.770444] (agv_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/agv_ws/install/agv_msgs/lib/libagv_msgs__rosidl_generator_py.so" to ""\n'}
+[7.770698] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/srv/SetWheelSpeed.idl\n'}
+[7.770996] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/srv/Move.idl\n'}
+[7.771227] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/srv/SetWheelSpeed.srv\n'}
+[7.771451] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/srv/SetWheelSpeed_Request.msg\n'}
+[7.771695] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/srv/SetWheelSpeed_Response.msg\n'}
+[7.772069] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/srv/Move.srv\n'}
+[7.772181] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/srv/Move_Request.msg\n'}
+[7.772383] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/srv/Move_Response.msg\n'}
+[7.772505] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/ament_index/resource_index/package_run_dependencies/agv_msgs\n'}
+[7.772696] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/ament_index/resource_index/parent_prefix_path/agv_msgs\n'}
+[7.772994] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/environment/ament_prefix_path.sh\n'}
+[7.773106] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/environment/ament_prefix_path.dsv\n'}
+[7.773626] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/environment/path.sh\n'}
+[7.774211] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/environment/path.dsv\n'}
+[7.774575] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/local_setup.bash\n'}
+[7.774907] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/local_setup.sh\n'}
+[7.776719] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/local_setup.zsh\n'}
+[7.776902] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/local_setup.dsv\n'}
+[7.777089] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/package.dsv\n'}
+[7.777197] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/ament_index/resource_index/packages/agv_msgs\n'}
+[7.781045] (agv_msgs) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_cExport-noconfig.cmake].\n'}
+[7.781788] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_cExport.cmake\n'}
+[7.782144] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.782506] (agv_msgs) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[7.782820] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.783045] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.783212] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.783464] (agv_msgs) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[7.783837] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.783990] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.784134] (agv_msgs) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[7.784275] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.784454] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.784598] (agv_msgs) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[7.784859] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.785006] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.785160] (agv_msgs) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[7.785779] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.785934] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.786090] (agv_msgs) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[7.786205] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.786360] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.786467] (agv_msgs) StdoutLine: {'line': b'-- Old export file "/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[7.786573] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.786686] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/export_agv_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.786794] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.786905] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.787017] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.787126] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.787297] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.787420] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.787562] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.787684] (agv_msgs) StdoutLine: {'line': b'-- Installing: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgsConfig.cmake\n'}
+[7.787805] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/cmake/agv_msgsConfig-version.cmake\n'}
+[7.787925] (agv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/agv_ws/install/agv_msgs/share/agv_msgs/package.xml\n'}
+[7.789515] (agv_msgs) CommandEnded: {'returncode': 0}
+[7.846493] (-) TimerEvent: {}
+[7.947365] (-) TimerEvent: {}
+[7.953825] (agv_msgs) JobEnded: {'identifier': 'agv_msgs', 'rc': 0}
+[7.954957] (-) EventReactorShutdown: {}

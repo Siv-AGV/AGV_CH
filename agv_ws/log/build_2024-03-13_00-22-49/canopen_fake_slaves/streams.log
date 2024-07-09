@@ -1,0 +1,9 @@
+[0.177s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_fake_slaves': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_fake_slaves -- -j4 -l4
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target basic_slave_node[0m
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target cia402_slave_node[0m
+[0.284s] [ 20%] [32mBuilding CXX object CMakeFiles/cia402_slave_node.dir/src/cia402_slave.cpp.o[0m
+[0.288s] [ 40%] [32mBuilding CXX object CMakeFiles/basic_slave_node.dir/src/basic_slave.cpp.o[0m
+[9.261s] [ 60%] [32m[1mLinking CXX executable basic_slave_node[0m
+[9.900s] [ 60%] Built target basic_slave_node
+[11.507s] [ 80%] [32m[1mLinking CXX executable cia402_slave_node[0m
+[11.761s] [100%] Built target cia402_slave_node

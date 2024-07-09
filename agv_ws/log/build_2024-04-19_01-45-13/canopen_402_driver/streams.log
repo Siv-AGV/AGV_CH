@@ -1,0 +1,79 @@
+[0.030s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_402_driver': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib:/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_402_driver -- -j4 -l4
+[0.124s] [ 11%] Built target gtest_main
+[0.126s] [ 23%] Built target gtest
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target lely_motion_controller_bridge[0m
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target test_driver_component[0m
+[0.199s] [ 29%] [32mBuilding CXX object CMakeFiles/lely_motion_controller_bridge.dir/src/motor.cpp.o[0m
+[0.202s] [ 35%] [32mBuilding CXX object CMakeFiles/lely_motion_controller_bridge.dir/src/default_homing_mode.cpp.o[0m
+[0.219s] [ 41%] [32mBuilding CXX object test/CMakeFiles/test_driver_component.dir/test_driver_component.cpp.o[0m
+[11.625s] [ 47%] [32m[1mLinking CXX executable test_driver_component[0m
+[12.149s] [ 47%] Built target test_driver_component
+[12.584s] [ 52%] [32m[1mLinking CXX shared library liblely_motion_controller_bridge.so[0m
+[13.063s] [ 64%] Built target lely_motion_controller_bridge
+[13.099s] [35m[1mConsolidate compiler generated dependencies of target node_canopen_cia402_driver[0m
+[13.155s] [ 70%] [32mBuilding CXX object CMakeFiles/node_canopen_cia402_driver.dir/src/node_interfaces/node_canopen_402_driver.cpp.o[0m
+[31.069s] [ 76%] [32m[1mLinking CXX shared library libnode_canopen_cia402_driver.so[0m
+[32.468s] [ 76%] Built target node_canopen_cia402_driver
+[32.507s] [35m[1mConsolidate compiler generated dependencies of target cia402_driver[0m
+[32.509s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_cia402_driver[0m
+[32.562s] [ 82%] [32mBuilding CXX object CMakeFiles/cia402_driver.dir/src/cia402_driver.cpp.o[0m
+[32.563s] [ 88%] [32mBuilding CXX object CMakeFiles/lifecycle_cia402_driver.dir/src/lifecycle_cia402_driver.cpp.o[0m
+[45.384s] [ 94%] [32m[1mLinking CXX shared library libcia402_driver.so[0m
+[45.524s] [100%] [32m[1mLinking CXX shared library liblifecycle_cia402_driver.so[0m
+[46.804s] [100%] Built target cia402_driver
+[46.808s] [100%] Built target lifecycle_cia402_driver
+[46.823s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_402_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib:/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_402_driver -- -j4 -l4
+[46.900s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_402_driver': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib:/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_402_driver
+[46.914s] -- Install configuration: ""
+[46.915s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include
+[46.915s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver
+[46.916s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/visibility_control.h
+[46.916s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/profiled_position_mode.hpp
+[46.916s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/command.hpp
+[46.916s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/default_homing_mode.hpp
+[46.916s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/node_interfaces
+[46.917s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/node_interfaces/node_canopen_402_driver.hpp
+[46.917s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/node_interfaces/node_canopen_402_driver_impl.hpp
+[46.917s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/homing_mode.hpp
+[46.917s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/mode_target_helper.hpp
+[46.917s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/mode_forward_helper.hpp
+[46.917s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/base.hpp
+[46.918s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/word_accessor.hpp
+[46.918s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/cia402_driver.hpp
+[46.918s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/lifecycle_cia402_driver.hpp
+[46.918s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/mode.hpp
+[46.918s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/motor.hpp
+[46.918s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/include/canopen_402_driver/state.hpp
+[46.919s] -- Installing: /home/vboxuser/agv_ws/install/canopen_402_driver/lib/liblifecycle_cia402_driver.so
+[46.920s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_402_driver/lib/liblifecycle_cia402_driver.so" to ""
+[46.922s] -- Installing: /home/vboxuser/agv_ws/install/canopen_402_driver/lib/libcia402_driver.so
+[46.923s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_402_driver/lib/libcia402_driver.so" to ""
+[46.925s] -- Installing: /home/vboxuser/agv_ws/install/canopen_402_driver/lib/libnode_canopen_cia402_driver.so
+[46.930s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_402_driver/lib/libnode_canopen_cia402_driver.so" to ""
+[46.932s] -- Installing: /home/vboxuser/agv_ws/install/canopen_402_driver/lib/liblely_motion_controller_bridge.so
+[46.935s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_402_driver/lib/liblely_motion_controller_bridge.so" to ""
+[46.935s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/environment/library_path.sh
+[46.936s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/environment/library_path.dsv
+[46.937s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/ament_index/resource_index/package_run_dependencies/canopen_402_driver
+[46.937s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/ament_index/resource_index/parent_prefix_path/canopen_402_driver
+[46.938s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/environment/ament_prefix_path.sh
+[46.938s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/environment/ament_prefix_path.dsv
+[46.938s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/environment/path.sh
+[46.938s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/environment/path.dsv
+[46.938s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/local_setup.bash
+[46.939s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/local_setup.sh
+[46.939s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/local_setup.zsh
+[46.939s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/local_setup.dsv
+[46.939s] -- Installing: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/package.dsv
+[46.940s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/ament_index/resource_index/packages/canopen_402_driver
+[46.940s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/ament_index/resource_index/rclcpp_components/canopen_402_driver
+[46.943s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/cmake/export_canopen_402_driverExport.cmake
+[46.943s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/cmake/export_canopen_402_driverExport-noconfig.cmake
+[46.943s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.944s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[46.944s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/cmake/ament_cmake_export_targets-extras.cmake
+[46.944s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.944s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/cmake/canopen_402_driverConfig.cmake
+[46.944s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/cmake/canopen_402_driverConfig-version.cmake
+[46.944s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_402_driver/share/canopen_402_driver/package.xml
+[46.948s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_402_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/canopen_proxy_driver/lib:/home/vboxuser/agv_ws/install/canopen_base_driver/lib:/home/vboxuser/agv_ws/install/canopen_core/lib:/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_402_driver

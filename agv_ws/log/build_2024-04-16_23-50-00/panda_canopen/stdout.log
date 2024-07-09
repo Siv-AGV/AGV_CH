@@ -1,0 +1,306 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found lely_core_libraries: 0.2.7 (/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake)
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/agv_ws/build/panda_canopen
+[  0%] Built target cia402_prepare
+[ 50%] [32mBuilding CXX object CMakeFiles/canopen_joint_state_publisher.dir/src/canopen_joint_state_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable canopen_joint_state_publisher[0m
+[100%] Built target canopen_joint_state_publisher
+panda_joint1: writing 2 bytes to 0x1017/0: E8 03
+panda_joint1: writing 4 bytes to 0x1400/1: 01 02 00 80
+panda_joint1: writing 4 bytes to 0x1600/1: 10 00 40 60
+panda_joint1: writing 4 bytes to 0x1600/2: 08 00 60 60
+panda_joint1: writing 1 bytes to 0x1600/0: 02
+panda_joint1: writing 4 bytes to 0x1400/1: 01 02 00 00
+panda_joint1: writing 4 bytes to 0x1401/1: 01 03 00 80
+panda_joint1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+panda_joint1: writing 4 bytes to 0x1601/2: 20 00 FF 60
+panda_joint1: writing 1 bytes to 0x1601/0: 02
+panda_joint1: writing 4 bytes to 0x1401/1: 01 03 00 00
+panda_joint1: writing 4 bytes to 0x1402/1: 01 04 00 80
+panda_joint1: writing 4 bytes to 0x1403/1: 01 05 00 80
+panda_joint1: writing 4 bytes to 0x1800/1: 81 01 00 80
+panda_joint1: writing 1 bytes to 0x1800/2: 01
+panda_joint1: writing 1 bytes to 0x1A00/0: 00
+panda_joint1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+panda_joint1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+panda_joint1: writing 1 bytes to 0x1A00/0: 02
+panda_joint1: writing 4 bytes to 0x1800/1: 81 01 00 00
+panda_joint1: writing 4 bytes to 0x1801/1: 81 02 00 80
+panda_joint1: writing 1 bytes to 0x1801/2: 01
+panda_joint1: writing 4 bytes to 0x1A01/1: 10 00 6C 60
+panda_joint1: writing 1 bytes to 0x1A01/0: 01
+panda_joint1: writing 4 bytes to 0x1801/1: 81 02 00 00
+panda_joint1: writing 4 bytes to 0x1802/1: 81 03 00 80
+panda_joint1: writing 4 bytes to 0x1803/1: 81 04 00 80
+panda_joint1: writing 4 bytes to 0x6081/0: E8 03 00 00
+panda_joint1: writing 4 bytes to 0x6083/0: 10 27 00 00
+panda_joint1: writing 4 bytes to 0x6084/0: 10 27 00 00
+panda_joint1: writing 4 bytes to 0x6085/0: 10 27 00 00
+panda_joint1: writing 1 bytes to 0x6098/0: 00
+panda_joint2: writing 2 bytes to 0x1017/0: E8 03
+panda_joint2: writing 4 bytes to 0x1400/1: 02 02 00 80
+panda_joint2: writing 4 bytes to 0x1600/1: 10 00 40 60
+panda_joint2: writing 4 bytes to 0x1600/2: 08 00 60 60
+panda_joint2: writing 1 bytes to 0x1600/0: 02
+panda_joint2: writing 4 bytes to 0x1400/1: 02 02 00 00
+panda_joint2: writing 4 bytes to 0x1401/1: 02 03 00 80
+panda_joint2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+panda_joint2: writing 4 bytes to 0x1601/2: 20 00 FF 60
+panda_joint2: writing 1 bytes to 0x1601/0: 02
+panda_joint2: writing 4 bytes to 0x1401/1: 02 03 00 00
+panda_joint2: writing 4 bytes to 0x1402/1: 02 04 00 80
+panda_joint2: writing 4 bytes to 0x1403/1: 02 05 00 80
+panda_joint2: writing 4 bytes to 0x1800/1: 82 01 00 80
+panda_joint2: writing 1 bytes to 0x1800/2: 01
+panda_joint2: writing 1 bytes to 0x1A00/0: 00
+panda_joint2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+panda_joint2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+panda_joint2: writing 1 bytes to 0x1A00/0: 02
+panda_joint2: writing 4 bytes to 0x1800/1: 82 01 00 00
+panda_joint2: writing 4 bytes to 0x1801/1: 82 02 00 80
+panda_joint2: writing 1 bytes to 0x1801/2: 01
+panda_joint2: writing 4 bytes to 0x1A01/1: 10 00 6C 60
+panda_joint2: writing 1 bytes to 0x1A01/0: 01
+panda_joint2: writing 4 bytes to 0x1801/1: 82 02 00 00
+panda_joint2: writing 4 bytes to 0x1802/1: 82 03 00 80
+panda_joint2: writing 4 bytes to 0x1803/1: 82 04 00 80
+panda_joint2: writing 4 bytes to 0x6081/0: E8 03 00 00
+panda_joint2: writing 4 bytes to 0x6083/0: 10 27 00 00
+panda_joint2: writing 4 bytes to 0x6084/0: 10 27 00 00
+panda_joint2: writing 4 bytes to 0x6085/0: 10 27 00 00
+panda_joint2: writing 1 bytes to 0x6098/0: 00
+panda_joint3: writing 2 bytes to 0x1017/0: E8 03
+panda_joint3: writing 4 bytes to 0x1400/1: 04 02 00 80
+panda_joint3: writing 4 bytes to 0x1600/1: 10 00 40 60
+panda_joint3: writing 4 bytes to 0x1600/2: 08 00 60 60
+panda_joint3: writing 1 bytes to 0x1600/0: 02
+panda_joint3: writing 4 bytes to 0x1400/1: 04 02 00 00
+panda_joint3: writing 4 bytes to 0x1401/1: 04 03 00 80
+panda_joint3: writing 4 bytes to 0x1601/1: 20 00 7A 60
+panda_joint3: writing 4 bytes to 0x1601/2: 20 00 FF 60
+panda_joint3: writing 1 bytes to 0x1601/0: 02
+panda_joint3: writing 4 bytes to 0x1401/1: 04 03 00 00
+panda_joint3: writing 4 bytes to 0x1402/1: 04 04 00 80
+panda_joint3: writing 4 bytes to 0x1403/1: 04 05 00 80
+panda_joint3: writing 4 bytes to 0x1800/1: 84 01 00 80
+panda_joint3: writing 1 bytes to 0x1800/2: 01
+panda_joint3: writing 1 bytes to 0x1A00/0: 00
+panda_joint3: writing 4 bytes to 0x1A00/1: 10 00 41 60
+panda_joint3: writing 4 bytes to 0x1A00/2: 08 00 61 60
+panda_joint3: writing 1 bytes to 0x1A00/0: 02
+panda_joint3: writing 4 bytes to 0x1800/1: 84 01 00 00
+panda_joint3: writing 4 bytes to 0x1801/1: 84 02 00 80
+panda_joint3: writing 1 bytes to 0x1801/2: 01
+panda_joint3: writing 4 bytes to 0x1A01/1: 10 00 6C 60
+panda_joint3: writing 1 bytes to 0x1A01/0: 01
+panda_joint3: writing 4 bytes to 0x1801/1: 84 02 00 00
+panda_joint3: writing 4 bytes to 0x1802/1: 84 03 00 80
+panda_joint3: writing 4 bytes to 0x1803/1: 84 04 00 80
+panda_joint3: writing 4 bytes to 0x6081/0: E8 03 00 00
+panda_joint3: writing 4 bytes to 0x6083/0: 10 27 00 00
+panda_joint3: writing 4 bytes to 0x6084/0: 10 27 00 00
+panda_joint3: writing 4 bytes to 0x6085/0: 10 27 00 00
+panda_joint3: writing 1 bytes to 0x6098/0: 00
+panda_joint4: writing 2 bytes to 0x1017/0: E8 03
+panda_joint4: writing 4 bytes to 0x1400/1: 05 02 00 80
+panda_joint4: writing 4 bytes to 0x1600/1: 10 00 40 60
+panda_joint4: writing 4 bytes to 0x1600/2: 08 00 60 60
+panda_joint4: writing 1 bytes to 0x1600/0: 02
+panda_joint4: writing 4 bytes to 0x1400/1: 05 02 00 00
+panda_joint4: writing 4 bytes to 0x1401/1: 05 03 00 80
+panda_joint4: writing 4 bytes to 0x1601/1: 20 00 7A 60
+panda_joint4: writing 4 bytes to 0x1601/2: 20 00 FF 60
+panda_joint4: writing 1 bytes to 0x1601/0: 02
+panda_joint4: writing 4 bytes to 0x1401/1: 05 03 00 00
+panda_joint4: writing 4 bytes to 0x1402/1: 05 04 00 80
+panda_joint4: writing 4 bytes to 0x1403/1: 05 05 00 80
+panda_joint4: writing 4 bytes to 0x1800/1: 85 01 00 80
+panda_joint4: writing 1 bytes to 0x1800/2: 01
+panda_joint4: writing 1 bytes to 0x1A00/0: 00
+panda_joint4: writing 4 bytes to 0x1A00/1: 10 00 41 60
+panda_joint4: writing 4 bytes to 0x1A00/2: 08 00 61 60
+panda_joint4: writing 1 bytes to 0x1A00/0: 02
+panda_joint4: writing 4 bytes to 0x1800/1: 85 01 00 00
+panda_joint4: writing 4 bytes to 0x1801/1: 85 02 00 80
+panda_joint4: writing 1 bytes to 0x1801/2: 01
+panda_joint4: writing 4 bytes to 0x1A01/1: 10 00 6C 60
+panda_joint4: writing 1 bytes to 0x1A01/0: 01
+panda_joint4: writing 4 bytes to 0x1801/1: 85 02 00 00
+panda_joint4: writing 4 bytes to 0x1802/1: 85 03 00 80
+panda_joint4: writing 4 bytes to 0x1803/1: 85 04 00 80
+panda_joint4: writing 4 bytes to 0x6081/0: E8 03 00 00
+panda_joint4: writing 4 bytes to 0x6083/0: 10 27 00 00
+panda_joint4: writing 4 bytes to 0x6084/0: 10 27 00 00
+panda_joint4: writing 4 bytes to 0x6085/0: 10 27 00 00
+panda_joint4: writing 1 bytes to 0x6098/0: 00
+panda_joint5: writing 2 bytes to 0x1017/0: E8 03
+panda_joint5: writing 4 bytes to 0x1400/1: 06 02 00 80
+panda_joint5: writing 4 bytes to 0x1600/1: 10 00 40 60
+panda_joint5: writing 4 bytes to 0x1600/2: 08 00 60 60
+panda_joint5: writing 1 bytes to 0x1600/0: 02
+panda_joint5: writing 4 bytes to 0x1400/1: 06 02 00 00
+panda_joint5: writing 4 bytes to 0x1401/1: 06 03 00 80
+panda_joint5: writing 4 bytes to 0x1601/1: 20 00 7A 60
+panda_joint5: writing 4 bytes to 0x1601/2: 20 00 FF 60
+panda_joint5: writing 1 bytes to 0x1601/0: 02
+panda_joint5: writing 4 bytes to 0x1401/1: 06 03 00 00
+panda_joint5: writing 4 bytes to 0x1402/1: 06 04 00 80
+panda_joint5: writing 4 bytes to 0x1403/1: 06 05 00 80
+panda_joint5: writing 4 bytes to 0x1800/1: 86 01 00 80
+panda_joint5: writing 1 bytes to 0x1800/2: 01
+panda_joint5: writing 1 bytes to 0x1A00/0: 00
+panda_joint5: writing 4 bytes to 0x1A00/1: 10 00 41 60
+panda_joint5: writing 4 bytes to 0x1A00/2: 08 00 61 60
+panda_joint5: writing 1 bytes to 0x1A00/0: 02
+panda_joint5: writing 4 bytes to 0x1800/1: 86 01 00 00
+panda_joint5: writing 4 bytes to 0x1801/1: 86 02 00 80
+panda_joint5: writing 1 bytes to 0x1801/2: 01
+panda_joint5: writing 4 bytes to 0x1A01/1: 10 00 6C 60
+panda_joint5: writing 1 bytes to 0x1A01/0: 01
+panda_joint5: writing 4 bytes to 0x1801/1: 86 02 00 00
+panda_joint5: writing 4 bytes to 0x1802/1: 86 03 00 80
+panda_joint5: writing 4 bytes to 0x1803/1: 86 04 00 80
+panda_joint5: writing 4 bytes to 0x6081/0: E8 03 00 00
+panda_joint5: writing 4 bytes to 0x6083/0: 10 27 00 00
+panda_joint5: writing 4 bytes to 0x6084/0: 10 27 00 00
+panda_joint5: writing 4 bytes to 0x6085/0: 10 27 00 00
+panda_joint5: writing 1 bytes to 0x6098/0: 00
+panda_joint6: writing 2 bytes to 0x1017/0: E8 03
+panda_joint6: writing 4 bytes to 0x1400/1: 07 02 00 80
+panda_joint6: writing 4 bytes to 0x1600/1: 10 00 40 60
+panda_joint6: writing 4 bytes to 0x1600/2: 08 00 60 60
+panda_joint6: writing 1 bytes to 0x1600/0: 02
+panda_joint6: writing 4 bytes to 0x1400/1: 07 02 00 00
+panda_joint6: writing 4 bytes to 0x1401/1: 07 03 00 80
+panda_joint6: writing 4 bytes to 0x1601/1: 20 00 7A 60
+panda_joint6: writing 4 bytes to 0x1601/2: 20 00 FF 60
+panda_joint6: writing 1 bytes to 0x1601/0: 02
+panda_joint6: writing 4 bytes to 0x1401/1: 07 03 00 00
+panda_joint6: writing 4 bytes to 0x1402/1: 07 04 00 80
+panda_joint6: writing 4 bytes to 0x1403/1: 07 05 00 80
+panda_joint6: writing 4 bytes to 0x1800/1: 87 01 00 80
+panda_joint6: writing 1 bytes to 0x1800/2: 01
+panda_joint6: writing 1 bytes to 0x1A00/0: 00
+panda_joint6: writing 4 bytes to 0x1A00/1: 10 00 41 60
+panda_joint6: writing 4 bytes to 0x1A00/2: 08 00 61 60
+panda_joint6: writing 1 bytes to 0x1A00/0: 02
+panda_joint6: writing 4 bytes to 0x1800/1: 87 01 00 00
+panda_joint6: writing 4 bytes to 0x1801/1: 87 02 00 80
+panda_joint6: writing 1 bytes to 0x1801/2: 01
+panda_joint6: writing 4 bytes to 0x1A01/1: 10 00 6C 60
+panda_joint6: writing 1 bytes to 0x1A01/0: 01
+panda_joint6: writing 4 bytes to 0x1801/1: 87 02 00 00
+panda_joint6: writing 4 bytes to 0x1802/1: 87 03 00 80
+panda_joint6: writing 4 bytes to 0x1803/1: 87 04 00 80
+panda_joint6: writing 4 bytes to 0x6081/0: E8 03 00 00
+panda_joint6: writing 4 bytes to 0x6083/0: 10 27 00 00
+panda_joint6: writing 4 bytes to 0x6084/0: 10 27 00 00
+panda_joint6: writing 4 bytes to 0x6085/0: 10 27 00 00
+panda_joint6: writing 1 bytes to 0x6098/0: 00
+panda_joint7: writing 2 bytes to 0x1017/0: E8 03
+panda_joint7: writing 4 bytes to 0x1400/1: 08 02 00 80
+panda_joint7: writing 4 bytes to 0x1600/1: 10 00 40 60
+panda_joint7: writing 4 bytes to 0x1600/2: 08 00 60 60
+panda_joint7: writing 1 bytes to 0x1600/0: 02
+panda_joint7: writing 4 bytes to 0x1400/1: 08 02 00 00
+panda_joint7: writing 4 bytes to 0x1401/1: 08 03 00 80
+panda_joint7: writing 4 bytes to 0x1601/1: 20 00 7A 60
+panda_joint7: writing 4 bytes to 0x1601/2: 20 00 FF 60
+panda_joint7: writing 1 bytes to 0x1601/0: 02
+panda_joint7: writing 4 bytes to 0x1401/1: 08 03 00 00
+panda_joint7: writing 4 bytes to 0x1402/1: 08 04 00 80
+panda_joint7: writing 4 bytes to 0x1403/1: 08 05 00 80
+panda_joint7: writing 4 bytes to 0x1800/1: 88 01 00 80
+panda_joint7: writing 1 bytes to 0x1800/2: 01
+panda_joint7: writing 1 bytes to 0x1A00/0: 00
+panda_joint7: writing 4 bytes to 0x1A00/1: 10 00 41 60
+panda_joint7: writing 4 bytes to 0x1A00/2: 08 00 61 60
+panda_joint7: writing 1 bytes to 0x1A00/0: 02
+panda_joint7: writing 4 bytes to 0x1800/1: 88 01 00 00
+panda_joint7: writing 4 bytes to 0x1801/1: 88 02 00 80
+panda_joint7: writing 1 bytes to 0x1801/2: 01
+panda_joint7: writing 4 bytes to 0x1A01/1: 10 00 6C 60
+panda_joint7: writing 1 bytes to 0x1A01/0: 01
+panda_joint7: writing 4 bytes to 0x1801/1: 88 02 00 00
+panda_joint7: writing 4 bytes to 0x1802/1: 88 03 00 80
+panda_joint7: writing 4 bytes to 0x1803/1: 88 04 00 80
+panda_joint7: writing 4 bytes to 0x6081/0: E8 03 00 00
+panda_joint7: writing 4 bytes to 0x6083/0: 10 27 00 00
+panda_joint7: writing 4 bytes to 0x6084/0: 10 27 00 00
+panda_joint7: writing 4 bytes to 0x6085/0: 10 27 00 00
+panda_joint7: writing 1 bytes to 0x6098/0: 00
+[100%] Built target cia402
+-- Install configuration: ""
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402/
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//cia402_slave.eds
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//KincoCMDriver.eds
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//bus.yml.ori
+-- Up-to-date: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402/
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//panda_joint2.bin
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//panda_joint5.bin
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//bus.yml
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//panda_joint1.bin
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//preprocessed_bus.yml
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//panda_joint4.bin
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//panda_joint6.bin
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//master.dcf
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//panda_joint7.bin
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/config/cia402//panda_joint3.bin
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/launch
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/launch/simulation.launch.py
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/launch/rviz.launch.py
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/launch/basic.rviz
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/lib/panda_canopen/canopen_joint_state_publisher
+-- Set runtime path of "/home/vboxuser/agv_ws/install/panda_canopen/lib/panda_canopen/canopen_joint_state_publisher" to ""
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/ament_index/resource_index/package_run_dependencies/panda_canopen
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/ament_index/resource_index/parent_prefix_path/panda_canopen
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/environment/path.sh
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/environment/path.dsv
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/local_setup.bash
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/local_setup.sh
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/local_setup.zsh
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/local_setup.dsv
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/package.dsv
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/ament_index/resource_index/packages/panda_canopen
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/cmake/panda_canopenConfig.cmake
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/cmake/panda_canopenConfig-version.cmake
+-- Installing: /home/vboxuser/agv_ws/install/panda_canopen/share/panda_canopen/package.xml

@@ -1,0 +1,111 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found canopen: 0.2.7 (/home/vboxuser/agv_ws/install/canopen/share/canopen/cmake)
+-- Found lely_core_libraries: 0.2.7 (/home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vboxuser/agv_ws/build/canopen_kinco3
+Built target can0_prepare
+motorL: writing 4 bytes to 0x1400/1: 01 02 00 80
+motorL: writing 1 bytes to 0x1600/0: 00
+motorL: writing 4 bytes to 0x1600/1: 10 00 40 60
+motorL: writing 4 bytes to 0x1600/2: 08 00 60 60
+motorL: writing 1 bytes to 0x1600/0: 02
+motorL: writing 4 bytes to 0x1400/1: 01 02 00 00
+motorL: writing 4 bytes to 0x1401/1: 01 03 00 80
+motorL: writing 1 bytes to 0x1601/0: 00
+motorL: writing 4 bytes to 0x1601/1: 20 00 FF 60
+motorL: writing 1 bytes to 0x1601/0: 01
+motorL: writing 4 bytes to 0x1401/1: 01 03 00 00
+motorL: writing 4 bytes to 0x1800/1: 81 01 00 80
+motorL: writing 1 bytes to 0x1800/2: 01
+motorL: writing 1 bytes to 0x1A00/0: 00
+motorL: writing 4 bytes to 0x1A00/1: 10 00 41 60
+motorL: writing 4 bytes to 0x1A00/2: 08 00 61 60
+motorL: writing 1 bytes to 0x1A00/0: 02
+motorL: writing 4 bytes to 0x1800/1: 81 01 00 00
+motorL: writing 4 bytes to 0x1801/1: 81 02 00 80
+motorL: writing 1 bytes to 0x1801/2: 01
+motorL: writing 1 bytes to 0x1A01/0: 00
+motorL: writing 4 bytes to 0x1A01/1: 20 00 64 60
+motorL: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+motorL: writing 1 bytes to 0x1A01/0: 02
+motorL: writing 4 bytes to 0x1801/1: 81 02 00 00
+motorL: writing 4 bytes to 0x6081/0: E8 03 00 00
+motorL: writing 4 bytes to 0x6083/0: D0 07 00 00
+motorL: writing 1 bytes to 0x6060/0: 07
+motorR: writing 4 bytes to 0x1400/1: 02 02 00 80
+motorR: writing 1 bytes to 0x1600/0: 00
+motorR: writing 4 bytes to 0x1600/1: 10 00 40 60
+motorR: writing 4 bytes to 0x1600/2: 08 00 60 60
+motorR: writing 1 bytes to 0x1600/0: 02
+motorR: writing 4 bytes to 0x1400/1: 02 02 00 00
+motorR: writing 4 bytes to 0x1401/1: 02 03 00 80
+motorR: writing 1 bytes to 0x1601/0: 00
+motorR: writing 4 bytes to 0x1601/1: 20 00 FF 60
+motorR: writing 1 bytes to 0x1601/0: 01
+motorR: writing 4 bytes to 0x1401/1: 02 03 00 00
+motorR: writing 4 bytes to 0x1800/1: 82 01 00 80
+motorR: writing 1 bytes to 0x1800/2: 01
+motorR: writing 1 bytes to 0x1A00/0: 00
+motorR: writing 4 bytes to 0x1A00/1: 10 00 41 60
+motorR: writing 4 bytes to 0x1A00/2: 08 00 61 60
+motorR: writing 1 bytes to 0x1A00/0: 02
+motorR: writing 4 bytes to 0x1800/1: 82 01 00 00
+motorR: writing 4 bytes to 0x1801/1: 82 02 00 80
+motorR: writing 1 bytes to 0x1801/2: 01
+motorR: writing 1 bytes to 0x1A01/0: 00
+motorR: writing 4 bytes to 0x1A01/1: 20 00 64 60
+motorR: writing 4 bytes to 0x1A01/2: 20 00 6C 60
+motorR: writing 1 bytes to 0x1A01/0: 02
+motorR: writing 4 bytes to 0x1801/1: 82 02 00 00
+motorR: writing 4 bytes to 0x6081/0: E8 03 00 00
+motorR: writing 4 bytes to 0x6083/0: D0 07 00 00
+motorR: writing 1 bytes to 0x6060/0: 07
+Built target can0
+-- Install configuration: ""
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0/
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//cia402_slave.eds
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml.proxy
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml.cia
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//KincoCMDriver.eds
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0/
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//bus.yml
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//preprocessed_bus.yml
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//master.dcf
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//motorR.bin
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/config/can0//motorL.bin
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/launch/
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/launch//can0.launch.py
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/package_run_dependencies/canopen_kinco3
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/parent_prefix_path/canopen_kinco3
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/path.sh
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/environment/path.dsv
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.bash
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.sh
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.zsh
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/local_setup.dsv
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/package.dsv
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/ament_index/resource_index/packages/canopen_kinco3
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/cmake/canopen_kinco3Config.cmake
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/cmake/canopen_kinco3Config-version.cmake
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco3/share/canopen_kinco3/package.xml

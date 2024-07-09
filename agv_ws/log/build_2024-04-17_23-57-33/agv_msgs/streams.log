@@ -1,0 +1,10 @@
+[0.019s] Invoking command in '/home/vboxuser/agv_ws/build/agv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv_msgs -- -j4 -l4
+[0.051s] [31mCMake Error at CMakeLists.txt:17:
+[0.051s]   Parse error.  Expected a command name, got quoted argument with text
+[0.051s]   "srv/SetWheelSpeed.srv".
+[0.051s] 
+[0.052s] [0m
+[0.052s] -- Configuring incomplete, errors occurred!
+[0.052s] See also "/home/vboxuser/agv_ws/build/agv_msgs/CMakeFiles/CMakeOutput.log".
+[0.053s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.056s] Invoked command in '/home/vboxuser/agv_ws/build/agv_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv_msgs -- -j4 -l4

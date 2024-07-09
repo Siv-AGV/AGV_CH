@@ -1,0 +1,33 @@
+[1.701s] Invoking command in '/home/vboxuser/agv_ws/src/agv_py': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py/prefix_override:/home/vboxuser/agv_ws/install/agv_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/agv_py build --build-base /home/vboxuser/agv_ws/build/agv_py/build install --record /home/vboxuser/agv_ws/build/agv_py/install.log --single-version-externally-managed
+[2.191s] running egg_info
+[2.192s] creating ../../build/agv_py/agv_py.egg-info
+[2.192s] writing ../../build/agv_py/agv_py.egg-info/PKG-INFO
+[2.193s] writing dependency_links to ../../build/agv_py/agv_py.egg-info/dependency_links.txt
+[2.193s] writing entry points to ../../build/agv_py/agv_py.egg-info/entry_points.txt
+[2.193s] writing requirements to ../../build/agv_py/agv_py.egg-info/requires.txt
+[2.193s] writing top-level names to ../../build/agv_py/agv_py.egg-info/top_level.txt
+[2.193s] writing manifest file '../../build/agv_py/agv_py.egg-info/SOURCES.txt'
+[2.196s] reading manifest file '../../build/agv_py/agv_py.egg-info/SOURCES.txt'
+[2.197s] writing manifest file '../../build/agv_py/agv_py.egg-info/SOURCES.txt'
+[2.198s] running build
+[2.198s] running build_py
+[2.198s] creating /home/vboxuser/agv_ws/build/agv_py/build
+[2.198s] creating /home/vboxuser/agv_ws/build/agv_py/build/lib
+[2.198s] creating /home/vboxuser/agv_ws/build/agv_py/build/lib/agv_py
+[2.199s] copying agv_py/__init__.py -> /home/vboxuser/agv_ws/build/agv_py/build/lib/agv_py
+[2.199s] running install
+[2.199s] running install_lib
+[2.200s] creating /home/vboxuser/agv_ws/install/agv_py/lib/python3.10/site-packages/agv_py
+[2.200s] copying /home/vboxuser/agv_ws/build/agv_py/build/lib/agv_py/__init__.py -> /home/vboxuser/agv_ws/install/agv_py/lib/python3.10/site-packages/agv_py
+[2.201s] byte-compiling /home/vboxuser/agv_ws/install/agv_py/lib/python3.10/site-packages/agv_py/__init__.py to __init__.cpython-310.pyc
+[2.201s] running install_data
+[2.202s] creating /home/vboxuser/agv_ws/install/agv_py/share/ament_index
+[2.202s] creating /home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index
+[2.202s] creating /home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index/packages
+[2.203s] copying resource/agv_py -> /home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index/packages
+[2.203s] copying package.xml -> /home/vboxuser/agv_ws/install/agv_py/share/agv_py
+[2.203s] running install_egg_info
+[2.205s] Copying ../../build/agv_py/agv_py.egg-info to /home/vboxuser/agv_ws/install/agv_py/lib/python3.10/site-packages/agv_py-0.0.0-py3.10.egg-info
+[2.206s] running install_scripts
+[2.237s] writing list of installed files to '/home/vboxuser/agv_ws/build/agv_py/install.log'
+[2.292s] Invoked command in '/home/vboxuser/agv_ws/src/agv_py' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/agv_py/prefix_override:/home/vboxuser/agv_ws/install/agv_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/agv_py build --build-base /home/vboxuser/agv_ws/build/agv_py/build install --record /home/vboxuser/agv_ws/build/agv_py/install.log --single-version-externally-managed

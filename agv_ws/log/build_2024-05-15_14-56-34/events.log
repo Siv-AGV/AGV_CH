@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (-) JobUnselected: {'identifier': 'agv'}
+[0.000569] (-) JobUnselected: {'identifier': 'agv_controller'}
+[0.000608] (-) JobUnselected: {'identifier': 'agv_msgs'}
+[0.000644] (-) JobUnselected: {'identifier': 'agv_py_functions'}
+[0.000744] (-) JobUnselected: {'identifier': 'canopen'}
+[0.000899] (-) JobUnselected: {'identifier': 'canopen_402_driver'}
+[0.000943] (-) JobUnselected: {'identifier': 'canopen_base_driver'}
+[0.000978] (-) JobUnselected: {'identifier': 'canopen_core'}
+[0.001014] (-) JobUnselected: {'identifier': 'canopen_fake_slaves'}
+[0.001049] (-) JobUnselected: {'identifier': 'canopen_interfaces'}
+[0.001084] (-) JobUnselected: {'identifier': 'canopen_kinco3'}
+[0.001119] (-) JobUnselected: {'identifier': 'canopen_master_driver'}
+[0.001154] (-) JobUnselected: {'identifier': 'canopen_proxy_driver'}
+[0.001189] (-) JobUnselected: {'identifier': 'canopen_ros2_control'}
+[0.001224] (-) JobUnselected: {'identifier': 'canopen_ros2_controllers'}
+[0.001282] (-) JobUnselected: {'identifier': 'canopen_tests'}
+[0.001319] (-) JobUnselected: {'identifier': 'canopen_utils'}
+[0.001354] (-) JobUnselected: {'identifier': 'communication'}
+[0.001389] (-) JobUnselected: {'identifier': 'lely_core_libraries'}
+[0.001425] (-) JobUnselected: {'identifier': 'my_simulation'}
+[0.001460] (-) JobUnselected: {'identifier': 'odometry'}
+[0.001495] (-) JobUnselected: {'identifier': 'pgv100'}
+[0.001533] (movement) JobQueued: {'identifier': 'movement', 'dependencies': OrderedDict([('agv_msgs', '/home/vboxuser/agv_ws/install/agv_msgs')])}
+[0.001574] (movement) JobStarted: {'identifier': 'movement'}
+[0.099301] (-) TimerEvent: {}
+[0.200370] (-) TimerEvent: {}
+[0.301507] (-) TimerEvent: {}
+[0.402415] (-) TimerEvent: {}
+[0.502679] (-) TimerEvent: {}
+[0.604548] (-) TimerEvent: {}
+[0.705517] (-) TimerEvent: {}
+[0.806568] (-) TimerEvent: {}
+[0.907113] (-) TimerEvent: {}
+[1.007603] (-) TimerEvent: {}
+[1.108179] (-) TimerEvent: {}
+[1.209748] (-) TimerEvent: {}
+[1.310250] (-) TimerEvent: {}
+[1.324250] (movement) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/movement', 'build', '--build-base', '/home/vboxuser/agv_ws/build/movement/build', 'install', '--record', '/home/vboxuser/agv_ws/build/movement/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/agv_ws/src/movement', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_SG:en', 'USER': 'vboxuser', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vboxuser/agv_ws/install/agv_msgs/lib:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1226', 'SYSTEMD_EXEC_PID': '1388', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8777', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/bumperbot_ws/install:/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:23891', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ROS2:@/tmp/.ICE-unix/1353,unix/ROS2:/tmp/.ICE-unix/1353', 'INVOCATION_ID': 'a1594386eedd49ecbd2f6c68319c91b9', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_SG.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0VATN2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/agv_ws/install/agv_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:01e26545-1065-4cd3-a217-892462784d55', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/agv_ws/build/movement', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/agv_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages:/home/vboxuser/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vboxuser/agv_ws/install/agv_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation'}, 'shell': False}
+[1.410371] (-) TimerEvent: {}
+[1.511789] (-) TimerEvent: {}
+[1.613375] (-) TimerEvent: {}
+[1.714292] (-) TimerEvent: {}
+[1.814883] (-) TimerEvent: {}
+[1.825195] (movement) StdoutLine: {'line': b'running egg_info\n'}
+[1.826042] (movement) StdoutLine: {'line': b'writing ../../build/movement/movement.egg-info/PKG-INFO\n'}
+[1.826358] (movement) StdoutLine: {'line': b'writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt\n'}
+[1.826710] (movement) StdoutLine: {'line': b'writing entry points to ../../build/movement/movement.egg-info/entry_points.txt\n'}
+[1.826974] (movement) StdoutLine: {'line': b'writing requirements to ../../build/movement/movement.egg-info/requires.txt\n'}
+[1.827166] (movement) StdoutLine: {'line': b'writing top-level names to ../../build/movement/movement.egg-info/top_level.txt\n'}
+[1.830162] (movement) StdoutLine: {'line': b"reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'\n"}
+[1.831822] (movement) StdoutLine: {'line': b"writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'\n"}
+[1.832018] (movement) StdoutLine: {'line': b'running build\n'}
+[1.832133] (movement) StdoutLine: {'line': b'running build_py\n'}
+[1.832486] (movement) StdoutLine: {'line': b'copying movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement\n'}
+[1.833270] (movement) StdoutLine: {'line': b'running install\n'}
+[1.833710] (movement) StdoutLine: {'line': b'running install_lib\n'}
+[1.834905] (movement) StdoutLine: {'line': b'copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement\n'}
+[1.836063] (movement) StdoutLine: {'line': b'byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server.py to wheel_controller_server.cpython-310.pyc\n'}
+[1.838569] (movement) StdoutLine: {'line': b'running install_data\n'}
+[1.838802] (movement) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.841178] (movement) StdoutLine: {'line': b"removing '/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.842256] (movement) StdoutLine: {'line': b'Copying ../../build/movement/movement.egg-info to /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info\n'}
+[1.842872] (movement) StdoutLine: {'line': b'running install_scripts\n'}
+[1.883891] (movement) StdoutLine: {'line': b'Installing command_publisher_client script to /home/vboxuser/agv_ws/install/movement/lib/movement\n'}
+[1.884247] (movement) StdoutLine: {'line': b'Installing speed_plotter script to /home/vboxuser/agv_ws/install/movement/lib/movement\n'}
+[1.884463] (movement) StdoutLine: {'line': b'Installing speed_plotter_time script to /home/vboxuser/agv_ws/install/movement/lib/movement\n'}
+[1.884665] (movement) StdoutLine: {'line': b'Installing wheel_controller_server script to /home/vboxuser/agv_ws/install/movement/lib/movement\n'}
+[1.884858] (movement) StdoutLine: {'line': b'Installing wheel_controller_server_pid script to /home/vboxuser/agv_ws/install/movement/lib/movement\n'}
+[1.885738] (movement) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/agv_ws/build/movement/install.log'\n"}
+[1.916409] (-) TimerEvent: {}
+[1.924943] (movement) CommandEnded: {'returncode': 0}
+[1.945073] (movement) JobEnded: {'identifier': 'movement', 'rc': 0}
+[1.946043] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+{
+  "package_name": "agv_msgs",
+  "non_idl_tuples": [
+    "/home/vboxuser/agv_ws/src/agv_msgs:srv/SetWheelSpeed.srv",
+    "/home/vboxuser/agv_ws/src/agv_msgs:srv/Move.srv",
+    "/home/vboxuser/agv_ws/src/agv_msgs:srv/SetPGVValues.srv"
+  ]
+}

@@ -1,0 +1,15 @@
+/home/vboxuser/agv_ws/install/agv_controllers/share/ament_index/resource_index/package_run_dependencies/agv_controllers
+/home/vboxuser/agv_ws/install/agv_controllers/share/ament_index/resource_index/parent_prefix_path/agv_controllers
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/environment/ament_prefix_path.sh
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/environment/ament_prefix_path.dsv
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/environment/path.sh
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/environment/path.dsv
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/local_setup.bash
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/local_setup.sh
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/local_setup.zsh
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/local_setup.dsv
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/package.dsv
+/home/vboxuser/agv_ws/install/agv_controllers/share/ament_index/resource_index/packages/agv_controllers
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/cmake/agv_controllersConfig.cmake
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/cmake/agv_controllersConfig-version.cmake
+/home/vboxuser/agv_ws/install/agv_controllers/share/agv_controllers/package.xml

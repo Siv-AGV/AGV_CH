@@ -1,0 +1,102 @@
+[0.036s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_core': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_core -- -j4 -l4
+[0.184s] [  8%] Built target gmock
+[0.187s] [ 13%] Built target gmock_main
+[0.197s] [ 16%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o[0m
+[0.201s] [ 19%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/master_node.cpp.o[0m
+[0.209s] [ 22%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o[0m
+[0.210s] [ 25%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o[0m
+[14.382s] [ 27%] [32m[1mLinking CXX shared library libnode_canopen_master.so[0m
+[14.765s] [ 30%] Built target node_canopen_master
+[14.821s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_canopen_master[0m
+[14.830s] [35m[1mConsolidate compiler generated dependencies of target test_node_canopen_master[0m
+[14.834s] [35m[1mConsolidate compiler generated dependencies of target test_canopen_master[0m
+[14.875s] [ 33%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_canopen_master.dir/test_lifecycle_canopen_master.cpp.o[0m
+[14.883s] [ 36%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_master.dir/test_node_canopen_master.cpp.o[0m
+[14.904s] [ 38%] [32mBuilding CXX object test/CMakeFiles/test_canopen_master.dir/test_canopen_master.cpp.o[0m
+[15.336s] [ 41%] [32m[1mLinking CXX shared library libnode_canopen_driver.so[0m
+[15.657s] [ 44%] Built target node_canopen_driver
+[15.690s] [35m[1mConsolidate compiler generated dependencies of target device_container[0m
+[15.735s] [ 47%] [32mBuilding CXX object CMakeFiles/device_container.dir/src/device_container.cpp.o[0m
+[25.168s] [ 50%] [32m[1mLinking CXX executable test_canopen_master[0m
+[25.842s] [ 50%] Built target test_canopen_master
+[25.870s] [ 52%] [32m[1mLinking CXX executable test_node_canopen_master[0m
+[25.878s] [35m[1mConsolidate compiler generated dependencies of target test_node_canopen_driver[0m
+[25.926s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_node_canopen_driver.dir/test_node_canopen_driver.cpp.o[0m
+[25.955s] [ 58%] [32m[1mLinking CXX executable test_lifecycle_canopen_master[0m
+[26.175s] [ 61%] [32m[1mLinking CXX shared library libdevice_container.so[0m
+[26.714s] [ 61%] Built target test_node_canopen_master
+[26.743s] [35m[1mConsolidate compiler generated dependencies of target test_canopen_driver[0m
+[26.794s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_canopen_driver.dir/test_canopen_driver.cpp.o[0m
+[26.819s] [ 63%] Built target test_lifecycle_canopen_master
+[26.846s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_canopen_driver[0m
+[26.882s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_canopen_driver.dir/test_lifecycle_canopen_driver.cpp.o[0m
+[26.908s] [ 75%] Built target device_container
+[26.941s] [35m[1mConsolidate compiler generated dependencies of target device_container_node[0m
+[26.981s] [ 77%] [32mBuilding CXX object CMakeFiles/device_container_node.dir/src/device_container_node.cpp.o[0m
+[36.030s] [ 80%] [32m[1mLinking CXX executable test_node_canopen_driver[0m
+[36.594s] [ 83%] [32m[1mLinking CXX executable test_canopen_driver[0m
+[36.726s] [ 83%] Built target test_node_canopen_driver
+[36.763s] [ 86%] [32m[1mLinking CXX executable device_container_node[0m
+[36.785s] [ 88%] [32m[1mLinking CXX executable test_lifecycle_manager[0m
+[37.449s] [ 88%] Built target device_container_node
+[37.478s] [ 91%] [32m[1mLinking CXX executable test_lifecycle_canopen_driver[0m
+[37.498s] [ 94%] [32m[1mLinking CXX executable test_errors[0m
+[37.542s] [ 94%] Built target test_canopen_driver
+[38.007s] [ 97%] Built target test_lifecycle_manager
+[38.198s] [100%] Built target test_errors
+[38.216s] [100%] Built target test_lifecycle_canopen_driver
+[38.231s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_core' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_core -- -j4 -l4
+[38.310s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_core': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_core
+[38.326s] -- Install configuration: ""
+[38.327s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include
+[38.327s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core
+[38.328s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/device_container.hpp
+[38.328s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/visibility_control.h
+[38.328s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/lifecycle_manager.hpp
+[38.328s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/device_container_error.hpp
+[38.328s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/master_error.hpp
+[38.329s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/exchange.hpp
+[38.329s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/node_interfaces
+[38.329s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver.hpp
+[38.329s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_master.hpp
+[38.329s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver_interface.hpp
+[38.330s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/node_interfaces/node_canopen_master_interface.hpp
+[38.330s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/configuration_manager.hpp
+[38.330s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/driver_error.hpp
+[38.330s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/driver_node.hpp
+[38.330s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/include/canopen_core/master_node.hpp
+[38.330s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/launch/
+[38.331s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/launch//canopen.launch.py
+[38.333s] -- Installing: /home/vboxuser/agv_ws/install/canopen_core/lib/libnode_canopen_driver.so
+[38.335s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_core/lib/libnode_canopen_driver.so" to ""
+[38.337s] -- Installing: /home/vboxuser/agv_ws/install/canopen_core/lib/libnode_canopen_master.so
+[38.338s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_core/lib/libnode_canopen_master.so" to ""
+[38.340s] -- Installing: /home/vboxuser/agv_ws/install/canopen_core/lib/libdevice_container.so
+[38.344s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_core/lib/libdevice_container.so" to ""
+[38.346s] -- Installing: /home/vboxuser/agv_ws/install/canopen_core/lib/canopen_core/device_container_node
+[38.347s] -- Set runtime path of "/home/vboxuser/agv_ws/install/canopen_core/lib/canopen_core/device_container_node" to ""
+[38.347s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/environment/library_path.sh
+[38.347s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/environment/library_path.dsv
+[38.349s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/ament_index/resource_index/package_run_dependencies/canopen_core
+[38.349s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/ament_index/resource_index/parent_prefix_path/canopen_core
+[38.350s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/environment/ament_prefix_path.sh
+[38.350s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/environment/ament_prefix_path.dsv
+[38.350s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/environment/path.sh
+[38.350s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/environment/path.dsv
+[38.350s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/local_setup.bash
+[38.350s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/local_setup.sh
+[38.351s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/local_setup.zsh
+[38.351s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/local_setup.dsv
+[38.351s] -- Installing: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/package.dsv
+[38.351s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/ament_index/resource_index/packages/canopen_core
+[38.354s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/export_canopen_coreExport.cmake
+[38.354s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/export_canopen_coreExport-noconfig.cmake
+[38.354s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/ConfigExtras.cmake
+[38.354s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.354s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_libraries-extras.cmake
+[38.355s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_targets-extras.cmake
+[38.355s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.355s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig.cmake
+[38.355s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/cmake/canopen_coreConfig-version.cmake
+[38.355s] -- Up-to-date: /home/vboxuser/agv_ws/install/canopen_core/share/canopen_core/package.xml
+[38.361s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_core' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/agv_ws/build/canopen_core

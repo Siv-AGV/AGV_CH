@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/agv_ws/build/agv_controller': /usr/bin/cmake /home/vboxuser/agv_ws/src/agv_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/agv_controller
+Invoked command in '/home/vboxuser/agv_ws/build/agv_controller' returned '1': /usr/bin/cmake /home/vboxuser/agv_ws/src/agv_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/agv_ws/install/agv_controller

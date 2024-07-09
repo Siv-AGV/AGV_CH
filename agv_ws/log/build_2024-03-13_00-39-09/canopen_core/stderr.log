@@ -1,0 +1,31 @@
+[01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:[m[K In member function ‘[01m[Kvoid ros2_canopen::node_interfaces::NodeCanopenDriver<NODETYPE>::demand_set_master() [with NODETYPE = rclcpp::Node][m[K’:
+[01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:30:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Kconst rmw_qos_profile_t&[m[K’ {aka ‘[01m[Kconst rmw_qos_profile_s&[m[K’}
+   30 |     init_service_name, rclcpp::[01;31m[KQoS(10)[m[K, client_cbg_);
+      |                                [01;31m[K^~~~~~~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Krclcpp::QoS[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver.hpp:33[m[K,
+                 from [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:127:29:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = canopen_interfaces::srv::CONode; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<canopen_interfaces::srv::CONode> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+  127 |   [01;36m[Kconst rmw_qos_profile_t & qos_profile[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:[m[K In member function ‘[01m[Kvoid ros2_canopen::node_interfaces::NodeCanopenDriver<NODETYPE>::demand_set_master() [with NODETYPE = rclcpp_lifecycle::LifecycleNode][m[K’:
+[01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:73:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Kconst rmw_qos_profile_t&[m[K’ {aka ‘[01m[Kconst rmw_qos_profile_s&[m[K’}
+   73 |     init_service_name, rclcpp::[01;31m[KQoS(10)[m[K, client_cbg_);
+      |                                [01;31m[K^~~~~~~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Krclcpp::QoS[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+                 from [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver.hpp:34[m[K,
+                 from [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:103:29:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp_lifecycle::LifecycleNode::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = canopen_interfaces::srv::CONode; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<canopen_interfaces::srv::CONode> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+  103 |   [01;36m[Kconst rmw_qos_profile_t & qos_profile[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/node_canopen_driver.dir/build.make:76: CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/node_canopen_driver.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

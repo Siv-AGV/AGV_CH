@@ -1,0 +1,2 @@
+# Empty compiler generated dependencies file for agv_controller__rosidl_typesupport_fastrtps_c.
+# This may be replaced when dependencies are built.

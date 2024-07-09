@@ -1,0 +1,28 @@
+[1.750s] Invoking command in '/home/vboxuser/agv_ws/src/movement': PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data
+[2.441s] running egg_info
+[2.443s] writing ../../build/movement/movement.egg-info/PKG-INFO
+[2.443s] writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt
+[2.444s] writing entry points to ../../build/movement/movement.egg-info/entry_points.txt
+[2.445s] writing requirements to ../../build/movement/movement.egg-info/requires.txt
+[2.445s] writing top-level names to ../../build/movement/movement.egg-info/top_level.txt
+[2.449s] reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.451s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[2.452s] running build
+[2.452s] running build_py
+[2.452s] copying movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[2.453s] copying movement/command_publisher_client.py -> /home/vboxuser/agv_ws/build/movement/build/lib/movement
+[2.454s] running install
+[2.456s] running install_lib
+[2.458s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/wheel_controller_server.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[2.459s] copying /home/vboxuser/agv_ws/build/movement/build/lib/movement/command_publisher_client.py -> /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement
+[2.462s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server.py to wheel_controller_server.cpython-310.pyc
+[2.464s] byte-compiling /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/command_publisher_client.py to command_publisher_client.cpython-310.pyc
+[2.466s] running install_data
+[2.466s] running install_egg_info
+[2.471s] removing '/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info' (and everything under it)
+[2.473s] Copying ../../build/movement/movement.egg-info to /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.0-py3.10.egg-info
+[2.475s] running install_scripts
+[2.520s] Installing command_publisher_client script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[2.521s] Installing wheel_controller_server script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[2.521s] writing list of installed files to '/home/vboxuser/agv_ws/build/movement/install.log'
+[2.587s] Invoked command in '/home/vboxuser/agv_ws/src/movement' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data

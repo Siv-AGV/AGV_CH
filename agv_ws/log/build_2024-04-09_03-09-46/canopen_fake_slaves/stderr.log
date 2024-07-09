@@ -1,0 +1,7 @@
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** [CMakeFiles/basic_slave_node.dir/build.make:76: CMakeFiles/basic_slave_node.dir/src/basic_slave.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/basic_slave_node.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cia402_slave_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

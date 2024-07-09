@@ -1,0 +1,5 @@
+[0.016s] Invoking command in '/home/vboxuser/agv_ws/build/wheel_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/wheel_control -- -j4 -l4
+[0.082s] gmake[2]: *** No rule to make target 'CMakeFiles/wheel_speed_server.dir/build'.  Stop.
+[0.082s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wheel_speed_server.dir/all] Error 2
+[0.085s] gmake: *** [Makefile:146: all] Error 2
+[0.085s] Invoked command in '/home/vboxuser/agv_ws/build/wheel_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/wheel_control -- -j4 -l4

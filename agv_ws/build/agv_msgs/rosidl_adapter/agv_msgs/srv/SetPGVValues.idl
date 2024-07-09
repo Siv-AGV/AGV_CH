@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from agv_msgs/srv/SetPGVValues.srv
+// generated code does not contain a copyright notice
+
+
+module agv_msgs {
+  module srv {
+    struct SetPGVValues_Request {
+      double x_offset;
+
+      double y_offset;
+
+      double z_offset;
+    };
+    struct SetPGVValues_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+[console_scripts]
+canbus_velocity_publisher = agv_py_functions.canbus_velocity_publisher:main
+simple_parameter = agv_py_functions.simple_parameter:main
+simple_publisher = agv_py_functions.simple_publisher:main
+simple_subscriber = agv_py_functions.simple_subscriber:main
+speed_service_client = agv_py_functions.speed_service_client:main
+speed_service_client_can = agv_py_functions.speed_service_client_can:main
+velocity_input = agv_py_functions.velocity_input:main
+wheel_speed_node = agv_py_functions.wheel_speed_node:main
+wheel_speed_pub = agv_py_functions.wheel_speed_pub:main
+wheel_speed_publisher = agv_py_functions.wheel_speed_publisher:main
+wheel_speed_server = agv_py_functions.wheel_speed_server:main
+wheel_speed_server_can = agv_py_functions.wheel_speed_server_can:main
+

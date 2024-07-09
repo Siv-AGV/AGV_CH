@@ -1,0 +1,41 @@
+[0.315s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_core': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_core -- -j4 -l4
+[0.429s] [  2%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o[0m
+[0.435s] [ 11%] Built target gmock
+[0.437s] [ 16%] Built target gmock_main
+[0.454s] [ 19%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o[0m
+[0.461s] [ 22%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o[0m
+[0.466s] [ 25%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/master_node.cpp.o[0m
+[7.699s] [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:[m[K In member function ‘[01m[Kvoid ros2_canopen::node_interfaces::NodeCanopenDriver<NODETYPE>::demand_set_master() [with NODETYPE = rclcpp::Node][m[K’:
+[7.699s] [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:30:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Kconst rmw_qos_profile_t&[m[K’ {aka ‘[01m[Kconst rmw_qos_profile_s&[m[K’}
+[7.699s]    30 |     init_service_name, rclcpp::[01;31m[KQoS(10)[m[K, client_cbg_);
+[7.699s]       |                                [01;31m[K^~~~~~~[m[K
+[7.699s]       |                                [01;31m[K|[m[K
+[7.699s]       |                                [01;31m[Krclcpp::QoS[m[K
+[7.700s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.701s]                  from [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver.hpp:33[m[K,
+[7.701s]                  from [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:14[m[K:
+[7.701s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:127:29:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = canopen_interfaces::srv::CONode; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<canopen_interfaces::srv::CONode> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[7.701s]   127 |   [01;36m[Kconst rmw_qos_profile_t & qos_profile[m[K,
+[7.701s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.709s] [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:[m[K In member function ‘[01m[Kvoid ros2_canopen::node_interfaces::NodeCanopenDriver<NODETYPE>::demand_set_master() [with NODETYPE = rclcpp_lifecycle::LifecycleNode][m[K’:
+[7.710s] [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:73:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::QoS[m[K’ to ‘[01m[Kconst rmw_qos_profile_t&[m[K’ {aka ‘[01m[Kconst rmw_qos_profile_s&[m[K’}
+[7.710s]    73 |     init_service_name, rclcpp::[01;31m[KQoS(10)[m[K, client_cbg_);
+[7.710s]       |                                [01;31m[K^~~~~~~[m[K
+[7.710s]       |                                [01;31m[K|[m[K
+[7.710s]       |                                [01;31m[Krclcpp::QoS[m[K
+[7.710s] In file included from [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node.hpp:996[m[K,
+[7.711s]                  from [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/include/canopen_core/node_interfaces/node_canopen_driver.hpp:34[m[K,
+[7.711s]                  from [01m[K/home/vboxuser/agv_ws/src/ros2_canopen/canopen_core/src/node_interfaces/node_canopen_driver.cpp:14[m[K:
+[7.711s] [01m[K/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp:103:29:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp_lifecycle::LifecycleNode::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = canopen_interfaces::srv::CONode; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<canopen_interfaces::srv::CONode> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[7.711s]   103 |   [01;36m[Kconst rmw_qos_profile_t & qos_profile[m[K,
+[7.711s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[9.819s] gmake[2]: *** [CMakeFiles/node_canopen_driver.dir/build.make:76: CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o] Error 1
+[9.819s] gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/node_canopen_driver.dir/all] Error 2
+[9.819s] gmake[1]: *** Waiting for unfinished jobs....
+[10.597s] [ 27%] [32m[1mLinking CXX shared library libnode_canopen_master.so[0m
+[10.886s] [ 30%] Built target node_canopen_master
+[10.888s] gmake: *** [Makefile:146: all] Error 2
+[10.927s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_core' returned '2': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_core -- -j4 -l4

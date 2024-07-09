@@ -1,0 +1,78 @@
+Built target single-pd42_prepare
+joint_1: writing 4 bytes to 0x1400/1: 02 02 00 80
+joint_1: writing 4 bytes to 0x1600/1: 10 00 40 60
+joint_1: writing 4 bytes to 0x1600/2: 08 00 60 60
+joint_1: writing 1 bytes to 0x1600/0: 02
+joint_1: writing 4 bytes to 0x1400/1: 02 02 00 00
+joint_1: writing 4 bytes to 0x1401/1: 02 03 00 80
+joint_1: writing 4 bytes to 0x1601/1: 20 00 7A 60
+joint_1: writing 1 bytes to 0x1601/0: 01
+joint_1: writing 4 bytes to 0x1401/1: 02 03 00 00
+joint_1: writing 4 bytes to 0x1800/1: 82 01 00 80
+joint_1: writing 1 bytes to 0x1800/2: 01
+joint_1: writing 1 bytes to 0x1A00/0: 00
+joint_1: writing 4 bytes to 0x1A00/1: 10 00 41 60
+joint_1: writing 4 bytes to 0x1A00/2: 08 00 61 60
+joint_1: writing 1 bytes to 0x1A00/0: 02
+joint_1: writing 4 bytes to 0x1800/1: 82 01 00 00
+joint_1: writing 4 bytes to 0x1801/1: 82 02 00 80
+joint_1: writing 1 bytes to 0x1801/2: 01
+joint_1: writing 4 bytes to 0x1A01/1: 20 00 63 60
+joint_1: writing 4 bytes to 0x1A01/2: 10 00 6C 60
+joint_1: writing 1 bytes to 0x1A01/0: 02
+joint_1: writing 4 bytes to 0x1801/1: 82 02 00 00
+joint_1: writing 4 bytes to 0x6081/0: E8 03 00 00
+joint_1: writing 4 bytes to 0x6083/0: D0 07 00 00
+joint_1: writing 1 bytes to 0x6060/0: 07
+joint_2: writing 4 bytes to 0x1400/1: 03 02 00 80
+joint_2: writing 4 bytes to 0x1600/1: 10 00 40 60
+joint_2: writing 4 bytes to 0x1600/2: 08 00 60 60
+joint_2: writing 1 bytes to 0x1600/0: 02
+joint_2: writing 4 bytes to 0x1400/1: 03 02 00 00
+joint_2: writing 4 bytes to 0x1401/1: 03 03 00 80
+joint_2: writing 4 bytes to 0x1601/1: 20 00 7A 60
+joint_2: writing 1 bytes to 0x1601/0: 01
+joint_2: writing 4 bytes to 0x1401/1: 03 03 00 00
+joint_2: writing 4 bytes to 0x1800/1: 83 01 00 80
+joint_2: writing 1 bytes to 0x1800/2: 01
+joint_2: writing 1 bytes to 0x1A00/0: 00
+joint_2: writing 4 bytes to 0x1A00/1: 10 00 41 60
+joint_2: writing 4 bytes to 0x1A00/2: 08 00 61 60
+joint_2: writing 1 bytes to 0x1A00/0: 02
+joint_2: writing 4 bytes to 0x1800/1: 83 01 00 00
+joint_2: writing 4 bytes to 0x1801/1: 83 02 00 80
+joint_2: writing 1 bytes to 0x1801/2: 01
+joint_2: writing 4 bytes to 0x1A01/1: 20 00 63 60
+joint_2: writing 4 bytes to 0x1A01/2: 10 00 6C 60
+joint_2: writing 1 bytes to 0x1A01/0: 02
+joint_2: writing 4 bytes to 0x1801/1: 83 02 00 00
+joint_2: writing 4 bytes to 0x6081/0: E8 03 00 00
+joint_2: writing 4 bytes to 0x6083/0: D0 07 00 00
+joint_2: writing 1 bytes to 0x6060/0: 07
+Built target single-pd42
+-- Install configuration: ""
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42/
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42//KincoCMDriver.eds
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42/
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42//joint_1.bin
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42//bus.yml
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42//joint_2.bin
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42//preprocessed_bus.yml
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/config/single-pd42//master.dcf
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/kinco.launch.py
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/ament_index/resource_index/package_run_dependencies/canopen_kinco
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/ament_index/resource_index/parent_prefix_path/canopen_kinco
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/environment/path.sh
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/environment/path.dsv
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/local_setup.bash
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/local_setup.sh
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/local_setup.zsh
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/local_setup.dsv
+-- Installing: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/package.dsv
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/ament_index/resource_index/packages/canopen_kinco
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/cmake/canopen_kincoConfig.cmake
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/cmake/canopen_kincoConfig-version.cmake
+-- Up-to-date: /home/vboxuser/agv_ws/install/canopen_kinco/share/canopen_kinco/package.xml

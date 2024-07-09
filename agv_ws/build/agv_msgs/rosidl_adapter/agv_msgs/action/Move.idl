@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from agv_msgs/action/Move.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+
+module agv_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Move_Goal {
+      geometry_msgs::msg::Twist command;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Move_Result {
+      boolean completed;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Move_Feedback {
+      float current_distance;
+
+      float current_angle;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:53 (file):
+  file INSTALL cannot find
+  "/home/vboxuser/agv_ws/src/agv_controllers/agv_controllers/simple_controller.py":
+  No such file or directory.
+
+[0m

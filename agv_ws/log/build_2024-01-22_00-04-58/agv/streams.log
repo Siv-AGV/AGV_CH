@@ -1,0 +1,38 @@
+[0.303s] Invoking command in '/home/vboxuser/agv_ws/build/agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv -- -j4 -l4
+[0.379s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.894s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.144s] -- Added test 'lint_cmake' to check CMake code style
+[1.153s] -- Added test 'xmllint' to check XML markup files
+[1.158s] -- Configuring done
+[1.191s] -- Generating done
+[1.194s] -- Build files have been written to: /home/vboxuser/agv_ws/build/agv
+[1.242s] Invoked command in '/home/vboxuser/agv_ws/build/agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv -- -j4 -l4
+[1.336s] Invoking command in '/home/vboxuser/agv_ws/build/agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv
+[1.345s] -- Install configuration: ""
+[1.346s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes
+[1.347s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/laser_link.STL
+[1.347s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/caster_front_link.STL
+[1.347s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/caster_rear_link.STL
+[1.347s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/base_link.STL
+[1.348s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/imu_link.STL
+[1.348s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/wheel_right_link.STL
+[1.348s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/camera_link.STL
+[1.348s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/wheel_left_link.STL
+[1.348s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/urdf
+[1.348s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/urdf/agv.urdf.xacro
+[1.349s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/ament_index/resource_index/package_run_dependencies/agv
+[1.349s] -- Installing: /home/vboxuser/agv_ws/install/agv/share/ament_index/resource_index/parent_prefix_path/agv
+[1.356s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/environment/ament_prefix_path.sh
+[1.357s] -- Installing: /home/vboxuser/agv_ws/install/agv/share/agv/environment/ament_prefix_path.dsv
+[1.358s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/environment/path.sh
+[1.358s] -- Installing: /home/vboxuser/agv_ws/install/agv/share/agv/environment/path.dsv
+[1.359s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/local_setup.bash
+[1.359s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/local_setup.sh
+[1.359s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/local_setup.zsh
+[1.359s] -- Installing: /home/vboxuser/agv_ws/install/agv/share/agv/local_setup.dsv
+[1.359s] -- Installing: /home/vboxuser/agv_ws/install/agv/share/agv/package.dsv
+[1.361s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/ament_index/resource_index/packages/agv
+[1.361s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/cmake/agvConfig.cmake
+[1.361s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/cmake/agvConfig-version.cmake
+[1.361s] -- Installing: /home/vboxuser/agv_ws/install/agv/share/agv/package.xml
+[1.376s] Invoked command in '/home/vboxuser/agv_ws/build/agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/install/my_py_pkg:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv

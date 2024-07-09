@@ -1,0 +1,50 @@
+[0.073s] Invoking command in '/home/vboxuser/agv_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/wheel_control:/home/vboxuser/agv_ws/install/pgv100:/home/vboxuser/agv_ws/install/panda_rviz_viewer:/home/vboxuser/agv_ws/install/panda_canopen:/home/vboxuser/agv_ws/install/my_simulation:/home/vboxuser/agv_ws/install/canopen_tests:/home/vboxuser/agv_ws/install/canopen_ros2_controllers:/home/vboxuser/agv_ws/install/canopen_ros2_control:/home/vboxuser/agv_ws/install/canopen_robot_control_example:/home/vboxuser/agv_ws/install/canopen_kinco3:/home/vboxuser/agv_ws/install/canopen_kinco2:/home/vboxuser/agv_ws/install/canopen_kinco:/home/vboxuser/agv_ws/install/canopen:/home/vboxuser/agv_ws/install/canopen_402_driver:/home/vboxuser/agv_ws/install/canopen_proxy_driver:/home/vboxuser/agv_ws/install/canopen_master_driver:/home/vboxuser/agv_ws/install/canopen_fake_slaves:/home/vboxuser/agv_ws/install/canopen_base_driver:/home/vboxuser/agv_ws/install/canopen_core:/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/agv_ws/install/agv_py:/home/vboxuser/agv_ws/install/agv_msgs:/home/vboxuser/agv_ws/install/agv_controllers:/home/vboxuser/agv_ws/install/communication:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/vboxuser/agv_ws/install/agv_controller:/home/vboxuser/agv_ws/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation /usr/bin/cmake --build /home/vboxuser/agv_ws/build/lely_core_libraries -- -j4 -l4
+[0.291s] [ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[0.304s] [ 12%] Built target ament_cmake_python_copy_cogen_setup
+[0.321s] [ 12%] Built target ament_cmake_python_copy_cogen
+[0.377s] HEAD is now at 7824cbb2 release v2.3.2
+[0.405s] Checking patch configure.ac...
+[0.405s] Checking patch python/dcf-tools/Makefile.am...
+[0.405s] Applied patch configure.ac cleanly.
+[0.405s] Applied patch python/dcf-tools/Makefile.am cleanly.
+[0.446s] [ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[0.531s] [ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[1.243s] running install_scripts
+[1.301s] running egg_info
+[1.303s] writing cogen.egg-info/PKG-INFO
+[1.306s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[1.306s] writing entry points to cogen.egg-info/entry_points.txt
+[1.306s] writing top-level names to cogen.egg-info/top_level.txt
+[1.311s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[1.312s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[1.315s] Installing cogen script to scripts
+[1.386s] [ 37%] Built target ament_cmake_python_build_cogen_scripts
+[1.593s] running egg_info
+[1.595s] writing cogen.egg-info/PKG-INFO
+[1.595s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[1.595s] writing entry points to cogen.egg-info/entry_points.txt
+[1.596s] writing top-level names to cogen.egg-info/top_level.txt
+[1.599s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[1.600s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[1.652s] [ 37%] Built target ament_cmake_python_build_cogen_egg
+[8.782s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[8.782s] configure.ac:17: You should run autoupdate.
+[8.782s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[8.783s] configure.ac:17: the top level
+[8.783s] configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+[8.783s] lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[8.783s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[8.783s] ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[8.783s] ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[8.783s] m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+[8.783s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[8.784s] configure.ac:81: the top level
+[8.784s] configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[8.784s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[8.784s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[8.784s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[8.784s] configure.ac:434: the top level
+[11.024s] autoreconf: error: automake terminated by signal: 2
+[11.024s] gmake[2]: *** [CMakeFiles/upstr_lely_core_libraries.dir/build.make:92: upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries-stamp/upstr_lely_core_libraries-configure] Interrupt
+[11.026s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/upstr_lely_core_libraries.dir/all] Interrupt
+[11.026s] gmake: *** [Makefile:146: all] Interrupt

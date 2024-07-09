@@ -1,0 +1,20 @@
+[1.344s] Invoking command in '/home/vboxuser/agv_ws/build/my_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/my_simulation -- -j4 -l4
+[1.442s] Invoked command in '/home/vboxuser/agv_ws/build/my_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/my_simulation -- -j4 -l4
+[1.836s] Invoking command in '/home/vboxuser/agv_ws/build/my_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/my_simulation
+[1.921s] -- Install configuration: ""
+[1.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/ament_index/resource_index/package_run_dependencies/my_simulation
+[1.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/ament_index/resource_index/parent_prefix_path/my_simulation
+[1.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/environment/ament_prefix_path.sh
+[1.922s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/environment/ament_prefix_path.dsv
+[1.927s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/environment/path.sh
+[1.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/environment/path.dsv
+[1.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/local_setup.bash
+[1.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/local_setup.sh
+[1.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/local_setup.zsh
+[1.928s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/local_setup.dsv
+[1.929s] -- Installing: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.dsv
+[1.929s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/ament_index/resource_index/packages/my_simulation
+[1.929s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/cmake/my_simulationConfig.cmake
+[1.929s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/cmake/my_simulationConfig-version.cmake
+[1.929s] -- Up-to-date: /home/vboxuser/agv_ws/install/my_simulation/share/my_simulation/package.xml
+[1.945s] Invoked command in '/home/vboxuser/agv_ws/build/my_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/my_simulation

@@ -1,0 +1,5 @@
+  File "/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement/wheel_controller_server.py", line 103
+    print ("W_R: " + str(wheel_speed[0, 0])
+          ^
+SyntaxError: '(' was never closed
+

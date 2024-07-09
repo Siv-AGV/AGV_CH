@@ -1,0 +1,15 @@
+/home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index/package_run_dependencies/agv_py
+/home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index/parent_prefix_path/agv_py
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/environment/ament_prefix_path.sh
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/environment/ament_prefix_path.dsv
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/environment/path.sh
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/environment/path.dsv
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/local_setup.bash
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/local_setup.sh
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/local_setup.zsh
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/local_setup.dsv
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/package.dsv
+/home/vboxuser/agv_ws/install/agv_py/share/ament_index/resource_index/packages/agv_py
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/cmake/agv_pyConfig.cmake
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/cmake/agv_pyConfig-version.cmake
+/home/vboxuser/agv_ws/install/agv_py/share/agv_py/package.xml

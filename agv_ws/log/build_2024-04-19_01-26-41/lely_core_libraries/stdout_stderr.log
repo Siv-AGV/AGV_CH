@@ -1,0 +1,49 @@
+[ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[ 12%] Built target ament_cmake_python_copy_cogen_setup
+[ 12%] Built target ament_cmake_python_copy_cogen
+HEAD is now at 7824cbb2 release v2.3.2
+Checking patch configure.ac...
+Checking patch python/dcf-tools/Makefile.am...
+Applied patch configure.ac cleanly.
+Applied patch python/dcf-tools/Makefile.am cleanly.
+[ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+running install_scripts
+running egg_info
+writing cogen.egg-info/PKG-INFO
+writing dependency_links to cogen.egg-info/dependency_links.txt
+writing entry points to cogen.egg-info/entry_points.txt
+writing top-level names to cogen.egg-info/top_level.txt
+reading manifest file 'cogen.egg-info/SOURCES.txt'
+writing manifest file 'cogen.egg-info/SOURCES.txt'
+Installing cogen script to scripts
+[ 37%] Built target ament_cmake_python_build_cogen_scripts
+running egg_info
+writing cogen.egg-info/PKG-INFO
+writing dependency_links to cogen.egg-info/dependency_links.txt
+writing entry points to cogen.egg-info/entry_points.txt
+writing top-level names to cogen.egg-info/top_level.txt
+reading manifest file 'cogen.egg-info/SOURCES.txt'
+writing manifest file 'cogen.egg-info/SOURCES.txt'
+[ 37%] Built target ament_cmake_python_build_cogen_egg
+configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+configure.ac:17: You should run autoupdate.
+./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+configure.ac:17: the top level
+configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:81: the top level
+configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+configure.ac:434: the top level
+autoreconf: error: automake terminated by signal: 2
+gmake[2]: *** [CMakeFiles/upstr_lely_core_libraries.dir/build.make:92: upstr_lely_core_libraries-prefix/src/upstr_lely_core_libraries-stamp/upstr_lely_core_libraries-configure] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/upstr_lely_core_libraries.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

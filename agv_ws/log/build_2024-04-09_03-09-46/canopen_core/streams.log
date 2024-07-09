@@ -1,0 +1,23 @@
+[0.383s] Invoking command in '/home/vboxuser/agv_ws/build/canopen_core': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_core -- -j4 -l4
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target node_canopen_driver[0m
+[0.537s] [  5%] Built target gmock_main
+[0.560s] [35m[1mConsolidate compiler generated dependencies of target node_canopen_master[0m
+[0.613s] [ 13%] Built target gmock
+[0.631s] [ 16%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o[0m
+[0.632s] [ 19%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o[0m
+[0.689s] [ 22%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/master_node.cpp.o[0m
+[0.704s] [ 25%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o[0m
+[4.759s] gmake[2]: *** [CMakeFiles/node_canopen_master.dir/build.make:76: CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o] Interrupt
+[4.761s] gmake[2]: *** wait: No child processes.  Stop.
+[4.769s] gmake[2]: *** Waiting for unfinished jobs....
+[4.769s] gmake[2]: *** wait: No child processes.  Stop.
+[4.786s] gmake[2]: *** [CMakeFiles/node_canopen_driver.dir/build.make:104: CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o] Interrupt
+[4.787s] gmake[2]: *** wait: No child processes.  Stop.
+[4.787s] gmake[2]: *** Waiting for unfinished jobs....
+[4.788s] gmake[2]: *** wait: No child processes.  Stop.
+[4.788s] gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/node_canopen_driver.dir/all] Error 2
+[4.789s] gmake[1]: *** wait: No child processes.  Stop.
+[4.789s] gmake[1]: *** Waiting for unfinished jobs....
+[4.789s] gmake[1]: *** wait: No child processes.  Stop.
+[4.796s] gmake: *** [Makefile:146: all] Error 2
+[4.817s] Invoked command in '/home/vboxuser/agv_ws/build/canopen_core' returned '-2': AMENT_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries:/home/vboxuser/agv_ws/install/canopen_interfaces:/home/vboxuser/install/agv:/home/vboxuser/bumperbot_ws/install/bumperbot_cpp_examples:/home/vboxuser/bumperbot_ws/install/bumperbot_msgs:/home/vboxuser/bumperbot_ws/install/bumperbot_description:/home/vboxuser/bumperbot_ws/install/bumperbot_controller:/home/vboxuser/ros2_ws/install/my_simulation:/home/vboxuser/install/my_py_pkg:/home/vboxuser/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/lib:/home/vboxuser/agv_ws/install/canopen_interfaces/lib:${LD_LIBRARY_PATH} PATH=/home/vboxuser/agv_ws/install/lely_core_libraries/bin:${PATH} PYTHONPATH=/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages:/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages:/home/vboxuser/agv_ws/install/canopen_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/agv_ws/build/canopen_core -- -j4 -l4

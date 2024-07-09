@@ -1,0 +1,3 @@
+gmake[2]: *** No rule to make target 'CMakeFiles/wheel_speed_server.dir/build'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wheel_speed_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

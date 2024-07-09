@@ -1,0 +1,28 @@
+[1.366s] Invoking command in '/home/vboxuser/agv_ws/src/movement': PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data
+[1.899s] running egg_info
+[1.900s] writing ../../build/movement/movement.egg-info/PKG-INFO
+[1.900s] writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt
+[1.911s] writing entry points to ../../build/movement/movement.egg-info/entry_points.txt
+[1.911s] writing requirements to ../../build/movement/movement.egg-info/requires.txt
+[1.912s] file command_publisher.py (for module command_publisher) not found
+[1.912s] file wheel_controller.py (for module wheel_controller) not found
+[1.912s] writing top-level names to ../../build/movement/movement.egg-info/top_level.txt
+[1.912s] reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[1.913s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[1.913s] running build
+[1.913s] running build_py
+[1.913s] running install
+[1.913s] running install_lib
+[1.913s] file command_publisher.py (for module command_publisher) not found
+[1.913s] file wheel_controller.py (for module wheel_controller) not found
+[1.913s] file command_publisher.py (for module command_publisher) not found
+[1.914s] file wheel_controller.py (for module wheel_controller) not found
+[1.914s] running install_data
+[1.914s] running install_egg_info
+[1.917s] Copying ../../build/movement/movement.egg-info to /home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages/movement-0.0.1-py3.10.egg-info
+[1.919s] running install_scripts
+[1.957s] Installing command_publisher = movement.command_publisher:mainwheel_controller script to /home/vboxuser/agv_ws/install/movement/lib/movement
+[1.958s] file command_publisher.py (for module command_publisher) not found
+[1.959s] file wheel_controller.py (for module wheel_controller) not found
+[1.959s] writing list of installed files to '/home/vboxuser/agv_ws/build/movement/install.log'
+[2.001s] Invoked command in '/home/vboxuser/agv_ws/src/movement' returned '0': PYTHONPATH=/home/vboxuser/agv_ws/build/movement/prefix_override:/home/vboxuser/agv_ws/install/movement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movement build --build-base /home/vboxuser/agv_ws/build/movement/build install --record /home/vboxuser/agv_ws/build/movement/install.log --single-version-externally-managed install_data

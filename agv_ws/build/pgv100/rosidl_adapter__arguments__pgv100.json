@@ -1,0 +1,7 @@
+{
+  "package_name": "pgv100",
+  "non_idl_tuples": [
+    "/home/vboxuser/agv_ws/src/pgv100-ros2:msg/PGVCommand.msg",
+    "/home/vboxuser/agv_ws/src/pgv100-ros2:msg/PGVScan.msg"
+  ]
+}

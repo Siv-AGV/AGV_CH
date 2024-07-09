@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target node_canopen_master[0m
+[35m[1mConsolidate compiler generated dependencies of target node_canopen_driver[0m
+[  5%] Built target gmock_main
+[ 13%] Built target gmock
+[ 16%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/node_canopen_master.dir/src/master_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o[0m
+gmake[2]: *** [CMakeFiles/node_canopen_master.dir/build.make:104: CMakeFiles/node_canopen_master.dir/src/master_node.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/node_canopen_master.dir/build.make:76: CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/node_canopen_master.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/node_canopen_driver.dir/build.make:76: CMakeFiles/node_canopen_driver.dir/src/node_interfaces/node_canopen_driver.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/node_canopen_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,13 @@
+gmake[2]: *** [CMakeFiles/node_canopen_master.dir/build.make:76: CMakeFiles/node_canopen_master.dir/src/node_interfaces/node_canopen_master.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** [CMakeFiles/node_canopen_driver.dir/build.make:104: CMakeFiles/node_canopen_driver.dir/src/driver_node.cpp.o] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/node_canopen_driver.dir/all] Error 2
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

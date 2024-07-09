@@ -1,0 +1,45 @@
+[0.786s] Invoking command in '/home/vboxuser/agv_ws/build/agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv -- -j4 -l4
+[1.512s] Invoked command in '/home/vboxuser/agv_ws/build/agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/agv -- -j4 -l4
+[1.584s] Invoking command in '/home/vboxuser/agv_ws/build/agv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv
+[1.616s] -- Install configuration: ""
+[1.616s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes
+[1.616s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/WheelLeft.stl
+[1.619s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/wheel_left_link.stl
+[1.620s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/MainBody.stl
+[1.620s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/ring.stl
+[1.620s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/WheelRight.stl
+[1.623s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/Platform.stl
+[1.624s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/imu_link.STL
+[1.624s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/wheel_right_link.STL
+[1.624s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/old
+[1.624s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/old/caster_front_link.STL
+[1.624s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/old/Camera.stl
+[1.624s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/old/caster_rear_link.STL
+[1.624s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/old/Cartwheel.stl
+[1.627s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/old/Part7.stl
+[1.627s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/meshes/old/base_link.STL
+[1.627s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/urdf
+[1.628s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/urdf/agv.urdf.xacro
+[1.628s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/urdf/tria;.xml
+[1.628s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/urdf/agv_gazebo.xacro
+[1.628s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/launch
+[1.628s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/launch/gazebo.launch.py
+[1.629s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/launch/display.launch.py
+[1.629s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/rviz
+[1.629s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/rviz/default.rviz
+[1.629s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/ament_index/resource_index/package_run_dependencies/agv
+[1.629s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/ament_index/resource_index/parent_prefix_path/agv
+[1.629s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/environment/ament_prefix_path.sh
+[1.629s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/environment/ament_prefix_path.dsv
+[1.629s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/environment/path.sh
+[1.630s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/environment/path.dsv
+[1.630s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/local_setup.bash
+[1.630s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/local_setup.sh
+[1.630s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/local_setup.zsh
+[1.631s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/local_setup.dsv
+[1.631s] -- Installing: /home/vboxuser/agv_ws/install/agv/share/agv/package.dsv
+[1.631s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/ament_index/resource_index/packages/agv
+[1.631s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/cmake/agvConfig.cmake
+[1.631s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/cmake/agvConfig-version.cmake
+[1.631s] -- Up-to-date: /home/vboxuser/agv_ws/install/agv/share/agv/package.xml
+[1.633s] Invoked command in '/home/vboxuser/agv_ws/build/agv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/agv_ws/install/canopen_utils:/home/vboxuser/agv_ws/install/agv_py_functions:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/agv

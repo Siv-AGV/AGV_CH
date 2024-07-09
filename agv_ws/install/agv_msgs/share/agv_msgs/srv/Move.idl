@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from agv_msgs/srv/Move.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Twist.idl"
+
+module agv_msgs {
+  module srv {
+    struct Move_Request {
+      geometry_msgs::msg::Twist command;
+    };
+    struct Move_Response {
+      boolean success;
+    };
+  };
+};

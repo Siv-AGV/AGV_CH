@@ -1,0 +1,694 @@
+[0.610s] Invoking command in '/home/vboxuser/agv_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/lely_core_libraries -- -j4 -l4
+[0.715s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.685s] -- Configuring done
+[1.715s] -- Generating done
+[1.720s] -- Build files have been written to: /home/vboxuser/agv_ws/build/lely_core_libraries
+[1.803s] [  0%] Built target ament_cmake_python_copy_cogen_setup
+[1.814s] [ 12%] [34m[1mPerforming update step for 'upstr_lely_core_libraries'[0m
+[1.860s] [ 12%] Built target ament_cmake_python_copy_cogen
+[1.872s] HEAD is now at 7824cbb2 release v2.3.2
+[1.892s] Checking patch configure.ac...
+[1.897s] Checking patch python/dcf-tools/Makefile.am...
+[1.899s] Applied patch configure.ac cleanly.
+[1.905s] Applied patch python/dcf-tools/Makefile.am cleanly.
+[1.928s] [ 25%] [34m[1mNo patch step for 'upstr_lely_core_libraries'[0m
+[2.082s] [ 37%] [34m[1mPerforming configure step for 'upstr_lely_core_libraries'[0m
+[3.050s] running egg_info
+[3.057s] writing cogen.egg-info/PKG-INFO
+[3.057s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[3.057s] writing entry points to cogen.egg-info/entry_points.txt
+[3.058s] writing top-level names to cogen.egg-info/top_level.txt
+[3.079s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[3.096s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[3.180s] running install_scripts
+[3.256s] [ 37%] Built target ament_cmake_python_build_cogen_egg
+[3.264s] running egg_info
+[3.265s] writing cogen.egg-info/PKG-INFO
+[3.266s] writing dependency_links to cogen.egg-info/dependency_links.txt
+[3.266s] writing entry points to cogen.egg-info/entry_points.txt
+[3.266s] writing top-level names to cogen.egg-info/top_level.txt
+[3.298s] reading manifest file 'cogen.egg-info/SOURCES.txt'
+[3.298s] writing manifest file 'cogen.egg-info/SOURCES.txt'
+[3.320s] Installing cogen script to scripts
+[3.440s] [ 37%] Built target ament_cmake_python_build_cogen_scripts
+[11.095s] configure.ac:17: warning: The macro `AC_PROG_CC_STDC' is obsolete.
+[11.095s] configure.ac:17: You should run autoupdate.
+[11.095s] ./lib/autoconf/c.m4:1666: AC_PROG_CC_STDC is expanded from...
+[11.095s] configure.ac:17: the top level
+[11.096s] configure.ac:81: warning: $as_echo is obsolete; use AS_ECHO(["message"]) instead
+[11.096s] lib/m4sugar/m4sh.m4:692: _AS_IF_ELSE is expanded from...
+[11.096s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[11.096s] ./lib/autoconf/general.m4:2249: AC_CACHE_VAL is expanded from...
+[11.097s] ./lib/autoconf/general.m4:2270: AC_CACHE_CHECK is expanded from...
+[11.097s] m4/ax_pthread.m4:88: AX_PTHREAD is expanded from...
+[11.097s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[11.097s] configure.ac:81: the top level
+[11.098s] configure.ac:434: warning: AC_CHECK_HEADERS($ixxat_header): you should use literals
+[11.098s] ./lib/autoconf/headers.m4:217: AC_CHECK_HEADERS is expanded from...
+[11.098s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[11.098s] lib/m4sugar/m4sh.m4:699: AS_IF is expanded from...
+[11.098s] configure.ac:434: the top level
+[14.826s] checking build system type... x86_64-pc-linux-gnu
+[14.826s] checking host system type... x86_64-pc-linux-gnu
+[14.827s] checking target system type... x86_64-pc-linux-gnu
+[14.848s] checking for a BSD-compatible install... /usr/bin/install -c
+[14.854s] checking whether build environment is sane... yes
+[14.877s] checking for a race-free mkdir -p... /usr/bin/mkdir -p
+[14.878s] checking for gawk... no
+[14.878s] checking for mawk... mawk
+[14.901s] checking whether make sets $(MAKE)... yes
+[14.914s] checking whether make supports nested variables... yes
+[14.923s] checking whether to enable maintainer-specific portions of Makefiles... yes
+[14.923s] checking whether make supports nested variables... (cached) yes
+[14.930s] checking for a sed that does not truncate output... /usr/bin/sed
+[14.931s] checking whether to build with code coverage support... no
+[14.933s] checking for valgrind... no
+[14.956s] checking whether make supports the include directive... yes (GNU style)
+[14.956s] checking for gcc... gcc
+[15.135s] checking whether the C compiler works... yes
+[15.135s] checking for C compiler default output file name... a.out
+[15.198s] checking for suffix of executables... 
+[15.313s] checking whether we are cross compiling... no
+[15.347s] checking for suffix of object files... o
+[15.377s] checking whether the compiler supports GNU C... yes
+[15.406s] checking whether gcc accepts -g... yes
+[15.531s] checking for gcc option to enable C11 features... none needed
+[15.587s] checking whether gcc understands -c and -o together... yes
+[15.654s] checking dependency style of gcc... gcc3
+[15.695s] checking for stdio.h... yes
+[15.741s] checking for stdlib.h... yes
+[15.794s] checking for string.h... yes
+[15.851s] checking for inttypes.h... yes
+[15.911s] checking for stdint.h... yes
+[15.954s] checking for strings.h... yes
+[16.001s] checking for sys/stat.h... yes
+[16.071s] checking for sys/types.h... yes
+[16.131s] checking for unistd.h... yes
+[16.201s] checking for wchar.h... yes
+[16.275s] checking for minix/config.h... no
+[16.343s] checking whether it is safe to define __EXTENSIONS__... yes
+[16.380s] checking whether _XOPEN_SOURCE should be defined... no
+[16.382s] checking for g++... g++
+[16.464s] checking whether the compiler supports GNU C++... yes
+[16.502s] checking whether g++ accepts -g... yes
+[16.631s] checking for g++ option to enable C++11 features... none needed
+[16.702s] checking dependency style of g++... gcc3
+[16.777s] checking whether g++ supports C++11 features with -std=gnu++11... yes
+[16.851s] checking how to print strings... printf
+[16.851s] checking for a sed that does not truncate output... (cached) /usr/bin/sed
+[16.857s] checking for grep that handles long lines and -e... /usr/bin/grep
+[16.864s] checking for egrep... /usr/bin/grep -E
+[16.864s] checking for fgrep... /usr/bin/grep -F
+[16.872s] checking for ld used by gcc... /usr/bin/ld
+[16.881s] checking if the linker (/usr/bin/ld) is GNU ld... yes
+[16.887s] checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+[16.930s] checking the name lister (/usr/bin/nm -B) interface... BSD nm
+[16.930s] checking whether ln -s works... yes
+[16.937s] checking the maximum length of command line arguments... 1572864
+[16.943s] checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+[16.943s] checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+[16.943s] checking for /usr/bin/ld option to reload object files... -r
+[16.943s] checking for objdump... objdump
+[16.944s] checking how to recognize dependent libraries... pass_all
+[16.944s] checking for dlltool... no
+[16.944s] checking how to associate runtime and link libraries... printf %s\n
+[16.945s] checking for ar... ar
+[16.987s] checking for archiver @FILE support... @
+[16.987s] checking for strip... strip
+[16.987s] checking for ranlib... ranlib
+[17.139s] checking command to parse /usr/bin/nm -B output from gcc object... ok
+[17.142s] checking for sysroot... no
+[17.150s] checking for a working dd... /usr/bin/dd
+[17.159s] checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+[17.187s] checking for mt... mt
+[17.195s] checking if mt is a manifest tool... no
+[17.309s] checking for dlfcn.h... yes
+[17.315s] checking for objdir... .libs
+[17.450s] checking if gcc supports -fno-rtti -fno-exceptions... no
+[17.450s] checking for gcc option to produce PIC... -fPIC -DPIC
+[17.495s] checking if gcc PIC flag -fPIC -DPIC works... yes
+[17.709s] checking if gcc static flag -static works... yes
+[17.748s] checking if gcc supports -c -o file.o... yes
+[17.748s] checking if gcc supports -c -o file.o... (cached) yes
+[17.773s] checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[17.822s] checking whether -lc should be explicitly linked in... no
+[17.946s] checking dynamic linker characteristics... GNU/Linux ld.so
+[17.946s] checking how to hardcode library paths into programs... immediate
+[17.950s] checking whether stripping libraries is possible... yes
+[17.950s] checking if libtool supports shared libraries... yes
+[17.950s] checking whether to build shared libraries... yes
+[17.950s] checking whether to build static libraries... no
+[18.010s] checking how to run the C++ preprocessor... g++ -std=gnu++11 -E
+[18.191s] checking for ld used by g++ -std=gnu++11... /usr/bin/ld -m elf_x86_64
+[18.195s] checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+[18.212s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[18.355s] checking for g++ -std=gnu++11 option to produce PIC... -fPIC -DPIC
+[18.400s] checking if g++ -std=gnu++11 PIC flag -fPIC -DPIC works... yes
+[18.564s] checking if g++ -std=gnu++11 static flag -static works... yes
+[18.611s] checking if g++ -std=gnu++11 supports -c -o file.o... yes
+[18.611s] checking if g++ -std=gnu++11 supports -c -o file.o... (cached) yes
+[18.612s] checking whether the g++ -std=gnu++11 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+[18.618s] checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+[18.618s] checking how to hardcode library paths into programs... immediate
+[18.620s] checking for windres... no
+[18.751s] checking for timer_create in -lrt... yes
+[18.794s] checking how to run the C preprocessor... gcc -E
+[18.885s] checking whether gcc is Clang... no
+[18.984s] checking whether pthreads work with -pthread... yes
+[19.062s] checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+[19.063s] checking whether more special flags are required for pthreads... no
+[19.141s] checking for PTHREAD_PRIO_INHERIT... yes
+[19.145s] checking for pkg-config... /usr/bin/pkg-config
+[19.152s] checking pkg-config is at least version 0.9.0... yes
+[19.160s] checking for cpputest >= 4... no
+[19.220s] checking for valgrind/valgrind.h... no
+[19.323s] checking for linux/can.h... yes
+[19.402s] checking for linux/can/error.h... yes
+[19.433s] checking for bluetooth/bluetooth.h... no
+[19.466s] checking for bluetooth/rfcomm.h... no
+[19.631s] checking for library containing str2ba... no
+[19.738s] checking for ifaddrs.h... yes
+[19.834s] checking for linux/can/netlink.h... yes
+[19.934s] checking for linux/can/raw.h... yes
+[20.053s] checking for linux/rtnetlink.h... yes
+[20.151s] checking for sys/epoll.h... yes
+[20.237s] checking for sys/ioctl.h... yes
+[20.290s] checking for a Python interpreter with version >= 3.3... python3
+[20.290s] checking for python3... /usr/bin/python3
+[20.332s] checking for python3 version... 3.10
+[20.367s] checking for python3 platform... linux
+[20.367s] checking for GNU default python3 prefix... ${prefix}
+[20.368s] checking for GNU default python3 exec_prefix... ${exec_prefix}
+[20.429s] checking for python3 script directory (pythondir)... ${PYTHON_PREFIX}/lib/python3.10/site-packages
+[20.516s] checking for python3 extension module directory (pyexecdir)... ${PYTHON_EXEC_PREFIX}/lib/python3.10/site-packages
+[20.517s] checking for gawk... (cached) mawk
+[20.574s] checking that generated files are newer than configure... done
+[20.576s] configure: creating ./config.status
+[22.221s] config.status: creating doc/Doxyfile
+[22.284s] config.status: creating doc/Makefile
+[22.319s] config.status: creating include/Makefile
+[22.348s] config.status: creating pkgconfig/liblely-can.pc
+[22.370s] config.status: creating pkgconfig/liblely-co.pc
+[22.390s] config.status: creating pkgconfig/liblely-coapp.pc
+[22.427s] config.status: creating pkgconfig/liblely-ev.pc
+[22.466s] config.status: creating pkgconfig/liblely-io.pc
+[22.501s] config.status: creating pkgconfig/liblely-io2.pc
+[22.534s] config.status: creating pkgconfig/liblely-libc.pc
+[22.557s] config.status: creating pkgconfig/liblely-libc_rt.pc
+[22.579s] config.status: creating pkgconfig/liblely-tap.pc
+[22.601s] config.status: creating pkgconfig/liblely-util.pc
+[22.656s] config.status: creating pkgconfig/Makefile
+[22.689s] config.status: creating python/can/Makefile
+[22.730s] config.status: creating python/dcf-tools/Makefile
+[22.761s] config.status: creating python/io/Makefile
+[22.786s] config.status: creating python/Makefile
+[22.826s] config.status: creating src/can/Makefile
+[22.881s] config.status: creating src/co/Makefile
+[22.917s] config.status: creating src/co/version.rc
+[22.944s] config.status: creating src/coapp/Makefile
+[22.967s] config.status: creating src/coapp/version.rc
+[22.989s] config.status: creating src/ev/Makefile
+[23.022s] config.status: creating src/ev/version.rc
+[23.056s] config.status: creating src/io/Makefile
+[23.100s] config.status: creating src/io2/Makefile
+[23.129s] config.status: creating src/io2/version.rc
+[23.157s] config.status: creating src/libc/Makefile
+[23.177s] config.status: creating src/libc/version.rc
+[23.209s] config.status: creating src/tap/Makefile
+[23.238s] config.status: creating src/tap/version.rc
+[23.278s] config.status: creating src/util/Makefile
+[23.331s] config.status: creating src/util/version.rc
+[23.366s] config.status: creating src/Makefile
+[23.387s] config.status: creating tools/Makefile
+[23.424s] config.status: creating tools/version.dcf2c.rc
+[23.463s] config.status: creating test/co-nmt-master.dcf
+[23.496s] config.status: creating test/Makefile
+[23.534s] config.status: creating unit-tests/Makefile
+[23.563s] config.status: creating exec-wrapper.sh
+[23.581s] config.status: creating lcov-wrapper.sh
+[23.598s] config.status: creating Makefile
+[23.631s] config.status: creating config.h
+[23.637s] config.status: config.h is unchanged
+[23.644s] config.status: executing depfiles commands
+[24.154s] config.status: executing libtool commands
+[24.307s] [ 50%] [34m[1mPerforming build step for 'upstr_lely_core_libraries'[0m
+[24.983s] config.status: creating config.h
+[24.989s] config.status: config.h is unchanged
+[25.007s] Making all in doc
+[25.010s] Making all in include
+[25.028s] Making all in src
+[25.047s] Making all in libc
+[25.099s] Making all in tap
+[25.118s] Making all in util
+[25.183s] Making all in can
+[25.203s] Making all in co
+[25.279s] Making all in io
+[25.336s] Making all in ev
+[25.359s] Making all in io2
+[25.406s] Making all in coapp
+[25.482s] Making all in python
+[25.501s] Making all in dcf-tools
+[25.515s] Making all in pkgconfig
+[25.562s] [ 62%] [34m[1mNo install step for 'upstr_lely_core_libraries'[0m
+[25.596s] [ 75%] [34m[1mCompleted 'upstr_lely_core_libraries'[0m
+[25.653s] [100%] Built target upstr_lely_core_libraries
+[25.671s] Invoked command in '/home/vboxuser/agv_ws/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/agv_ws/build/lely_core_libraries -- -j4 -l4
+[25.727s] Invoking command in '/home/vboxuser/agv_ws/build/lely_core_libraries': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/lely_core_libraries
+[25.742s] -- Install configuration: ""
+[25.752s] Making install in doc
+[25.754s] gmake[1]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/doc'
+[25.759s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/doc'
+[25.760s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[25.760s] gmake[2]: Nothing to be done for 'install-data-am'.
+[25.760s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/doc'
+[25.760s] gmake[1]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/doc'
+[25.760s] Making install in include
+[25.769s] gmake[1]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/include'
+[25.774s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/include'
+[25.775s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[25.783s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include'
+[25.792s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/co'
+[25.794s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/co.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/crc.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/csdo.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/csdo.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/dcf.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/dcf.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/dev.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/dev.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/emcy.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/emcy.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/gw.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/gw.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/gw_txt.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/gw_txt.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/lss.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/lss.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/nmt.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/nmt.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/obj.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/obj.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/pdo.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/rpdo.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/rpdo.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/sdev.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/sdev.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/sdo.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/ssdo.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/ssdo.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/sync.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/sync.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/time.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/time.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/tpdo.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/tpdo.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/type.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/type.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/val.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/val.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/wtm.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/wtm.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/co'
+[25.813s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/posix'
+[25.816s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/posix/poll.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/posix/poll.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/posix'
+[25.827s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/can'
+[25.834s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/can/buf.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/can/buf.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/can/err.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/can/msg.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/can/net.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/can/net.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/can/socket.h '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/can'
+[25.843s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/ev'
+[25.845s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/co_task.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/ev.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/exec.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/exec.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/fiber_exec.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/fiber_exec.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/future.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/future.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/loop.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/loop.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/poll.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/poll.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/std_exec.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/strand.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/strand.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/task.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/task.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/thrd_loop.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/ev/thrd_loop.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/ev'
+[25.861s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/co/def'
+[25.864s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/def/array.def /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/def/basic.def /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/def/cxx.def /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/def/time.def /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/def/type.def '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/co/def'
+[25.875s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely'
+[25.877s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/features.h '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely'
+[25.881s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io'
+[25.883s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/addr.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/attr.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/can.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/can.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/file.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/file.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/if.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/io.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/io.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/pipe.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/pipe.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/poll.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/poll.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/serial.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/serial.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/sock.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io/sock.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io'
+[25.893s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/util/def'
+[25.897s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/def/type.def '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/util/def'
+[25.902s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/co/detail'
+[25.904s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/detail/dev.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/co/detail/obj.h '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/co/detail'
+[25.909s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/can'
+[25.912s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can/err.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can/err.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can/msg.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can/msg.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/can'
+[25.918s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/coapp'
+[25.920s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/type_traits.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/device.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/driver.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/fiber_driver.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/logical_driver.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/loop_driver.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/lss_master.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/master.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/node.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/sdo.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/sdo_error.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/coapp/slave.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/coapp'
+[25.931s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2'
+[25.932s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can_net.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can_net.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can_rt.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/can_rt.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/clock.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/clock.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/co_can.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/co_can_rt.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/co_sigset.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/co_timer.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/co_tqueue.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/ctx.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/ctx.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/dev.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/dev.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/event.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/event.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/io2.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sigset.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sigset.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/timer.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/timer.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/tqueue.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/tqueue.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/vcan.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/vcan.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2'
+[25.950s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/linux'
+[25.952s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/linux/can.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/linux/can.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/linux'
+[25.956s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/libc/sys'
+[25.958s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/sys/types.h '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/libc/sys'
+[25.960s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/user'
+[25.962s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/user/can.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/user/can.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/user/timer.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/user/timer.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/user'
+[25.966s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/sys'
+[25.968s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/clock.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/clock.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/io.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/io.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/sigset.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/sigset.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/timer.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/io2/sys/timer.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/io2/sys'
+[25.973s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/tap'
+[25.974s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/tap/tap.h '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/tap'
+[25.978s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/util'
+[25.980s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/bimap.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/coroutine.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/coroutine.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/mkjmp.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/sllist.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/spscring.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/bits.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/bitset.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/c_call.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/c_type.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/chrono.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/cmp.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/config.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/daemon.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/diag.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/dllist.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/endian.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/errnum.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/error.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/exception.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/fiber.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/fiber.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/float.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/frbuf.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/fwbuf.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/invoker.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/lex.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/membuf.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/mutex.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/pheap.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/print.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/rbtree.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/result.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/stop.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/stop.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/time.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/ustring.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/util/util.h '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/util'
+[25.997s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/libc'
+[25.998s]  /usr/bin/install -c -m 644  /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/chrono.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/functional.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/stdatomic.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/stddef.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/stdint.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/stdio.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/stdlib.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/string.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/strings.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/threads.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/time.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/type_traits.hpp /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/uchar.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/unistd.h /home/vboxuser/agv_ws/build/lely_core_libraries/upstream/include/lely/libc/utility.hpp '/home/vboxuser/agv_ws/install/lely_core_libraries/include/lely/libc'
+[26.007s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/include'
+[26.007s] gmake[1]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/include'
+[26.007s] Making install in src
+[26.010s] gmake[1]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src'
+[26.015s] Making install in libc
+[26.037s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/libc'
+[26.058s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/libc'
+[26.063s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[26.072s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-libc.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[26.107s] libtool: install: /usr/bin/install -c .libs/liblely-libc.so.2.3.2 /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-libc.so.2.3.2
+[26.116s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.3.2 liblely-libc.so.2 || { rm -f liblely-libc.so.2 && ln -s liblely-libc.so.2.3.2 liblely-libc.so.2; }; })
+[26.116s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-libc.so.2.3.2 liblely-libc.so || { rm -f liblely-libc.so && ln -s liblely-libc.so.2.3.2 liblely-libc.so; }; })
+[26.120s] libtool: install: /usr/bin/install -c .libs/liblely-libc.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-libc.la
+[26.171s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[26.182s] ----------------------------------------------------------------------
+[26.182s] Libraries have been installed in:
+[26.182s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[26.182s] 
+[26.182s] If you ever happen to want to link against installed libraries
+[26.182s] in a given directory, LIBDIR, you must either use libtool, and
+[26.182s] specify the full pathname of the library, or use the '-LLIBDIR'
+[26.183s] flag during linking and do at least one of the following:
+[26.183s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[26.183s]      during execution
+[26.183s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[26.183s]      during linking
+[26.183s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[26.183s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[26.183s] 
+[26.184s] See any operating system documentation about shared libraries for
+[26.184s] more information, such as the ld(1) and ld.so(8) manual pages.
+[26.184s] ----------------------------------------------------------------------
+[26.189s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/libc'
+[26.189s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/libc'
+[26.189s] Making install in tap
+[26.200s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/tap'
+[26.211s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/tap'
+[26.220s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[26.221s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-tap.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[26.273s] libtool: warning: relinking 'liblely-tap.la'
+[26.276s] libtool: install: (cd /home/vboxuser/agv_ws/build/lely_core_libraries/build/src/tap; /bin/bash "/home/vboxuser/agv_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-tap.la -rpath /home/vboxuser/agv_ws/install/lely_core_libraries/lib liblely_tap_la-tap.lo ../../src/libc/liblely-libc.la )
+[26.445s] libtool: install: /usr/bin/install -c .libs/liblely-tap.so.2.3.2T /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-tap.so.2.3.2
+[26.448s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.3.2 liblely-tap.so.2 || { rm -f liblely-tap.so.2 && ln -s liblely-tap.so.2.3.2 liblely-tap.so.2; }; })
+[26.451s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-tap.so.2.3.2 liblely-tap.so || { rm -f liblely-tap.so && ln -s liblely-tap.so.2.3.2 liblely-tap.so; }; })
+[26.457s] libtool: install: /usr/bin/install -c .libs/liblely-tap.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-tap.la
+[26.512s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[26.517s] ----------------------------------------------------------------------
+[26.518s] Libraries have been installed in:
+[26.518s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[26.518s] 
+[26.518s] If you ever happen to want to link against installed libraries
+[26.518s] in a given directory, LIBDIR, you must either use libtool, and
+[26.518s] specify the full pathname of the library, or use the '-LLIBDIR'
+[26.518s] flag during linking and do at least one of the following:
+[26.518s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[26.518s]      during execution
+[26.519s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[26.519s]      during linking
+[26.519s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[26.519s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[26.519s] 
+[26.519s] See any operating system documentation about shared libraries for
+[26.520s] more information, such as the ld(1) and ld.so(8) manual pages.
+[26.520s] ----------------------------------------------------------------------
+[26.524s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/tap'
+[26.524s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/tap'
+[26.524s] Making install in util
+[26.578s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/util'
+[26.638s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/util'
+[26.644s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[26.647s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-util.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[26.720s] libtool: warning: relinking 'liblely-util.la'
+[26.724s] libtool: install: (cd /home/vboxuser/agv_ws/build/lely_core_libraries/build/src/util; /bin/bash "/home/vboxuser/agv_ws/build/lely_core_libraries/build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -g -O2 -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-util.la -rpath /home/vboxuser/agv_ws/install/lely_core_libraries/lib liblely_util_la-bimap.lo liblely_util_la-mkjmp.lo liblely_util_la-sllist.lo liblely_util_la-spscring.lo liblely_util_la-bits.lo liblely_util_la-bitset.lo liblely_util_la-cmp.lo liblely_util_la-config.lo liblely_util_la-config_ini.lo liblely_util_la-daemon.lo liblely_util_la-diag.lo liblely_util_la-dllist.lo liblely_util_la-endian.lo liblely_util_la-errnum.lo liblely_util_la-exception.lo liblely_util_la-fiber.lo liblely_util_la-frbuf.lo liblely_util_la-fwbuf.lo liblely_util_la-lex.lo liblely_util_la-membuf.lo liblely_util_la-pheap.lo liblely_util_la-print.lo liblely_util_la-rbtree.lo liblely_util_la-stop.lo liblely_util_la-time.lo liblely_util_la-ustring.lo ../../src/libc/liblely-libc.la -lm )
+[27.037s] libtool: install: /usr/bin/install -c .libs/liblely-util.so.2.3.2T /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-util.so.2.3.2
+[27.043s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.3.2 liblely-util.so.2 || { rm -f liblely-util.so.2 && ln -s liblely-util.so.2.3.2 liblely-util.so.2; }; })
+[27.047s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-util.so.2.3.2 liblely-util.so || { rm -f liblely-util.so && ln -s liblely-util.so.2.3.2 liblely-util.so; }; })
+[27.050s] libtool: install: /usr/bin/install -c .libs/liblely-util.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-util.la
+[27.113s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[27.118s] ----------------------------------------------------------------------
+[27.118s] Libraries have been installed in:
+[27.118s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[27.119s] 
+[27.119s] If you ever happen to want to link against installed libraries
+[27.119s] in a given directory, LIBDIR, you must either use libtool, and
+[27.119s] specify the full pathname of the library, or use the '-LLIBDIR'
+[27.119s] flag during linking and do at least one of the following:
+[27.119s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[27.119s]      during execution
+[27.119s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[27.120s]      during linking
+[27.120s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[27.120s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[27.120s] 
+[27.120s] See any operating system documentation about shared libraries for
+[27.120s] more information, such as the ld(1) and ld.so(8) manual pages.
+[27.121s] ----------------------------------------------------------------------
+[27.126s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/util'
+[27.126s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/util'
+[27.131s] Making install in can
+[27.152s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/can'
+[27.172s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/can'
+[27.174s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[27.176s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-can.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[27.213s] libtool: warning: relinking 'liblely-can.la'
+[27.216s] libtool: install: (cd /home/vboxuser/agv_ws/build/lely_core_libraries/build/src/can; /bin/bash "/home/vboxuser/agv_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-can.la -rpath /home/vboxuser/agv_ws/install/lely_core_libraries/lib liblely_can_la-buf.lo liblely_can_la-msg.lo liblely_can_la-net.lo liblely_can_la-socket.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[27.431s] libtool: install: /usr/bin/install -c .libs/liblely-can.so.1.9.2T /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-can.so.1.9.2
+[27.439s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so.1 || { rm -f liblely-can.so.1 && ln -s liblely-can.so.1.9.2 liblely-can.so.1; }; })
+[27.443s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-can.so.1.9.2 liblely-can.so || { rm -f liblely-can.so && ln -s liblely-can.so.1.9.2 liblely-can.so; }; })
+[27.448s] libtool: install: /usr/bin/install -c .libs/liblely-can.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-can.la
+[27.502s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[27.506s] ----------------------------------------------------------------------
+[27.506s] Libraries have been installed in:
+[27.506s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[27.506s] 
+[27.506s] If you ever happen to want to link against installed libraries
+[27.507s] in a given directory, LIBDIR, you must either use libtool, and
+[27.507s] specify the full pathname of the library, or use the '-LLIBDIR'
+[27.507s] flag during linking and do at least one of the following:
+[27.507s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[27.507s]      during execution
+[27.507s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[27.507s]      during linking
+[27.507s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[27.508s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[27.508s] 
+[27.508s] See any operating system documentation about shared libraries for
+[27.508s] more information, such as the ld(1) and ld.so(8) manual pages.
+[27.508s] ----------------------------------------------------------------------
+[27.511s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/can'
+[27.511s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/can'
+[27.511s] Making install in co
+[27.557s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/co'
+[27.594s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/co'
+[27.596s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[27.597s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-co.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[27.648s] libtool: warning: relinking 'liblely-co.la'
+[27.652s] libtool: install: (cd /home/vboxuser/agv_ws/build/lely_core_libraries/build/src/co; /bin/bash "/home/vboxuser/agv_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-co.la -rpath /home/vboxuser/agv_ws/install/lely_core_libraries/lib liblely_co_la-crc.lo liblely_co_la-csdo.lo liblely_co_la-dcf.lo liblely_co_la-dev.lo liblely_co_la-emcy.lo liblely_co_la-gw.lo liblely_co_la-gw_txt.lo liblely_co_la-lss.lo liblely_co_la-nmt.lo liblely_co_la-nmt_boot.lo liblely_co_la-nmt_cfg.lo liblely_co_la-nmt_hb.lo liblely_co_la-nmt_srv.lo liblely_co_la-obj.lo liblely_co_la-pdo.lo liblely_co_la-rpdo.lo liblely_co_la-sdev.lo liblely_co_la-sdo.lo liblely_co_la-ssdo.lo liblely_co_la-sync.lo liblely_co_la-time.lo liblely_co_la-tpdo.lo liblely_co_la-type.lo liblely_co_la-val.lo liblely_co_la-wtm.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[28.013s] libtool: install: /usr/bin/install -c .libs/liblely-co.so.2.3.2T /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-co.so.2.3.2
+[28.017s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.3.2 liblely-co.so.2 || { rm -f liblely-co.so.2 && ln -s liblely-co.so.2.3.2 liblely-co.so.2; }; })
+[28.019s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-co.so.2.3.2 liblely-co.so || { rm -f liblely-co.so && ln -s liblely-co.so.2.3.2 liblely-co.so; }; })
+[28.022s] libtool: install: /usr/bin/install -c .libs/liblely-co.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-co.la
+[28.077s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[28.086s] ----------------------------------------------------------------------
+[28.086s] Libraries have been installed in:
+[28.086s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[28.087s] 
+[28.087s] If you ever happen to want to link against installed libraries
+[28.087s] in a given directory, LIBDIR, you must either use libtool, and
+[28.087s] specify the full pathname of the library, or use the '-LLIBDIR'
+[28.087s] flag during linking and do at least one of the following:
+[28.087s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[28.087s]      during execution
+[28.088s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[28.088s]      during linking
+[28.088s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[28.088s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[28.088s] 
+[28.088s] See any operating system documentation about shared libraries for
+[28.088s] more information, such as the ld(1) and ld.so(8) manual pages.
+[28.089s] ----------------------------------------------------------------------
+[28.094s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/co'
+[28.095s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/co'
+[28.095s] Making install in io
+[28.134s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io'
+[28.171s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io'
+[28.174s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[28.175s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[28.213s] libtool: warning: relinking 'liblely-io.la'
+[28.216s] libtool: install: (cd /home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io; /bin/bash "/home/vboxuser/agv_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 1:9:2 -Wl,--as-needed -o liblely-io.la -rpath /home/vboxuser/agv_ws/install/lely_core_libraries/lib liblely_io_la-addr.lo liblely_io_la-attr.lo liblely_io_la-can.lo liblely_io_la-file.lo liblely_io_la-handle.lo liblely_io_la-if.lo liblely_io_la-io.lo liblely_io_la-pipe.lo liblely_io_la-poll.lo liblely_io_la-rtnl.lo liblely_io_la-serial.lo liblely_io_la-sock.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la )
+[28.508s] libtool: install: /usr/bin/install -c .libs/liblely-io.so.1.9.2T /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-io.so.1.9.2
+[28.511s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so.1 || { rm -f liblely-io.so.1 && ln -s liblely-io.so.1.9.2 liblely-io.so.1; }; })
+[28.515s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-io.so.1.9.2 liblely-io.so || { rm -f liblely-io.so && ln -s liblely-io.so.1.9.2 liblely-io.so; }; })
+[28.519s] libtool: install: /usr/bin/install -c .libs/liblely-io.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-io.la
+[28.565s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[28.569s] ----------------------------------------------------------------------
+[28.569s] Libraries have been installed in:
+[28.569s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[28.569s] 
+[28.570s] If you ever happen to want to link against installed libraries
+[28.570s] in a given directory, LIBDIR, you must either use libtool, and
+[28.570s] specify the full pathname of the library, or use the '-LLIBDIR'
+[28.570s] flag during linking and do at least one of the following:
+[28.570s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[28.571s]      during execution
+[28.571s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[28.571s]      during linking
+[28.571s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[28.571s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[28.571s] 
+[28.571s] See any operating system documentation about shared libraries for
+[28.572s] more information, such as the ld(1) and ld.so(8) manual pages.
+[28.572s] ----------------------------------------------------------------------
+[28.574s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io'
+[28.575s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io'
+[28.575s] Making install in ev
+[28.593s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/ev'
+[28.612s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/ev'
+[28.614s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[28.616s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-ev.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[28.673s] libtool: warning: relinking 'liblely-ev.la'
+[28.681s] libtool: install: (cd /home/vboxuser/agv_ws/build/lely_core_libraries/build/src/ev; /bin/bash "/home/vboxuser/agv_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-ev.la -rpath /home/vboxuser/agv_ws/install/lely_core_libraries/lib liblely_ev_la-exec.lo liblely_ev_la-fiber_exec.lo liblely_ev_la-future.lo liblely_ev_la-loop.lo liblely_ev_la-poll.lo liblely_ev_la-std_exec.lo liblely_ev_la-strand.lo liblely_ev_la-task.lo liblely_ev_la-thrd_loop.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la )
+[28.904s] libtool: install: /usr/bin/install -c .libs/liblely-ev.so.2.3.2T /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-ev.so.2.3.2
+[28.907s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.3.2 liblely-ev.so.2 || { rm -f liblely-ev.so.2 && ln -s liblely-ev.so.2.3.2 liblely-ev.so.2; }; })
+[28.910s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-ev.so.2.3.2 liblely-ev.so || { rm -f liblely-ev.so && ln -s liblely-ev.so.2.3.2 liblely-ev.so; }; })
+[28.924s] libtool: install: /usr/bin/install -c .libs/liblely-ev.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-ev.la
+[28.970s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[28.974s] ----------------------------------------------------------------------
+[28.974s] Libraries have been installed in:
+[28.974s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[28.974s] 
+[28.974s] If you ever happen to want to link against installed libraries
+[28.974s] in a given directory, LIBDIR, you must either use libtool, and
+[28.975s] specify the full pathname of the library, or use the '-LLIBDIR'
+[28.975s] flag during linking and do at least one of the following:
+[28.975s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[28.975s]      during execution
+[28.975s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[28.975s]      during linking
+[28.975s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[28.975s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[28.976s] 
+[28.976s] See any operating system documentation about shared libraries for
+[28.976s] more information, such as the ld(1) and ld.so(8) manual pages.
+[28.976s] ----------------------------------------------------------------------
+[28.980s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/ev'
+[28.982s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/ev'
+[28.982s] Making install in io2
+[29.023s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io2'
+[29.078s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io2'
+[29.085s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[29.085s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-io2.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[29.138s] libtool: warning: relinking 'liblely-io2.la'
+[29.144s] libtool: install: (cd /home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io2; /bin/bash "/home/vboxuser/agv_ws/build/lely_core_libraries/build/libtool"  --silent --tag CC --mode=relink gcc -pthread -g -O2 -Wall -Wextra -pedantic -Werror -Wno-static-in-inline -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-io2.la -rpath /home/vboxuser/agv_ws/install/lely_core_libraries/lib can/liblely_io2_la-msg.lo linux/liblely_io2_la-can_chan.lo linux/liblely_io2_la-can_ctrl.lo linux/liblely_io2_la-poll.lo linux/liblely_io2_la-timer.lo posix/liblely_io2_la-fd.lo posix/liblely_io2_la-io.lo posix/liblely_io2_la-sigset.lo sys/liblely_io2_la-clock.lo sys/liblely_io2_la-io.lo user/liblely_io2_la-can.lo user/liblely_io2_la-timer.lo liblely_io2_la-can.lo liblely_io2_la-can_net.lo liblely_io2_la-can_rt.lo liblely_io2_la-clock.lo liblely_io2_la-ctx.lo liblely_io2_la-dev.lo liblely_io2_la-sigset.lo liblely_io2_la-timer.lo liblely_io2_la-tqueue.lo liblely_io2_la-vcan.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la -lrt )
+[29.484s] libtool: install: /usr/bin/install -c .libs/liblely-io2.so.2.3.2T /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-io2.so.2.3.2
+[29.495s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.3.2 liblely-io2.so.2 || { rm -f liblely-io2.so.2 && ln -s liblely-io2.so.2.3.2 liblely-io2.so.2; }; })
+[29.497s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-io2.so.2.3.2 liblely-io2.so || { rm -f liblely-io2.so && ln -s liblely-io2.so.2.3.2 liblely-io2.so; }; })
+[29.500s] libtool: install: /usr/bin/install -c .libs/liblely-io2.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-io2.la
+[29.554s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[29.559s] ----------------------------------------------------------------------
+[29.559s] Libraries have been installed in:
+[29.560s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[29.560s] 
+[29.560s] If you ever happen to want to link against installed libraries
+[29.560s] in a given directory, LIBDIR, you must either use libtool, and
+[29.560s] specify the full pathname of the library, or use the '-LLIBDIR'
+[29.560s] flag during linking and do at least one of the following:
+[29.561s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[29.561s]      during execution
+[29.561s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[29.561s]      during linking
+[29.561s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[29.561s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[29.561s] 
+[29.562s] See any operating system documentation about shared libraries for
+[29.562s] more information, such as the ld(1) and ld.so(8) manual pages.
+[29.562s] ----------------------------------------------------------------------
+[29.565s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io2'
+[29.566s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/io2'
+[29.566s] Making install in coapp
+[29.611s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/coapp'
+[29.664s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/coapp'
+[29.665s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[29.667s]  /bin/bash ../../libtool   --mode=install /usr/bin/install -c   liblely-coapp.la '/home/vboxuser/agv_ws/install/lely_core_libraries/lib'
+[29.738s] libtool: warning: relinking 'liblely-coapp.la'
+[29.741s] libtool: install: (cd /home/vboxuser/agv_ws/build/lely_core_libraries/build/src/coapp; /bin/bash "/home/vboxuser/agv_ws/build/lely_core_libraries/build/libtool"  --silent --tag CXX --mode=relink g++ -std=gnu++11 -g -O2 -Wall -Wextra -pedantic -Werror -no-undefined -version-number 2:3:2 -Wl,--as-needed -o liblely-coapp.la -rpath /home/vboxuser/agv_ws/install/lely_core_libraries/lib liblely_coapp_la-device.lo liblely_coapp_la-driver.lo liblely_coapp_la-fiber_driver.lo liblely_coapp_la-logical_driver.lo liblely_coapp_la-loop_driver.lo liblely_coapp_la-lss_master.lo liblely_coapp_la-master.lo liblely_coapp_la-node.lo liblely_coapp_la-sdo.lo liblely_coapp_la-sdo_error.lo liblely_coapp_la-slave.lo liblely_coapp_la-type_traits.lo ../../src/libc/liblely-libc.la ../../src/util/liblely-util.la ../../src/can/liblely-can.la ../../src/ev/liblely-ev.la ../../src/io2/liblely-io2.la ../../src/co/liblely-co.la )
+[30.520s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.so.2.3.2T /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-coapp.so.2.3.2
+[30.530s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.3.2 liblely-coapp.so.2 || { rm -f liblely-coapp.so.2 && ln -s liblely-coapp.so.2.3.2 liblely-coapp.so.2; }; })
+[30.533s] libtool: install: (cd /home/vboxuser/agv_ws/install/lely_core_libraries/lib && { ln -s -f liblely-coapp.so.2.3.2 liblely-coapp.so || { rm -f liblely-coapp.so && ln -s liblely-coapp.so.2.3.2 liblely-coapp.so; }; })
+[30.537s] libtool: install: /usr/bin/install -c .libs/liblely-coapp.lai /home/vboxuser/agv_ws/install/lely_core_libraries/lib/liblely-coapp.la
+[30.583s] libtool: finish: PATH="/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/sbin" ldconfig -n /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[30.586s] ----------------------------------------------------------------------
+[30.586s] Libraries have been installed in:
+[30.586s]    /home/vboxuser/agv_ws/install/lely_core_libraries/lib
+[30.586s] 
+[30.586s] If you ever happen to want to link against installed libraries
+[30.587s] in a given directory, LIBDIR, you must either use libtool, and
+[30.587s] specify the full pathname of the library, or use the '-LLIBDIR'
+[30.587s] flag during linking and do at least one of the following:
+[30.587s]    - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+[30.587s]      during execution
+[30.587s]    - add LIBDIR to the 'LD_RUN_PATH' environment variable
+[30.587s]      during linking
+[30.588s]    - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+[30.588s]    - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+[30.588s] 
+[30.589s] See any operating system documentation about shared libraries for
+[30.590s] more information, such as the ld(1) and ld.so(8) manual pages.
+[30.590s] ----------------------------------------------------------------------
+[30.593s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/coapp'
+[30.593s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src/coapp'
+[30.596s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src'
+[30.601s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src'
+[30.601s] gmake[3]: Nothing to be done for 'install-exec-am'.
+[30.601s] gmake[3]: Nothing to be done for 'install-data-am'.
+[30.601s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src'
+[30.601s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src'
+[30.602s] gmake[1]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/src'
+[30.602s] Making install in python
+[30.606s] gmake[1]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python'
+[30.611s] Making install in dcf-tools
+[30.614s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python/dcf-tools'
+[30.618s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python/dcf-tools'
+[31.164s] running egg_info
+[31.165s] writing dcf_tools.egg-info/PKG-INFO
+[31.166s] writing dependency_links to dcf_tools.egg-info/dependency_links.txt
+[31.167s] writing entry points to dcf_tools.egg-info/entry_points.txt
+[31.167s] writing requirements to dcf_tools.egg-info/requires.txt
+[31.167s] writing top-level names to dcf_tools.egg-info/top_level.txt
+[31.171s] reading manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[31.174s] writing manifest file 'dcf_tools.egg-info/SOURCES.txt'
+[31.174s] running build
+[31.174s] running build_py
+[31.176s] running install
+[31.176s] running install_lib
+[31.182s] running install_egg_info
+[31.185s] removing '/home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.2-py3.10.egg-info' (and everything under it)
+[31.185s] Copying dcf_tools.egg-info to /home/vboxuser/agv_ws/install/lely_core_libraries/lib/python3.10/site-packages/dcf_tools-2.3.2-py3.10.egg-info
+[31.186s] running install_scripts
+[31.219s] Installing dcf2dev script to /home/vboxuser/agv_ws/install/lely_core_libraries/bin/
+[31.219s] Installing dcfchk script to /home/vboxuser/agv_ws/install/lely_core_libraries/bin/
+[31.220s] Installing dcfgen script to /home/vboxuser/agv_ws/install/lely_core_libraries/bin/
+[31.221s] writing list of installed files to 'install.log'
+[31.258s] gmake[3]: Nothing to be done for 'install-data-am'.
+[31.258s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python/dcf-tools'
+[31.258s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python/dcf-tools'
+[31.261s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python'
+[31.269s] gmake[3]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python'
+[31.269s] gmake[3]: Nothing to be done for 'install-exec-am'.
+[31.269s] gmake[3]: Nothing to be done for 'install-data-am'.
+[31.269s] gmake[3]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python'
+[31.270s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python'
+[31.271s] gmake[1]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/python'
+[31.273s] Making install in pkgconfig
+[31.277s] gmake[1]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/pkgconfig'
+[31.281s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/pkgconfig'
+[31.281s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[31.293s]  /usr/bin/mkdir -p '/home/vboxuser/agv_ws/install/lely_core_libraries/lib/pkgconfig'
+[31.308s]  /usr/bin/install -c -m 644 liblely-can.pc liblely-co.pc liblely-coapp.pc liblely-ev.pc liblely-io.pc liblely-io2.pc liblely-libc.pc liblely-libc_rt.pc liblely-tap.pc liblely-util.pc '/home/vboxuser/agv_ws/install/lely_core_libraries/lib/pkgconfig'
+[31.309s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/pkgconfig'
+[31.309s] gmake[1]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build/pkgconfig'
+[31.313s] gmake[1]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build'
+[31.323s] gmake[2]: Entering directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build'
+[31.323s] gmake[2]: Nothing to be done for 'install-exec-am'.
+[31.323s] gmake[2]: Nothing to be done for 'install-data-am'.
+[31.323s] gmake[2]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build'
+[31.328s] gmake[1]: Leaving directory '/home/vboxuser/agv_ws/build/lely_core_libraries/build'
+[31.329s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake
+[31.329s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[31.337s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/environment/pythonpath.sh
+[31.337s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/environment/pythonpath.dsv
+[31.339s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info
+[31.339s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/entry_points.txt
+[31.339s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/SOURCES.txt
+[31.340s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/dependency_links.txt
+[31.340s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/PKG-INFO
+[31.340s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen-0.2.7-py3.10.egg-info/top_level.txt
+[31.340s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/lib/cogen/
+[31.341s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/lib/cogen//cogen
+[31.341s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen
+[31.341s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/cogen.py
+[31.342s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/__init__.py
+[31.415s] Listing '/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen'...
+[31.415s] Compiling '/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/__init__.py'...
+[31.416s] Compiling '/home/vboxuser/agv_ws/install/lely_core_libraries/local/lib/python3.10/dist-packages/cogen/cogen.py'...
+[31.423s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/bin/
+[31.423s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/bin//cogen
+[31.424s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.sh
+[31.424s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/environment/library_path.dsv
+[31.424s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/ament_index/resource_index/package_run_dependencies/lely_core_libraries
+[31.424s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/ament_index/resource_index/parent_prefix_path/lely_core_libraries
+[31.425s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.sh
+[31.425s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/environment/ament_prefix_path.dsv
+[31.425s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/environment/path.sh
+[31.425s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/environment/path.dsv
+[31.425s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/local_setup.bash
+[31.426s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/local_setup.sh
+[31.426s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/local_setup.zsh
+[31.426s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/local_setup.dsv
+[31.426s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.dsv
+[31.426s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/ament_index/resource_index/packages/lely_core_libraries
+[31.426s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_libraries-extras.cmake
+[31.427s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.427s] -- Up-to-date: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/ament_cmake_export_libraries-extras.cmake
+[31.427s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig.cmake
+[31.427s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/cmake/lely_core_librariesConfig-version.cmake
+[31.427s] -- Installing: /home/vboxuser/agv_ws/install/lely_core_libraries/share/lely_core_libraries/package.xml
+[31.429s] Invoked command in '/home/vboxuser/agv_ws/build/lely_core_libraries' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/bumperbot_ws/install/bumperbot_py_examples:/home/vboxuser/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/agv_ws/build/lely_core_libraries
